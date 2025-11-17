@@ -1,0 +1,1227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<contents>
+    <version name="version">
+        modem_mcfg_v.20251005.152040
+        </version>
+    <path-hash name="mcfg_sw/generic/AF/CellC/Commercial/SAfrica/mcfg_sw.mbn">
+        80184609f035b02f333f66df48da0dabfd4a94cb6a211821637c5170f0e95f28
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/MEA/STC/Commercial/SA/mcfg_sw.mbn">
+        737166d6b3a7b806504c37a5aec037130ca9ad33de052cf63dac86b0131f7235
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/APAC/DCM/Commercial/mcfg_sw.mbn">
+        67ffe00edd1501bc42f6fe372d07470bd8a40257d5d512a73c45e8d799df62ae
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/APAC/KDDI/Commercial/mcfg_sw.mbn">
+        e40d67fa47b8cb6c80533fd25028157b05c721ef0a1b8b3a7aeb22e97eeefd39
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/APAC/Rakuten/Commercial/mcfg_sw.mbn">
+        08d58b2214451bd1ebf8a639be74897d916053939d51c72ca11fa59c9b7d507c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/APAC/SBM/Commercial/mcfg_sw.mbn">
+        369c019768f77bc4b698fbada950f47caf5418a74cb880473a060bdf108b770f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/APAC/Reliance/Commercial/mcfg_sw.mbn">
+        381100260ab5bc2986002665cd5810a387ebf3775f2bac4e9eaeceb9a4d28fad
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/Sbermobile/VoLTE/RU/mcfg_sw.mbn">
+        42f80e2772c235eaa94880383f6a8057287346b8559ab20b87509ffabc9356c9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/MegaFon/Commercial/RU/mcfg_sw.mbn">
+        b61d434ac4eef7bce3c25d1030dc2f9d77ec66ed2434d0717ee78319713e599b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/Yota/Commercial/RU/mcfg_sw.mbn">
+        9c78a852d1efae4ca172ca832cba72751938473c1d5a0144c86c070c9b363272
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/Beeline/VoLTE/RU/mcfg_sw.mbn">
+        a32e17c77ae1528669383c3dd5848a1f190dc6ca450047f0942a1212c8ad8e93
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/MTS/Commercial/RU/mcfg_sw.mbn">
+        8bf37b5ddeb4f1525b3289f0c939e20cdbaab18d047c8902fcf6bd0281eaf3c4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/Miatel/VoLTE/RU/mcfg_sw.mbn">
+        458cbf28ba5d68fbe802fd585e4550ae430f6bf35200fa68258cd7a1a5a40efb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/Motiv/VoLTE/RU/mcfg_sw.mbn">
+        98434da344dd14ef1b4d0010afc65f6ac6b98961391c93834af98f3fd25c3050
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/Russia/Tele2/VoLTE/RU/mcfg_sw.mbn">
+        d9854c9dd47434d7b07f9b62903679e036615cc44eae2a25fb150ec811b64696
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/Telus/Commercial/CA/mcfg_sw.mbn">
+        b148ba4070a9f8262cd3ff9296eda5c6088f217b66b55123deee3f505ae562f9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/TMO/Commercial/mcfg_sw.mbn">
+        c3c44be4da71d53213b8c51cd702b83703b5b3a1b998514568c93613922e0f4a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/Verizon/CDMAless/mcfg_sw.mbn">
+        3a7c4e7a3a9306b8749d6e07f855fc3404c50529cbbfbbb1ce4b63900bc28bec
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/ATT/VoLTE/mcfg_sw.mbn">
+        7854b31ab9ba84478099a9db99c34e0ab10bc777c395fe5409b708a754355e00
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/Rogers/Commercial/CA/mcfg_sw.mbn">
+        ec7f9b7c52b9bfc9e30622f7ff659fb6be620c1711e7d6f06b6d03c1b9570a50
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/Sprint/Commercial/mcfg_sw.mbn">
+        2dc9b894e17c7e80d2247d20908d5a3c2a31e75c0b0c13acc7f1960d82b37ca3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/NA/Bell/Commercial/CA/mcfg_sw.mbn">
+        0bffd081f0e30a487cbc370daad00742929dad6792b4fed71333f5d919bfdd6b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/TStar/Commercial/TW/mcfg_sw.mbn">
+        3182800a7cbef9346b2f3844b6080be59d0173be8005b20b6f44d2eb46938cdb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/AIS/Commercial/Thailand/mcfg_sw.mbn">
+        94ff8fa535c46dada2e2acca753706f2344bc0c9d1b6632cd9429039209aba83
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/HKT/Commercial/HK/mcfg_sw.mbn">
+        30f6c83eb6e8131b5abc5c27589e1286b09d209848014dbbfd30e52c1073a979
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/YTL/Commercial/mcfg_sw.mbn">
+        e87f892174083d0b1fc51c17315af7561c034b33f04223d0bf645885902bab85
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/M1/Commercial/SG/mcfg_sw.mbn">
+        75ce82dc636835b5cdda4396109c237da33801e9fee37946c28eddcba2587a39
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/FarEastOne/Commercial/mcfg_sw.mbn">
+        16e461efa3eccf4b46a3404c12082638086da51e659fe05831d09007ac90a892
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/3HK/Commercial/HK/mcfg_sw.mbn">
+        782501c4615dbd0dab0bebd1e48b79161eab10dd7733324ae984d571b5fd8676
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/SmarTone/Commercial/HK/mcfg_sw.mbn">
+        0efa008dccebfe578325e4d3467090b96bd7b67abdbc2466921fb102e1b97a65
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/APT/Commercial/mcfg_sw.mbn">
+        fec3d3cba8455770238044096731f45c33ec53272f5741f7b953f7a92db2305e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/StarHub/Commercial/SG/mcfg_sw.mbn">
+        485fa00423c3cdfde85af229eb53239d1c595b76297f2c6e32d60c12a84db18e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/TM/Commercial/mcfg_sw.mbn">
+        63abb2fe48cf46b75a2235818b4512a722428a6b1f477ee1dd3a3e70e4288081
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/Singtel/Commercial/Singapore/mcfg_sw.mbn">
+        70eebc1c9f0da903a6b7be28b6fe17f3bfb59727f7a67a6284d23201a9ebe09c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/Globe/Commercial/PH/mcfg_sw.mbn">
+        c3a23f284371032466d841a53524335de773f2258d0d37eda5fdcbc04866b051
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/Truemove/Commercial/VoLTE/mcfg_sw.mbn">
+        b8d1e9b263fb2186e3eaa3495d53386ddf2699542d81d765b579e20e0f4de1ae
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/Viettel/Commercial/Vietnam/mcfg_sw.mbn">
+        68f6d241b674f8256b3d4f2ce4219e0346de21254722049573762c0dd94fc763
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/UMobile/Commercial/Malaysia/mcfg_sw.mbn">
+        8b1b3cc1a945e02dee284ace40a591c5b74864f936b56f07d7a1635885686de7
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/DTAC/Commercial/VoLTE/mcfg_sw.mbn">
+        d9dac38cac821c78012bde435b2a7da46311fa1fc3149dcc119f5ab378b0eb77
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/P1/Commercial/Malaysia/mcfg_sw.mbn">
+        d799debb017b5ac44b6f9085630f420426551e3ddb0e91ebf40f47e15e92c06e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/ChunghwaTel/Commercial/TW/mcfg_sw.mbn">
+        161c79e375802ea1a75600e78c4118bb6a8723cca0860c7cf7b6bfa8eb023809
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/SEA/Smartfren/Commercial/mcfg_sw.mbn">
+        c28cf7f97047de77ad411666d98483e56e47514e9de70c1551df1df18348d3b9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/AMX/VoLTE/mcfg_sw.mbn">
+        3d706752d6c88458662c7afc894d0f6144d0894fc57a863bb14679d14d4e9c43
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/Claro/Commercial/Brazil/mcfg_sw.mbn">
+        0a3bcdf400b5af77854d54f0b6da17ed95425cf24a8fc61deda657c662036b93
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/Claro/Commercial/Colombia/mcfg_sw.mbn">
+        eb531af27456dd1bed5ab7e8035790bb93bc2681bac396ac37efc9ff91798fcb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/VIVO/Commercial/Brazil/mcfg_sw.mbn">
+        f72a1aafb1097e4026ac6c17cf984b541b18330b76ca13b11f07007b5b026881
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/Telefonica/Commercial/Peru/mcfg_sw.mbn">
+        5dac5d089e6ab0dbc82fc0a91b366f21c8c0e2598db699329203df33c15e0e17
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/Telefonica/Commercial/Colombia/mcfg_sw.mbn">
+        741b915ed82d56c3cc754a8869df0d12f8d2093010a1692cf256b3210053b92c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/LATAM/TIM/Commercial/Brazil/mcfg_sw.mbn">
+        348191ae31df1d969aae191e18ed2081a568eb8ebbdb95228dad95b778d9ded1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/AUNZ/Optus/Commercial/AU/mcfg_sw.mbn">
+        dad4153b17127e9564e87c9007b3a224c7c4e13e3a481eab9fcb71e384f3ea58
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/AUNZ/Telstra/Commercial/mcfg_sw.mbn">
+        616d7742d72f3ab7f4639c9aedba1597272261cd82ea5abd00eb1fc6bb15a2dd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/AUNZ/Vodafone/Commercial/mcfg_sw.mbn">
+        b4be6e409e349a5283dd3d701f4cfdbae6097f776197fd13d47eaca3a30c8bda
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/CTA/mcfg_sw.mbn">
+        516d03087d5d2011f8e6703f06a2b9535f0d5da57c95dc60910e1a301ebec4fe
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/EPS_Only_VoLTE_Conf/mcfg_sw.mbn">
+        d4c83e04c503d0bb8f188c654750c381261459304a3156a362a9578ac3d57dca
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/TEST_EPS_ONLY/mcfg_sw.mbn">
+        d10133d22c2e26c1d4cef64574252d92defc7ead1dbfd3c6f0a9e0320a015c23
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/TEST/mcfg_sw.mbn">
+        71fd0be05835d6382c8c3c5cff4747ceda6f925ede6b834955471d75b663a972
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/TEST_NO_APN/mcfg_sw.mbn">
+        ca076c7cdd5582f09ab1d94ee6bd1d04a8e873c25f4a2d13a2786987e62f21bb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/VoLTE_Conf/mcfg_sw.mbn">
+        7f849877a19ea792ce6bf7c58d3304d23a1e225a5896ad7b83eec865b6c5ae36
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Lab/NoAPN_Vo_Conf/mcfg_sw.mbn">
+        6bffad929be3266053e96f356ee030ef8f882815b490ff190bb386cbe582d52c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Commercial/OPLUS_hVoLTE_OpenMkt/mcfg_sw.mbn">
+        03ae82beb87a775b0e726b6e2b7f4c11ec366ddf38cef6defa1fdefe7a2f3c6e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CT/Commercial/VoLTE_OpenMkt/mcfg_sw.mbn">
+        9dcf7a071e2bbdb42e35c0afe85e2faa8f551380d123e6e0fed8ff5b1be116ff
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CU/Lab/Test/mcfg_sw.mbn">
+        a9f32cff12e68aa0ee9ce83b672486bcc4f733611b22ff6ad81bba467e372a80
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CU/Commercial/OPLUS_VoLTE/mcfg_sw.mbn">
+        17f0b486860fa1b3fad6c9790232e5ea8530786256616ff41f8ed182fd1bc9c8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CU/Commercial/VoLTE/mcfg_sw.mbn">
+        6fb36536e7d1f7b58b66cc64565095580e1a1bcff3f5a622cf8904054f26d47e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/W_IRAT_Comb_Attach/mcfg_sw.mbn">
+        3a0533c03f4b5e9d3af2ea86b45c46732657ef21f59ba33af48413790bbfa521
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/RRLP_LocTech/mcfg_sw.mbn">
+        65d5a194d79b7846403f08af857d964aa984402a4b3cb7adbe0a4c7f1d8cd694
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/LPP_LocTech/mcfg_sw.mbn">
+        8a7e0bbc08e20261462aa541c9c39bfc7459156a1f9580ae4a8e15df7d5d2dbd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/EPS_Only/mcfg_sw.mbn">
+        0c7fbb4638a2ee9cd30d0bd03720621856c59588691232fe3b553481289b93c8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/AGNSS_LocTech/mcfg_sw.mbn">
+        3da1205795b84199d656f13731ff8a55866ebfc85e7b3cadb75a1808b74c00d2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/Nsiot_VoLTE/mcfg_sw.mbn">
+        754ad9b261055ff3591ba5dd5b259b64a6373cc34b470b7ca4242bb29937003f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/OPLUS_Nsiot_VoLTE/mcfg_sw.mbn">
+        7dcbe787b9ad7dd684e938d347dfc2bfb77bd081087ba9de6587aa627a8bc962
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/TGL_Comb_Attach/mcfg_sw.mbn">
+        d6e854fbf2e970c560e3ed4b388a97d2c334d58d3707db7bad9009d4a781aa05
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Lab/Conf_VoLTE/mcfg_sw.mbn">
+        a318536b83bde2fec636d6a9d15b6d6e2697d342d429979d9b3bf83133c7f173
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Commercial/OPLUS_Volte_OpenMkt/mcfg_sw.mbn">
+        d908051019c90b6f9bf6f1786d1b52779aa972811624348e46e47e9cec7098cc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/China/CMCC/Commercial/Volte_OpenMkt/mcfg_sw.mbn">
+        11a02145fb76970cb754bd5735c9cf90166cf90b14642324ba72bedee2eb49c0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/TDC/Commercial/Denmark/mcfg_sw.mbn">
+        2f0cd032cf3a87440be91a26308d6ae6ce6d3800daec1766cd8e43862d494426
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/H3G/Commercial/Austria/mcfg_sw.mbn">
+        1f77388d1556c56f935c6b6f9cbb309b32dde7ffccf3d46decb75b58d89d843f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/H3G/Commercial/SE/mcfg_sw.mbn">
+        99b8eaede02aa72c68162d719d56bea9f8f5802ab6d16e07afd38780dcbb6a3a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/H3G/Commercial/Denmark/mcfg_sw.mbn">
+        93e7aedcca75a7eeb52bba07f3633a42443a2c51467854719abe371d146e5abc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/SFR/Commercial/FR/mcfg_sw.mbn">
+        6fe4b162fba84312d0f23a138233924d5d81075e441abb83e957bc526244f836
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telenor/Commercial/Norway/mcfg_sw.mbn">
+        dbc46bdf93ddc2739957f8ffbbf4d6932b709d52c4f47ff8dc63eb60f3827f62
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telenor/Commercial/Denmark/mcfg_sw.mbn">
+        1b950da4b3a1814934dfc2cb82691e72dac8620397863ee5d1ace7b94030fa71
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Swisscom/Commercial/Swiss/mcfg_sw.mbn">
+        8ede7055ca371f88a763c16b7857ebfd2c5e1e7b094c5b96d7a085e57a5ab3f8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/VoLTE/Commercial/mcfg_sw.mbn">
+        7c99229f223ae2c9edbe86ed75f4f67a3159f50ff91862573fdafaab8c988850
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/Austria/mcfg_sw.mbn">
+        509604d04a174c27b6f30cca70398739fd4d2a0dae9959924f65c0fd19ae22ff
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/NL/mcfg_sw.mbn">
+        aa5d8dd4673afd67a4ed20d0675e0414fd6aa28249e7fc7c37a5990405944d2c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/Croatia/mcfg_sw.mbn">
+        97a3d5377a4098f32545444e39d57eb2df3be432f747864bf48bb4eb9c65b5ae
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/CZ/mcfg_sw.mbn">
+        cdc0c107bf1396977f59f9b0e7bf2f3323ad1bc3c53868d46a75a2cb87650742
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/Slovakia/mcfg_sw.mbn">
+        0d3960f8683b3df222d939ca4129c322353489b8de2a295c5e7628628ab2be60
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/Hungary/mcfg_sw.mbn">
+        69fe3208787a1406aec85f1518aaeef4fae6b74079e9ff5f58c4be83a796be0e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/PL/mcfg_sw.mbn">
+        da19672c51c7dea65aa1941aa86b68f14e3c587c8e0b5a7ae544b42f94d5f426
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/DT/Commercial/Greece/mcfg_sw.mbn">
+        8fe0180e3f7668569928f24c804d13c34714068e724df67135317f7b73ea8697
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Drillisch/Commercial/Germany/mcfg_sw.mbn">
+        5c1b7acce1cfdd47c91fe99a974ea4b59875fe2e33bbffa4ccdef1a1c5501522
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/EE/Commercial/mcfg_sw.mbn">
+        ad269de87b20b0e1ff47b05effa93f8f226004bdc2c3cf9838750e46dae7cda4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Bouygues/Commercial/France/mcfg_sw.mbn">
+        5904f53567b44a9690887909cf212cfb14616a5c4d20f9418da6ba44e3a2892f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telia/Commercial/Norway/mcfg_sw.mbn">
+        81cd52747ffa7e15ac5d0b673b642299ecf59c1c4b9a711fca310194ba23f680
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telia/Commercial/Sweden/mcfg_sw.mbn">
+        2fea296944f587d5d5865126ea51d4b94be8562dd1f67e8cf11eb6428b8c4024
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telefonica/Commercial/DE/mcfg_sw.mbn">
+        bd7cb5341af5d25e3b8b72abbae598b53337aa362a020a52fd5fd3eb0468a5a8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telefonica/Commercial/UK/mcfg_sw.mbn">
+        e0a72c70e65f28c98e8738d7a271635192dc7a17e948dd767156e3f0fef6f5cc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Telefonica/Commercial/Spain/mcfg_sw.mbn">
+        fa1d2d51e8ae40cbcb36529e0dc6117c9c23c50f43858375b0ab79203834e1c4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/Lab/Germany/mcfg_sw.mbn">
+        4d6a332a2f427fafc73f384396a6cbb0444fd797f1c0de5b0cf1d687017b4441
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/Netherlands/mcfg_sw.mbn">
+        4520aa971353ee71bb0f74f2792a20ae399362a26e8a5b0b96d5ebd9f1ce05fd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/UK/mcfg_sw.mbn">
+        6ef2c57140473a1a92061a5a5de01df6d18b1b0d1e963135e82471b1b9cae62e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/Spain/mcfg_sw.mbn">
+        f16043a5cd3d59d4490daf442b390e7786afc36974a367b3b11f5c75678e8d8a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/SAfrica/mcfg_sw.mbn">
+        cc1095e36bfb752b8bb9dff89c94bb357e19cea3464b04e9b040aa84086734a7
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/CZ/mcfg_sw.mbn">
+        7ca29bdf0cb8bb7d61c7cd0f47abbedbf1989d30933a95c12e6312a095175a86
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/Italy/mcfg_sw.mbn">
+        dc10168518427def8696d3896291170f75ed84090b7c75d5d449afc65b30cf85
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/Portugal/mcfg_sw.mbn">
+        f61415e61cd204038cfbddeb7699dd6a5749de0acd11c7d7a4c81d5e747dbac2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/Germany/mcfg_sw.mbn">
+        48e0dc0081ca847d8eb9bc1e8930f7390736bf1b7bf1d0cbe458002d256ead95
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/VoLTE/Turkey/mcfg_sw.mbn">
+        a6b0f6c948e290c8f32c55533104ad329836c9312e2d9889e6b5fe4b4e3d2125
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/Commercial/Ireland/mcfg_sw.mbn">
+        a368fab21e6c00dc5d6b109395b8e2d334773567f406803c13464c1a78e1cf95
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/Commercial/Hungary/mcfg_sw.mbn">
+        e7c715136c8e53506a15291bfabc11aea941b3695c959041e90499d5230da7d9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Vodafone/MPN/Vodafone/mcfg_sw.mbn">
+        b4307d0a3c666f19e6287b2a9d758e466fbd0e2bb1244d03c2d80f3e6c136da7
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/TIM/Commercial/Italy/mcfg_sw.mbn">
+        e06c0e444a5bc1eaf0d89a054a85d497f581060821e5948d66d5bc9b4b4eb359
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Elisa/Commercial/FI/mcfg_sw.mbn">
+        da2807a053157e37298fc5bcc6c4349965b177dac17b48a117c162772a64acb4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Tele2/Commercial/NL/mcfg_sw.mbn">
+        652ca8f13cbd6f85e3fa2d6b28dbd409e4cb8503ffac76c876ba8c234db5499d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Tele2/Commercial/Sweden/mcfg_sw.mbn">
+        52375f8590a67c7273b3a1dd23139cbec6c4da51065f0bf085422123ff672de2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Orange/VoLTE/Luxembourg/mcfg_sw.mbn">
+        42de78f784af37babdcf335060ee60c9ac63f72a7c7cfc06e99805041b851563
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Orange/Commercial/Romania/mcfg_sw.mbn">
+        4a30f110071141fb4ea55752f4c240b3b31851d603d907704f74a4ccd453500b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Orange/Commercial/Spain/mcfg_sw.mbn">
+        80f79fbc5a8ac8536c54838bdb9b03b6922a56b5d4ae906fb0f1656ac48b9f50
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Orange/Commercial/France/mcfg_sw.mbn">
+        b58149a4410f220efdce94bb2ce747e69c89d31a3936b27959f2a0c9565519e7
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Orange/Commercial/Slovakia/mcfg_sw.mbn">
+        aedeb4ce4b7e366444f37159662017850999823b9b4b8074ef9bb4b3ad444373
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/EU/Orange/Commercial/Poland/mcfg_sw.mbn">
+        c922d6a7ca6d0c883a3c793969ae55b340348e8c2ef0dace536622595d40afa5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Switzerland/VoLTE/UPC/mcfg_sw.mbn">
+        b5c14256083bfe2c1c78bbe90d6df47e44b352a40afb18261dcb243d83065865
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Switzerland/VoLTE/Sunrise/mcfg_sw.mbn">
+        a8b425a738735fd29bb9f701a55e6b24843f4b91964a016e7b44ef984de206d0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Switzerland/VoLTE/Salt/mcfg_sw.mbn">
+        b6d000f2a71369913a0ab09e7d7a71eb8fedc086e1fa84e31e45514437666df2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Switzerland/Commercial/SPUSU/mcfg_sw.mbn">
+        c8d2a8713be5ac5fd46bd76d3a82618fb155bde0c0af52f54cfcd9c5d18aa33b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Tunisia/VoLTE/Ooredoo/mcfg_sw.mbn">
+        0fb6f408e97661428a9a2bd45833b1f85dc80e4480ad2ab13c4d8321525458e6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CO/VoLTE/Tigo/mcfg_sw.mbn">
+        49fe499b000fd99e5898c82d9fe6fee9209fa2fa90c35e1420190968cafba983
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CO/VoLTE/Avantel/mcfg_sw.mbn">
+        81d7028b531ed2c2c1ed17d5f85ad0714ec152a361660d659df203f6ddeb40f5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CO/VoLTE/WOM/mcfg_sw.mbn">
+        e171e4174de02dc482cc52687bb78f51616dd7d1a2bbf10ffba0abef2cfd4175
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Macedonia/Commercial/DT/mcfg_sw.mbn">
+        735299c41dfd34ad5cd094a1a2eec4a7020c7ddb5421a41410a6b6308a36ec5e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Macedonia/Commercial/A1/mcfg_sw.mbn">
+        aa0b6924a6907cec0b5254531895b3eeae37c9550c1c55273f2d94889c7d474f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Qatar/VoLTE/Ooredoo/mcfg_sw.mbn">
+        02b74f6b900ed166fdb6434c0a099f0708ac75d22b54e1d42081e582376471d9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Qatar/VoLTE/VDF/mcfg_sw.mbn">
+        bc9179ab6693a46e4043ca709bced81c0528026ae946ef9e22ef03ce3df79c58
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/MX/VoLTE/ALTAN/mcfg_sw.mbn">
+        b80ee77d8d7c34324ea1f023aee43140ffbde5032484846a4a9d03534435de64
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Salvador/VoLTE/Claro/mcfg_sw.mbn">
+        d676ce7ddc96dc4da04113e2aaa2ca33d744ff2f5c906cf27acc3b11adfbac36
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Finland/Commercial/DNA/mcfg_sw.mbn">
+        817864db4cb55c3d112224cd07ca8c3140586bfbb0048cc438f5a60502b16be0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Finland/Commercial/Telia/mcfg_sw.mbn">
+        406183e006655a3cbdc437acb683243944d5c2d4f1a495e3ca8f3c5ad269602e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Estonia/Commercial/Telia/mcfg_sw.mbn">
+        0e5d8bc92aab4a817094fd70febbb5d0773ce8dfea1704e4ba23d59fa4e6a274
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Estonia/Commercial/Elisa/mcfg_sw.mbn">
+        501ca4818e3404c3a15f1313b26025bd7b6489afce3a81972a1a0089adba655b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Estonia/Commercial/Tele2/mcfg_sw.mbn">
+        18079115544413b7e83419429b60028499369030dc171cdb40d1f1ebbbac8ce2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Austria/Commercial/SPUSU/mcfg_sw.mbn">
+        a01096f20eabc490014c38bf3ee6e07e15524221142555897ba3543128960cd3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Austria/Commercial/A1/mcfg_sw.mbn">
+        a439cee8cbd8c609d8b45cbffe444f3cad4e54d0483bf13ae71fef8c4f5102f5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Romania/VoLTE/Telekom/mcfg_sw.mbn">
+        94f16b598372fd9dfff9c58d6f6439626bd35e91639018b63a0654101ad065e1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Romania/VoLTE/VDF_RO/mcfg_sw.mbn">
+        1c89a7b779053059c337594f7e2d8c61b2cfee41fa28801534622a1de832b088
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Romania/VoLTE/Digi/mcfg_sw.mbn">
+        383750900accd4d30883a295bebb9b861d7a5e01993033b032dda7d5ec923da6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BY/Commercial/A1/mcfg_sw.mbn">
+        ebaec3fea463dfe7f61b47ef3c7a3a3335367aa7a82a205db9b15f9b3c407078
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LK/VoLTE/Mobitel/mcfg_sw.mbn">
+        5b5d457bc4310703914fe89836de3c1db10715155bdc1d9b1f110cfe45808455
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LK/VoLTE/Airtel/mcfg_sw.mbn">
+        766c0dcd6cb987812fa3ed38d5721376a832659845a3190103e9261e43c56222
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LK/VoLTE/Hutch/mcfg_sw.mbn">
+        b73c259602820180d21d556c7c6ec6a7ccaa93fddf2237ba9d69d374f96d6d94
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LK/VoLTE/Dialog/mcfg_sw.mbn">
+        0425ef48c0f30a848ab8fc3c270d34b181d0f4239ec080169b1a62f9ff6dc373
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Latvia/Commercial/LMT/mcfg_sw.mbn">
+        0aa747353ee824b06e3d845a7852451a99c475ec54c0bf29d9a9eae8ab471c9b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Latvia/Commercial/Bite/mcfg_sw.mbn">
+        646b14439db9e95e20b70a389d4e67c96e0e4b89c2d41e7115af26a5da34de1f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Latvia/Commercial/Tele2/mcfg_sw.mbn">
+        dc2cc342d6e434439ed054e42a53518260272adbbf0fa3ed5625131616c67dc0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Norway/Commercial/ICE/mcfg_sw.mbn">
+        bdaf321f718a8c77bec4e601554535074df0ae507390edfe3f1814d7a36035f3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Bulgaria/Commercial/Telenor/mcfg_sw.mbn">
+        e18dfe03e2a5224b04c360bb78b801ed9ce814264f71e8c2b910bb8b30f61630
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Bulgaria/Commercial/Viva/mcfg_sw.mbn">
+        203b37a97972c3da417de3e672129e141f400cbff9b7715aa1ff6a25ed8d4134
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Bulgaria/Commercial/A1/mcfg_sw.mbn">
+        26c084a2c370ad77aacd6194072feb490445aaea46543ab63816ec72bc738342
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Cyprus/VoLTE/Primetel/mcfg_sw.mbn">
+        17f7fe809751ab50c505c92376350ff7917d361ccf18de9b86afc03fe7a95fef
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/PU/volte/Entel/mcfg_sw.mbn">
+        6f2957ff2e069179af6dea90ec45a84d641ca067b0d68978feae16e980329873
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/PU/volte/Claro/mcfg_sw.mbn">
+        2624d761886d92746c622bf92ce218076ac954ded99fae07a019c01671cd0009
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UK/VoLTE/Virgin/mcfg_sw.mbn">
+        f572e35ba09e7a129db9e18bbbb811958c70213d5adceef0b25f29d3441d4791
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UK/VoLTE/Tesco/mcfg_sw.mbn">
+        241fb723df6d82fb9519f40d9eb3c4bc941604276dbebe61d773e58e26a3c79e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UK/VoLTE/Three/mcfg_sw.mbn">
+        475cf358a1b7d0218993e365f1b5cf3e8ceee09d2d434d729b5ffd63aac85935
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UK/VoLTE/Sky/mcfg_sw.mbn">
+        acd4335e1dcec584a89850260c40b78837ed29a735d26ffdd39d7f3f66afeff5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UK/Commercial/SPUSU/mcfg_sw.mbn">
+        ef2a1fccd2f39177c50f0c10e614381e36b53dcec95109142fd13bfdda434cc6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Iran/Commercial/Irancell/mcfg_sw.mbn">
+        3f196f78abb80d371271efb37078c4215a93b07501fbcc89fe7dbd97ebf3339e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Iran/Commercial/MCI/mcfg_sw.mbn">
+        1abbd0ab382c3090798170d4d9a2189320c7aa0b79679a54c6265c44a636ef9d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HK/VoLTE/CUHK/mcfg_sw.mbn">
+        c785e5f2022fc7dbb3f1f8419e1cfa125b01a600f76f34db28a77324d0cba6d2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HK/VoLTE/CMHK/mcfg_sw.mbn">
+        52127704b3a1f2023bb9db6dbee0515014eee65548e4229ae2e123d42ba29540
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HK/VoLTE/CTG/mcfg_sw.mbn">
+        523a01d734e286f8493c5703bf73cfbe24638ec48f5717d3651e13f2a3a358f1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HK/VoLTE/CMHK_Private/mcfg_sw.mbn">
+        df193ce86395ab90c525d72829cf34abe9c2986c560fb0ea45081a6fb26fc06c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HK/VoLTE/CMHK_Airport/mcfg_sw.mbn">
+        b8258bf55621d9d809dd795b59990c22d4ccdb502458cc85cd25060c242d9193
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Vietnam/VoLTE/Mobifone/mcfg_sw.mbn">
+        30551588f4ac6fadf1dc88886f9770b56123ea6c1edf202c80e9bdcbdcd65c96
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Vietnam/VoLTE/Vietnamobile/mcfg_sw.mbn">
+        f2380648df832dfe03a90e30bb3d3a1a3ea5b9f36758233c72423d7efe0173dd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Vietnam/VoLTE/Vinaphone/mcfg_sw.mbn">
+        7e0d0c10cbac6d7a2ec24dc0ab7c77bd1dd9abdce97713811c443b0e1038608c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Algeria/VoLTE/Ooredoo/mcfg_sw.mbn">
+        94ec7f9a09e3bf1698257f3460f7449edd42456f1cd773e02526f48180469613
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GT/Commercial/Tigo/mcfg_sw.mbn">
+        4bca515cfc78ccca8289b085e6a7cef0473a994a1f8d28f4eeda41e42de6452e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GT/Commercial/Claro/mcfg_sw.mbn">
+        f032f1e98b33cbd2c81bb03891e7e1c96811dd222b64a1ea6f629f4e8ddd636a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Ukraine/VoLTE/Lifecell/mcfg_sw.mbn">
+        9a76d7d8c4da768557f2123e6e63dc3c29b5927436401fba89f4f87e032a1fb1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Ukraine/VoLTE/Kyivstar/mcfg_sw.mbn">
+        34128a783216680b32afe67476a8f6fdf7901f8cf3322f31b267216b932bfbdd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Argentina/VoLTE/Claro/mcfg_sw.mbn">
+        8fd9bb8b3555de054eba99a9c9cc2d3d8075bc1d3668ab8250b5bc6f9f5e88ff
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Argentina/VoLTE/Personal/mcfg_sw.mbn">
+        ae9a93042acf1d1cd8af62f5e5c9a72a0729183b5cf52862e94b42fa68023182
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Argentina/VoLTE/Movistar/mcfg_sw.mbn">
+        1d8e3f8365a51a616e39ea0c93c01b3256e6e8ce99514df0169924591708fa66
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HN/VoLTE/Tigo/mcfg_sw.mbn">
+        040310c943f29b552c10d631bd8ec08dd802e7fa651b7d355396b2c6e353ab5a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HN/VoLTE/Claro/mcfg_sw.mbn">
+        8484ed1dff36ccac1a5304ff6fb145fc8bf4c68edbb9229514f5979ad4a2d4dc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HU/Commercial/Telenor/mcfg_sw.mbn">
+        6ee621403584617e5c5aa00346b1804edf92739e38e1e8d457e5979feb4d17df
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/HU/Commercial/Digi/mcfg_sw.mbn">
+        8a0094f1b2f466e3235e6dcfa2fa6774ac56ee0ee35101f485ecd94646130833
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/India/VoLTE/BSNL/mcfg_sw.mbn">
+        adf7fcc8a6b8c57b71784e037eec245bee61fa888dd9f420153bc0bfba2c0f0b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/India/VoLTE/IDEA/mcfg_sw.mbn">
+        d35cba9e78abfd3ca2ead9c949ee0edaabb2be8aa824192900e514c3e59b0872
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/India/VoLTE/VDF/mcfg_sw.mbn">
+        b1815d31c897fb914409c5dcf37abff27023ebc45e24a1d130d94981c8b72d78
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/India/VoLTE/Airtel/mcfg_sw.mbn">
+        8e2adfb8cb057e32e3130fa22a93947862e3f9677416f0c39a157997612baf19
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Spain/VoLTE/Lowi/mcfg_sw.mbn">
+        4e220759ab2b1f11c84a4989707dabe5814e6c2e2f8d084191be1515a815a2dc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Spain/VoLTE/Digi/mcfg_sw.mbn">
+        3aa39767ae5d640c0015696636cdd62e5c0b329db03e865d16984ef0fa3e3c1a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Spain/VoLTE/Yoigo/mcfg_sw.mbn">
+        4fa4d0d7bb80818f9aa26b91d64f04c379bc5887b4f3876d6ecbd37d07954bca
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Cambodia/VoLTE/Smart/mcfg_sw.mbn">
+        e00b2b4885691651f350cc0f72b14f7a0a7b155700224a8441044ab24d24bafb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Cambodia/VoLTE/Metfone/mcfg_sw.mbn">
+        e5547d961b424da8f2bf864f08784f4c5bbb98b833619e219901eb6cab366676
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Cambodia/VoLTE/Seatel/mcfg_sw.mbn">
+        2db9c3f57e0aab4cd43a8efb9df64bdcb7ca1cdc65d04f241a40ee9fd923c5dc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Cambodia/VoLTE/Cellcard/mcfg_sw.mbn">
+        326de6053e26f1aa30faeb0e2db8480d7bf2e3b49fb8a27ebde4346f70f786ef
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Cote/Commercial/Orange/mcfg_sw.mbn">
+        eb0d3bb4e03fb4544ae180144f07ce4dae3574dedaf2f21ca8fa4448bcb51e4e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/EG/VoLTE/Etisalat/mcfg_sw.mbn">
+        ca1f2234184a1f3c0557691856ab74b9566f32e7696e659b1ecd5e3a0b7d6c00
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/EG/VoLTE/Vodafone/mcfg_sw.mbn">
+        cffd8a7ef73c5eca28d570117d0f3661c78ec4d1292c541febca8c1111779052
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/EG/VoLTE/WE/mcfg_sw.mbn">
+        25fc272be0f30fde3fc5a1854d1c2ffd33c33cb388ff58204f26ff44710456b0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/EG/VoLTE/Orange/mcfg_sw.mbn">
+        587a4ed1ade81b623972f34ce65f7c0019c24543d364a7ce579d7ff5ef649827
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NL/VoLTE/KPN_Test/mcfg_sw.mbn">
+        3c40283abb3ed30da9e4ed31bf51b962ba0d862db83e8d508eb18eb9951dbeda
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NL/VoLTE/KPN/mcfg_sw.mbn">
+        c065f4337f71ce1fa57ffa3fffa0ff24476f3e0a8052883c67140b9c50019edc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Mongolia/VoLTE/ONDO/mcfg_sw.mbn">
+        a6762e2d22f97d13285d243edfbb44abe7308bccd76cbd5c69c2e5d0bf5b6041
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/France/VoLTE/Coriolis/mcfg_sw.mbn">
+        0754f6f74e194dd8a211b39c5c484d2e32793a452eb6210af8baed3162eab72e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/France/VoLTE/Free/mcfg_sw.mbn">
+        4b6f829cff39b4383a5922906b3e3eedf10d41b0dd9b6063406bc408dd4d34bd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/France/VoLTE/Monaco/mcfg_sw.mbn">
+        095c154535bf0b9556e2d24bd271989c724cdb4931b2f178416ec2faf103825b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/France/VoLTE/VITI/mcfg_sw.mbn">
+        c441eb3c1170a5500360d53e2298efcf3cd0e155bfb223950739f40c8c961c5d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/France/VoLTE/ZEOP/mcfg_sw.mbn">
+        ae33d859827584f68de16fbd255a6204c1ff3897420906bd80c28b87c333beac
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/France/VoLTE/EI/mcfg_sw.mbn">
+        08a1186b97357a6509e82a7d0dc8e45779bba3182d35ea1d1c2fbc2d014fc7e2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwMobileN/mcfg_sw.mbn">
+        69af5228da48e93cf0f9204763dc64fb4cc8262e94cedc28224c43a3d4df1e80
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwThumb/mcfg_sw.mbn">
+        cc144ae7ebc78afa569e8c676ac6683086799092d58c58bb2e67504c26625660
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwInlandC/mcfg_sw.mbn">
+        dd45ce8c0e4198c38e63b730ecb9bd9172eb1e86187bf93f86c230792adc5901
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwBlueW/mcfg_sw.mbn">
+        7a0fedbc1a0189dc617ff7bd4a41addf7673b169c09522601a50574f244122a0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwPintBelt/mcfg_sw.mbn">
+        80852924d10734e46e086c9db64abd6a5e2a2bb3bc5a3260215d31d64fb98789
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwCopperV/mcfg_sw.mbn">
+        31822a7d6c051ccadbf5741c9b08e1e19e227ad08a0f2cb2a0d6cac3c8f195bb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwUnitedW/mcfg_sw.mbn">
+        68dbf53c368c34854d3ee51895bd049a7612f5eb218ba8e14b6da56bc6bde60e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwIllinoisV/mcfg_sw.mbn">
+        0609f8fa6fc7a762a5939cd9a06ab24eeae3e0c059e635f87f233a82ada1a3e3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwJamesVallyW/mcfg_sw.mbn">
+        ec24e1176541e79cb2f6f70093ca7c488e8caf0d0ac9146c49f6e3176c54153d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwPioneerC/mcfg_sw.mbn">
+        459def36e760ae43440d7189f679f86ea206b09d0977da385280d8b4394247a4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Vzwvirtural/Commercial/VzwThumbC/mcfg_sw.mbn">
+        b749902b28632242a7a4e5c4f3126b6ee7a014dcbb3821cdcaf0fe1ceda7525f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Verizon/Visible/mcfg_sw.mbn">
+        8be3544a1ac6a7fc851d125977d1b2aede540bc674d92cd946e9024a345c8fa3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/CSpire/Commercial/mcfg_sw.mbn">
+        35687db823fd588c796145d79b77a8eda18917dc93f235888cd81152c86cb69f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/ATT/Cricket/mcfg_sw.mbn">
+        93eadbd55fab6bd8e9d13f8f306505191cdd4eb5aaa0a5f29b8e6fa81141580f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Commercial/Videotron/mcfg_sw.mbn">
+        666e090ff5e421a83b19fe0545d58c9763bd61820500b15cee57952c899d6571
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Commercial/Freedom/mcfg_sw.mbn">
+        35ed7154d7a17754d7aacec27761802ac87485379f5d3acf49703e206702b387
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Commercial/Cellcom/mcfg_sw.mbn">
+        842ee3ec760c90f3f2cc1d79a32a4badb10bc158788651df5836095d439ac516
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Commercial/GCI/mcfg_sw.mbn">
+        5485f26ac0d59820549126cae2260eaeb06c6cf249fd9ea76ab25bb6bd9954fa
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Viaero/Commercial/mcfg_sw.mbn">
+        32db8298ffe6aa92ec28cc7aff08b38a16452e05a50a49ceb5a7a045e8fdbeac
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NA/Altice/Commercial/mcfg_sw.mbn">
+        461240028ac251562bbae33162c5fcfb9ef8070107c76b4285ece8379f78d5d3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Ireland/VoLTE/Eir/mcfg_sw.mbn">
+        5a84a0331fbededf236162e054943304fc6598dfab545914b63e67fc94f7072e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Ireland/VoLTE/Three/mcfg_sw.mbn">
+        868275d25fd098d3c28c30c56d9bd90ec81c48f02e2be502027f6a3d3eeda751
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BH/VoLTE/Batelco/mcfg_sw.mbn">
+        8832c0ca79d037e9871072a1fc34f832d1034512427f03ae3292478bbd627b0d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BH/VoLTE/Zain/mcfg_sw.mbn">
+        9941cd17b35e872598a91783c2d42322f42d1a64bbfbea9e0135a87608c08618
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BH/VoLTE/Viva/mcfg_sw.mbn">
+        97a32e2b8c26ba597ce6862ff585fb8e6d59bf437306902339102ec6fcaf2496
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CR/VoLTE/Claro/mcfg_sw.mbn">
+        956b1a6a14357452ac261c00d8b23d8ae154d79bef68a54b6f266232ed8011fc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Dominican/VoLTE/Claro/mcfg_sw.mbn">
+        02d43a541b8a64810d1849fc38861f4e638df34c66c9dc20ecf144ade9cff94b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Dominican/VoLTE/Altice/mcfg_sw.mbn">
+        9b118f2042aad25204b50993001ec3cd41190562e917be9d5030cf1b2d4446f8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Thailand/VoLTE/NT/mcfg_sw.mbn">
+        448e64bfa8269597ed14a0dcc3c3a13c26e9070af86e0293b2fdc24c177767b8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NG/VoLTE/MTN/mcfg_sw.mbn">
+        655c9e18db98c162e2f50e3288b39348b2ded8049b32c1fd86884913ff01d7e2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NG/VoLTE/Spectranet/mcfg_sw.mbn">
+        d7a57e42e6df67697335757d232e48f9efb7605bc6a2e358e44bfbd201d318e5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NG/VoLTE/Airtel/mcfg_sw.mbn">
+        6c85e230ada517788d0d68f9884eeb82ca1540aedd5d25c8dd856a3a3cc0f8bb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Pakistan/VoLTE/Telenor/mcfg_sw.mbn">
+        a8279383faa454fa2cc6b4217d433dca142f739ac1e81698ee71634b538d677c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Pakistan/VoLTE/Ufone/mcfg_sw.mbn">
+        dd615a9f6c7e8a17a580a06b400ae5076cf256ddc99277d1f16e6e3f2057aecf
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Pakistan/VoLTE/ZONG/mcfg_sw.mbn">
+        2c2c2b2c3453e80f6d8db815a6ebf911512f30f709358aad67b5a86937996562
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Pakistan/VoLTE/Jazz/mcfg_sw.mbn">
+        b229f4a700308279f4fd3d11ffcc2731e8e5fa1f5ae98d429a5639ff49c927f8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Croatia/Commercial/A1/mcfg_sw.mbn">
+        5ac0d2e7ca40bb66568bcd1af531026f63c1b9f7c08e21cf95104c575acaa4bb
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GSMA/VoLTE/Gibtelecom/mcfg_sw.mbn">
+        6f5721d45de3436b1de7874ecb758d8654470c8d3893f01fed10d631adbfa113
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GSMA/VoLTE/Truphone/mcfg_sw.mbn">
+        fb2c916ba44237f2dd9552e8e94357fd4eaa93b971de7041a5816f9d87d1ecc5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GSMA/VoLTE/Profile4/mcfg_sw.mbn">
+        56a17e5fea9190c4bd7a0980c024fb2eff6fcb1046ae8b0f5e6a34c6ec1904b4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GSMA/VoLTE/Profile6/mcfg_sw.mbn">
+        5b670a64eebbd942cfbeed43e23900eafb960837f75ad811c2b1fe7cdea2347f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GSMA/VoLTE/Profile1/mcfg_sw.mbn">
+        65a65a529e3b7b9b7ea69d1da40c5261f39f5b4548d1ab3e351c6c50bf324cef
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Iraq/VoLTE/Zain/mcfg_sw.mbn">
+        e95d239524ac2a9b213923675bdad6b44d29abc9fdb2dc8f5a42f8dac2c800c5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Iraq/VoLTE/Asiacell/mcfg_sw.mbn">
+        7d9e6175e988efe503bef02b53d579a8a1db4abb83c866675c35aa1849cb6d43
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/TPG/VoLTE/Tpg/mcfg_sw.mbn">
+        803e3b49d869aef6aecaf0ac0a591a3e2febed0b8d0e94a4a6171e1a88b37b36
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Caribbean/VoLTE/OCA/mcfg_sw.mbn">
+        b79a516f87df3be57698b7665b32ddf75b2ad5bbf276b944bc1182c7710b901f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Plintron/mcfg_sw.mbn">
+        d86607bd9dbd1bb18779fc60af2dd148f5eb2936a635632d559768436fbcfb12
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Kena/mcfg_sw.mbn">
+        ff5e2cdf1e0814eb2a5cc6692eb4b0f8e5bd8e9ca8171d8cb529b60b62988eec
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Postemobile/mcfg_sw.mbn">
+        c3a1515b9b9d85e38167b9d86a69f63a4bb52b22c6abbe06e6e0e29cfa8ab446
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Vianova/mcfg_sw.mbn">
+        271d826771bff59cb1edaf797b9cdc5b2ad0183abb8d9d08cf860ed2b598ea33
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Coopvoce/mcfg_sw.mbn">
+        58f879a55add65d0e725b597c4c36706fb693fb1722a8ceff9b9634f0066986e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Iliad/mcfg_sw.mbn">
+        70a508c824117311194f81ddd9d2b7a87317d0c5c4c106ac25058e2218acc1ed
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/WindTre/mcfg_sw.mbn">
+        bb4b4cd8b2a0675ab60f37a5f132fb6dcca9bfb1da21557568976e191b216561
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Lycamobile/mcfg_sw.mbn">
+        baf6f1761afcefda5d38431d38fefd8f287fbe9096d2edd704767c84ed6899aa
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/VoLTE/Fastweb/mcfg_sw.mbn">
+        59f891dccb429cf554da294731cc23f5adc48bc379391a9ceaa73e0a00f3ab8f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Italy/Commercial/SPUSU/mcfg_sw.mbn">
+        2dba42695365961cf49e79fb34721c0f9d87cf8682c37c67f9bea241f1bf60b9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Uzbekistan/VoLTE/Beeline/mcfg_sw.mbn">
+        cf7c522030dd4a8246a783d001c7ac75919bd8977c2db1fca89dede2897cae80
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Uzbekistan/VoLTE/Ucell/mcfg_sw.mbn">
+        021d3e23bad357a0ce718b00c1fc8d5df2be79ca648d1f977020f5da78df3a03
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Nicaragua/VoLTE/Claro/mcfg_sw.mbn">
+        7466cb132c3391f2c55314a6c4c35e2cbf0e5f56d60f73733ed50febfe1c5eef
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Slovakia/Commercial/4ka/mcfg_sw.mbn">
+        645c23495e7133f0940d33d6c8c4dd8ebfd2d2ab561afacb7ef29ae0ee3216da
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Slovakia/Commercial/Telefonica/mcfg_sw.mbn">
+        64e452ff534437829d89a0859feed1884e79245b78ed2cf606c20fa0acb92b77
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Israel/VoLTE/We4G/mcfg_sw.mbn">
+        666d1821a9887175f493f63cfaad0a91a1784dafb39074a48118a6cc2fa6c547
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Israel/Commercial/Partner/mcfg_sw.mbn">
+        340420c31abcaef19e67eb76c16bf0a26c86fd28b427e1c06c0056625fbe1bd0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Israel/Commercial/Hotmobile/mcfg_sw.mbn">
+        6bc8b1823fdf71b26f9872752897cb328c2d326d461713ad569b4fbba3be6b08
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Israel/Commercial/Pelephone/mcfg_sw.mbn">
+        137c8705271b5bb1a1356a67bf37674621a8a073da24bd84c0eed101fee443d6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Israel/Commercial/Cellcom/mcfg_sw.mbn">
+        6e751c03939ab20b268b8e12eb6115b4ed6775ae97844b4931c652b410c9855a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ZA/VoLTE/MTN/mcfg_sw.mbn">
+        7da81cc7d6e4f10b4f8f30319a68471f546cb2ba51b90fb0e959161afcf9a9f1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ZA/VoLTE/Telkom/mcfg_sw.mbn">
+        d58e73c6c8a98021c8a9d496241e2893d37816f3ed004bee0ad53dd5f3365a27
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ZA/Commercial/Rain/mcfg_sw.mbn">
+        1be0b1d04de52e29a656aae280e8bbde1bcc7fd9aea63b224fe5a590525fcddc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Paraguay/VoLTE/Claro/mcfg_sw.mbn">
+        91f7cdadcc38349dfcb84fb28366c4c236f4e176d9f3826d9be855678ca272ce
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Paraguay/VoLTE/Personal/mcfg_sw.mbn">
+        85dd00900ab279363e95c09e9d35f9120880272d7240eb98b38ce670567ecea9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Luxembourg/VoLTE/Post/mcfg_sw.mbn">
+        d0707cf2f5d205bd3cf2028511fa0cbeb39820f3d260954602dc68f6bd0ed82a
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Luxembourg/VoLTE/Tango/mcfg_sw.mbn">
+        33f9430a78a5e72562d81f07616a7f4123d6e31a7c35a4267d2fdd97863b8a11
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Brazil/VoLTE/AmericaNet/mcfg_sw.mbn">
+        b18dbb473e6665928f0344d6bd22f14716ded9d40348d477bac48550586a00a5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Brazil/VoLTE/Unifique/mcfg_sw.mbn">
+        4e189099b46dc2b685e6e0f0e1a24189dac9e3e73a1c0646e0fee0da3e2f238b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Portugal/VoLTE/NOSLAB/mcfg_sw.mbn">
+        337ddae8120ed3f7267483e989997421906e20aaa903c827434e9f2dff300dea
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Portugal/VoLTE/MEO/mcfg_sw.mbn">
+        ee0247ff4287a41621cb3371474ce6ee5484f05487b85d5c740df972bed6b158
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Portugal/VoLTE/NOS/mcfg_sw.mbn">
+        ded2a6159924396ab47f480f4f7a3a8eafe2f07d210379f99308a4092c11b888
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LAOS/VoLTE/Best/mcfg_sw.mbn">
+        f494498241479ba1f989448f1d016f034072cb484e72b5d5dae358ea8607217e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LAOS/VoLTE/LTC/mcfg_sw.mbn">
+        914703e527393e5948ee79630973d102dca0e50726f69e3719303a5ed8a7650f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/LAOS/VoLTE/Unitel/mcfg_sw.mbn">
+        f3cc05b1df88fee6d692b63e6c10cad3d39a8a103a36349f17b3d6ff5aaf143e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BA/VoLTE/Telecom/mcfg_sw.mbn">
+        cb6813aff0633fd105f05db9739a2becc01b2edcb5a1c303ae1f1ff4312a73c9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Lithuania/Commercial/Bite/mcfg_sw.mbn">
+        b5a3b76b970abc852d76d46ab5ba6dd25681e539256f5f6e9b5f172e670dc1a6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Lithuania/Commercial/Telia/mcfg_sw.mbn">
+        6f143a1f938a1b193fcf729e9102ef848a56112f36b822af9ae4d080e9a5364d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Lithuania/Commercial/Tele2/mcfg_sw.mbn">
+        4c87ca18638531cfa38575076a6aab541bedaad252c795194002a0b12ce02346
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Ecuador/VoLTE/Claro/mcfg_sw.mbn">
+        b61edeba015229ce568afd474dca6c371f501a346f1cf43182db5f62baec25e9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Ecuador/VoLTE/Movistar/mcfg_sw.mbn">
+        deb12b9ef4154e906ea39338f8ce0a18e998a7b2251ae5e27f2d5a07ec663ef2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Czech/Commercial/Telefonica/mcfg_sw.mbn">
+        9d9898f3b8ca0aa340a7f9018049d22fe999af6a8d22a8f681c52e798fbe0ea2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Slovenia/VoLTE/Telemach/mcfg_sw.mbn">
+        0dcd3ffa3a9664009b23aa1d42c5b3c3b4963e7e53de47b9101abbab543d9b8e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Slovenia/VoLTE/T2/mcfg_sw.mbn">
+        5cc4dff3ddc023ac49e93ef97bcd4b589f8d6f64a5c78c3784e86ec6ee0dfe69
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Slovenia/Commercial/Telekom/mcfg_sw.mbn">
+        4230ce707da0506396a0cae016bc9183bfb1b8608692574d78ffb012159a28be
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Slovenia/Commercial/A1/mcfg_sw.mbn">
+        b39223bb74ddd498b69fbc9341941a555dca55ea2923c5434d5f2c3defb13046
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Philippines/VoLTE/Dito/mcfg_sw.mbn">
+        a9d63f510663020c30ec8a985ab0da4e92befe6fcd8058df4a152aa936de9a75
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Philippines/VoLTE/Smart/mcfg_sw.mbn">
+        fda05d46c9f6044a127204227a332aca6e1930ed102359139d767f4903e5c939
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Iceland/VoLTE/Nova/mcfg_sw.mbn">
+        a88da1bdc7ee90c79bdb86f29d4091f9851eaa9c1d7641cd9c9beaf322afb844
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Iceland/VoLTE/Vodafone/mcfg_sw.mbn">
+        c0d63ce3783314149713b25a02220fd9437defe7bee299d198e61ef82ec1660c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Bhutan/VoLTE/Telecom/mcfg_sw.mbn">
+        8832c85c9b8342289054f4889dd76226ae309d0a86c21e5a2eda42dfd1b95026
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Arabia/VoLTE/Salam/mcfg_sw.mbn">
+        371900f038ad9e3ea9b4691ea9b5dd23dea273009ab74be18128610a3d30b171
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Arabia/VoLTE/Virgin/mcfg_sw.mbn">
+        582853a3e967d94814a2b0a3c746dabb7597c1f0a854f0dd198f68bdfe9e1005
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Arabia/VoLTE/Zain/mcfg_sw.mbn">
+        84d891a9520fc8496474c6324edbaee491482776c956b9a12923919e538b1dd3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Arabia/VoLTE/Redbull/mcfg_sw.mbn">
+        1011ca0fa80da8634ce0c320d2bb75e164d44485bf3e3f0ca8be8ca63d68848d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Panama/VoLTE/Tigo/mcfg_sw.mbn">
+        9063ad99f91b65afcb48014b9cb8694808ac4e3a816338ea24caf6a31f5933a6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Panama/VoLTE/Claro/mcfg_sw.mbn">
+        1103aece2a3ee67e309528211189414fb82fbb5446e87e40c66febebdb1568a9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Panama/VoLTE/CableWireless/mcfg_sw.mbn">
+        a86a8c2577e9208166301d6be0aa3a08fe349c037b960b8e1114dd92b2d361e0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Lebanon/Commercial/Alfa/mcfg_sw.mbn">
+        82bd3e3d618adb9f53bb1d76a131fef7f3692e93ae52d28fc75c1f308161f4b4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/MA/VoLTE/Orange/mcfg_sw.mbn">
+        441075d415dd306c4b4de5482a15cd215fe83e6eac71ca1340b4d14fd5621992
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ID/VoLTE/Indosat/mcfg_sw.mbn">
+        421dfde941913a7f6ab897c609cda634e3c61301a785b83aa9b526a843f9dfaf
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ID/VoLTE/Telkomsel/mcfg_sw.mbn">
+        fb11d4a225a7401a53a33425bb87ce19680409eca36021f142bac43abd017d88
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ID/VoLTE/XL/mcfg_sw.mbn">
+        1b3b825bb49e7ed0dc75a79d701dc92c003904c2f845c1de9ce4bec570ec4799
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/ID/VoLTE/Three/mcfg_sw.mbn">
+        4a72757f05c933bf53f71012e95559489c720ea7ec3108dbb981de86798c45f9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CN/VoLTE/CTM/mcfg_sw.mbn">
+        8956123b2296c7247135d4b8bfc3ecd5f6b84f38b0b22da3a8bd55d44b8d7c6e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CN/VoLTE/3Macau/mcfg_sw.mbn">
+        3b591879e112f90ce95fd0acb167c5799120bf9bc759342e6dc49308a50810a1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CN/VoLTE/CBN/mcfg_sw.mbn">
+        c90bc05d02003ef4ee9a61d49c319e7709181a36339742b345f21d369bb29c8c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Denmark/Commercial/Telia/mcfg_sw.mbn">
+        6901509598ee02e37028bc778bde2b003212c0a55481024e000a61af65a2e8b2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Serbia/Commercial/Telenor/mcfg_sw.mbn">
+        6a7efe54af19905e11fb6ed72c9da4f694756ab3bb118250b295e7c8140c0345
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Serbia/Commercial/A1/mcfg_sw.mbn">
+        c187ee01924a080f96ef1ec35ca35c154d13abd401134a557445a9c84f3b6e66
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Serbia/Commercial/MTS/mcfg_sw.mbn">
+        39158702c55bce52669c91dc13e5ecc1b3649b67a5d98cc4a0ed18db32ec3572
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Common/Volte_PTCRB/mcfg_sw.mbn">
+        f64a83548d223604804fc40dd5b1a8f4afc4b495e9b3aee1c1acf2a5e22eb94c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Common/Commercial/Testsim/mcfg_sw.mbn">
+        b5baa4c6152e766a07863b82ad22c7a33c1152e3944e771d2776deb25c2536de
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Common/Commercial/mcfg_sw.mbn">
+        15590e7d62caa4970b823fa87de7549f824b6ba33094df321b423bacff617953
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Turkey/VoLTE/Telekom/mcfg_sw.mbn">
+        6deff0f4580bac209ced452efb3b28001cb5c58abb2b8f3be8b0b318bdc16fe1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Turkey/VoLTE/Turkcell/mcfg_sw.mbn">
+        eec845a605423a1741b01c684aefd61be618af7e8b7315658cd7417b82bbc9b9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/OM/VoLTE/Omantel/mcfg_sw.mbn">
+        790608318fbd1c34ec2edc77afce5e8b4cf0314475a1d0823adaecd1cc52b605
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/OM/VoLTE/Ooredoo/mcfg_sw.mbn">
+        527f89a43b909f5497fcfa5857860dea13a48aa9a27d90706e047d36f8747c3f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/OM/Commercial/Vodafone/mcfg_sw.mbn">
+        df090490905bdc3c8ce937e511a0868ace9a127966017d4c15ce3c33c16acb6d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Mexico/VoLTE/ATT/mcfg_sw.mbn">
+        91981b3664f033a50ac20b995311c23319d84eca121ae04a379f77d773bfa228
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Mexico/Movistar/MX/mcfg_sw.mbn">
+        c0a7ef02b568b76874a57bcddca5d07a7c0b9809d351589ee3e12db07fbd054f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Nepal/VoLTE/Ncell/mcfg_sw.mbn">
+        0d05489aa844fcfade8628053a040362c2872341f057b6f751f24f34aa2f47df
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Nepal/VoLTE/Telecom/mcfg_sw.mbn">
+        d1e0c053df206176606db0887edfe11f5ef9a04da8275902be9d6a62d2e578f9
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/SA/VoLTE/Mobily/mcfg_sw.mbn">
+        89deec348c17d883bb4f7d79c8a97493758bea32baba4e1b661e769c63e76871
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Malay/VoLTE/Maxis/mcfg_sw.mbn">
+        cd4e0e5e93e77b8b982ab55d5cd66a84a1584aa6affc60161b5b3bf11d33dfbe
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Malay/VoLTE/Celcom/mcfg_sw.mbn">
+        bd12a4f9c181d4d8d8e13bc328fc05b2716b6ed31506e846dcc9a195d4571898
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Malay/Commercial/Digi/mcfg_sw.mbn">
+        b4889b0b46707cb336f992ad0440a5abb51aa6d91ca97eef82a6336df6831215
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/EU/VoLTE/ANFR/mcfg_sw.mbn">
+        5c5de0d5915996cb3fed6c9c93ef69267dbcfa3e9e38e01674f13e4217f0d086
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Yemen/Commercial/YemenMobile/mcfg_sw.mbn">
+        c7bec3cc2581c413c7366e64003b04e3998c4ad5366b79dfa1cd4d1a61bb0bd3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/PL/VoLTE/Plus/mcfg_sw.mbn">
+        78e18565682386dc1d4e694108a36c2bfbac6ee4ffc06a2794f835589327e633
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/PL/VoLTE/Play/mcfg_sw.mbn">
+        25165d6eca1122fad5671aa5c2c97f5c90483fea428c5aed3f8910fd0f986e61
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Kazakhstan/VoLTE/Beeline/mcfg_sw.mbn">
+        6ce3f3fb3348b6b2fd794c10090a366b6178b284393ada3aa22ffe7ded0970a1
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Kazakhstan/VoLTE/Tele2/mcfg_sw.mbn">
+        23a3282bd7a827a695e33a26442b231f89a645f4331400455ada07cd9083e36e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Uruguay/VoLTE/Claro/mcfg_sw.mbn">
+        09343c7e11236b57c8336fbcef128d13c59947a964759b76b1b34575d3cbcd83
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Uruguay/VoLTE/Movistar/mcfg_sw.mbn">
+        f5f51a47fefb2d74a9d469ac16abe27eddbe97853e1a60cda501e268f78eb8e8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Uruguay/VoLTE/Antel/mcfg_sw.mbn">
+        a6cf98ecb71f8ea2d10b633e0e6a6e25938ed2351176b26c4ce30ca82135b6cd
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UAE/VoLTE/Du/mcfg_sw.mbn">
+        f38ab9b1d33ccb59c4338b37a1ee8706fed078cea75b9bbc5d14c3fbb9f7ac83
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/UAE/VoLTE/ETISALAT/mcfg_sw.mbn">
+        496e44a8f0fb43201c29a77deb496778c4578345c98c773974a5e935c2c14bea
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GR/VoLTE/Wind/mcfg_sw.mbn">
+        7ff7532a4441b4ad05e2a3882ad63028af96edee94b18db90b14093db20f9f82
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/GR/VoLTE/Vodafone/mcfg_sw.mbn">
+        1f275b055984054960154e7dc9213949253b5a4ef15bce468df894b36aa2ee89
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Belgium/VoLTE/Telenet/mcfg_sw.mbn">
+        6d7d6f0950405032f21c6cb3673c9e8f1b41ebcb858e4a76512b6628bc925243
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Belgium/VoLTE/Base/mcfg_sw.mbn">
+        28af70dbb869465143ea09b90a2eaceaa94dd0e2c16de6bcee2d3c12e43e63ef
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Belgium/VoLTE/Proximus/mcfg_sw.mbn">
+        55fe5bc7c3f5bffc87ea6a69473d016b7b35d18c4516b5f62e73103dbc894bb3
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Belgium/VoLTE/Orange/mcfg_sw.mbn">
+        84741d9a548f5fda5f4c141598c90cb074e65084d4720ee3ea856d709056f18e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KW/VoLTE/Ooredoo/mcfg_sw.mbn">
+        2fd6c36f672144fe403a56fb22ee6e043a8ca49fc6621d33436886da6bd61e6d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KW/VoLTE/Zain/mcfg_sw.mbn">
+        bd4270ec138f29f62298ac104cc7e83fdbb5f388f6f4b8b4751c8830f9a722a6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KW/VoLTE/Viva/mcfg_sw.mbn">
+        0f08fb6b9987f7fe5a77399ab2ec12d71100e8e33368fd9aea0bd11b28fa79a8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/JO/VoLTE/Umniah/mcfg_sw.mbn">
+        750a8f8466daf3aeeb71da199cd1c1cd5ac09faaac147a9d68a05e088bde5ba2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/JO/VoLTE/Zain/mcfg_sw.mbn">
+        c6b2bb14f463851f9e8dbe2ff431ed47c66352df27f74b552993991054933f36
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/JO/VoLTE/Orange/mcfg_sw.mbn">
+        45d002bd9a9ab59f8286905a24b5bbe443a29faa0dd80e2dd54e7deda3d2fe0f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CL/VoLTE/Entel/mcfg_sw.mbn">
+        a2d89eec26850ece0af1e4f082ab5755fd3c6229251b11dcfb618a67f8d6824c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CL/VoLTE/Claro/mcfg_sw.mbn">
+        c0c0495b3793b0706e48bceaf2ec2ef325490982d92f81712447bd17cec9b36d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CL/VoLTE/WOM/mcfg_sw.mbn">
+        16ceb486f60a18f355308e0ce9b3ad8152ca13f0d57787f95bd497e0e4031c86
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/CL/VoLTE/Movistar/mcfg_sw.mbn">
+        8d98b7d07bf8d76b9f0a87e56c3571ac1e75f0ef1ea14c38eff5bb0a9c4df8b6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Montenegro/Commercial/Mtel/mcfg_sw.mbn">
+        23c7f3bcaea29825b099e1dd15ff5e736cb36b20906186e367bee09a4a7e74dc
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Montenegro/Commercial/Telenor/mcfg_sw.mbn">
+        b6fb3ed9bf5f42ddcac0acddbbcbc0fea1c3da48bf4477db844e3497188eea1e
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Myanmar/VoLTE/Telenor/mcfg_sw.mbn">
+        103ebd58a7b1d843e8d3c11e790a06ea660419e0c6b5ed9263ebead0de04e56b
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Myanmar/VoLTE/MyTel/mcfg_sw.mbn">
+        92a5b453fd4d8dcdd807c89f1f7dfd6e7f75e2c1a0cebe7032f7574b41bc47c2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Myanmar/VoLTE/Ooredoo/mcfg_sw.mbn">
+        016bdfc0f0698c3849899a0949a479be5a0be8af6e8502fb03c43d3aa5009ee2
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Myanmar/VoLTE/MPT/mcfg_sw.mbn">
+        6ce300d2b7085719f47d00fff130bb9452bc6aed7c102b2d96b18ce531ddb7c8
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Maldives/Commercial/Ooredoo/mcfg_sw.mbn">
+        301046f3d669ba21bd272fb92cc68f795d05c7b23649465d77cdb38b9f3a4c21
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KE/VoLTE/Safaricom/mcfg_sw.mbn">
+        7d6997664a4acdda1981560c5689dfcceface028d6f64a3a55b0438cc745933d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KE/VoLTE/Airtel/mcfg_sw.mbn">
+        855f1e27aded58d0a4086cba34dae0fbc7d68a837868bff883c127265449dc2c
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KE/VoLTE/Faiba/mcfg_sw.mbn">
+        9288413dc65465e09ddb0b4e478ba188e0a1e99903c2589319010b78ff6090df
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/KE/VoLTE/Jambotel/mcfg_sw.mbn">
+        de70456f3d90bc7a5f2d3e5f9a562727a25c136e12c4cd4dc11e9efeb2e2e3b6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BD/VoLTE/Robi/mcfg_sw.mbn">
+        ec0aeb90fa47f23bd872c24cd127d1bc8256ce58e8a934c68f9d5c7cbea0c27f
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BD/VoLTE/Banglalink/mcfg_sw.mbn">
+        7eaafc6420327c3eca0f4ca6c3eb972dc7605892dbea9edeb92d4e566809ab99
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/BD/VoLTE/Grameenphone/mcfg_sw.mbn">
+        e722aa6f248a39e522bc8303ed9dd3d5d962c5e10ef5102edbb0eedeb3b3c808
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Mauritius/VoLTE/Telecom/mcfg_sw.mbn">
+        3c62629e12bf6491a014a7db4752d06de66c2bfe96472e9363ba19a74d289e0d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Reunion/Commercial/Orange/mcfg_sw.mbn">
+        a58953728f8f67d2661f7d99c55245a024173d290695af5f1869c46fdcff7f56
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NZ/VoLTE/2DEGREE/mcfg_sw.mbn">
+        09ac0a4b05e083a5e0e3912b30924a4d1d10701847fea82fbd6162534051704d
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NZ/VoLTE/VDF/mcfg_sw.mbn">
+        6fbeba7bbc199f060976df0fb510d0dba344cf8919837d179424b10518994cf4
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/NZ/VoLTE/Spark/mcfg_sw.mbn">
+        ef2c1aeaab06f4e68f8969ceaca961ce02f9fca3120949274dd3bbd3255dbd27
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Moldova/VoLTE/Moldcell/mcfg_sw.mbn">
+        9c23861f3d172b6d3baeb3c4c730bcb9c0e6a7a86fe1958e127641026e8f97e5
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Moldova/VoLTE/IDC/mcfg_sw.mbn">
+        1c06e89d19ab26105b292a3c38c78c5eb61a02c3d8b0a6f9f7ad29be6d8f81e6
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Moldova/VoLTE/Orange/mcfg_sw.mbn">
+        b2fdbd60d607d455472ba7b60770b0994b3cd665e6ce4fdf0eeb81790b185a73
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Sweden/Commercial/Telenor/mcfg_sw.mbn">
+        30fb3bb03a3b1d838a831fe7338e642956ec5368bc5d4cdbda03f22b65c1fb60
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Sweden/Commercial/Telavox/mcfg_sw.mbn">
+        2146ecc980542ae072f5680ee7eb99453cc009e01a542e5059d0237e9119cfc0
+        </path-hash>
+    <path-hash name="mcfg_sw/generic/OPLUS_EXP/Sweden/Commercial/Vimla/mcfg_sw.mbn">
+        a657293f69e44bc0586581b369f294d577efe900b9f6251a3a3a874008ee4ee4
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/WD/SS/mcfg_hw.mbn">
+        903ce7a87514b17b4a0fe303b036c88e33de82b651e5458ad0fa5f453b1ff5ab
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/WD/DSSA/mcfg_hw.mbn">
+        651d96e88e0376ae5d1d314f1dd5c06c62ffca7f3febefbcd71bf2085c0132f0
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/LA/DSDS/mcfg_hw.mbn">
+        11ce72ec3c12afaabc9b0ccf1cf19904fee66448199b8235fa0f59ada0fef5b3
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/LA/SS/mcfg_hw.mbn">
+        a4572b9d95ed635d22605339e45ebf3d8d822805c45e6528d66b6ec573f1aefe
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/LA/SS_CDMALess/mcfg_hw.mbn">
+        66313d8a518f9646b4b5f37cc6a096294413529021e2340d3b2a9a1151026fb3
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/LA/DSDA_Hybrid_CDMALess/mcfg_hw.mbn">
+        49352a5603e5f287739ece1ced6ce9a236c54ef671666f0735464fa9c983dd8b
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/LA/DSDS_CDMALess/mcfg_hw.mbn">
+        c06a3d6d80e95755d7917569f40baf3967e71be434210095d2d252c12e4094d8
+        </path-hash>
+    <path-hash name="mcfg_hw/generic/common/Kailua/STANDALONE/LA/DSDA_Hybrid/mcfg_hw.mbn">
+        313eaaad81d1d99f5a52a9ce89112840ba7eea9dffe1ddde2da30dc9cfe97ad9
+        </path-hash>
+</contents>

@@ -1,0 +1,14 @@
+# qssi-user 15 AP3A.240617.008 1759674971677 release-keys
+- manufacturer: oneplus
+- platform: kalama
+- codename: OP594DL1
+- flavor: qssi-user
+- release: 15
+- id: TP1A.220905.001
+- incremental: T.R4T3.3000bdc-fcd4ed-fcd4ec
+- tags: release-keys
+- fingerprint: OnePlus/CPH2447/OP594DL1:15/TP1A.220905.001/T.R4T3.3000bdc-fcd4ed-fcd4ec:user/release-keys
+- is_ab: true
+- brand: OnePlus
+- branch: qssi-user-15-AP3A.240617.008-1759674971677-release-keys
+- repo: oneplus_op594dl1_dump

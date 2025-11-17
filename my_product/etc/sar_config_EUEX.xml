@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configs>
+  <version>1</version>
+  <Policys>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195855</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195854</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195853</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195852</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195851</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195850</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195849</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195848</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195847</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195846</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195845</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195844</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195843</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195842</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195841</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195840</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195343</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195342</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195341</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195340</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195339</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195338</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195337</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195336</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195335</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195334</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195333</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195332</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195331</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195330</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195329</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4195328</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194831</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194830</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194829</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194828</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194827</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194826</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194825</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194824</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194823</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194822</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194821</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194820</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194819</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194818</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194817</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194816</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194319</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194318</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194317</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194316</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194315</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194314</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194313</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194312</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194311</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194310</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194309</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194308</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194307</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194306</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194305</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;OTA">4194304</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1551</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1550</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1549</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1548</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1547</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1546</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1545</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1544</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1543</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1542</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1541</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1540</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1539</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1538</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1537</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1536</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1039</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1038</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1037</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1036</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1035</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1034</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1033</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1032</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1031</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1030</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1029</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1028</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1027</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1026</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1025</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1024</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">527</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">526</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">525</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">524</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">523</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">522</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">521</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">520</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">519</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">518</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">517</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">516</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">515</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">514</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">513</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">512</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">15</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">14</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">13</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">12</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">11</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">10</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">9</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">8</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">7</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">6</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">5</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">4</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">3</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">2</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">1</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;OTA">0</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293007</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293006</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293005</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293004</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293003</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293002</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293001</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6293000</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292999</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292998</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292997</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292996</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292995</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292994</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292993</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292992</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292495</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292494</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292493</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292492</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292491</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292490</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292489</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292488</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292487</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292486</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292485</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292484</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292483</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292482</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292481</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6292480</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291983</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291982</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291981</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291980</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291979</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291978</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291977</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291976</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291975</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291974</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291973</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291972</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291971</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291970</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291969</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291968</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291471</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291470</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291469</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291468</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291467</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291466</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291465</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291464</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291463</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291462</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291461</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291460</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291459</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291458</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291457</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;TESTCARD&amp;&amp;!OTA">6291456</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098703</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098702</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098701</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098700</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098699</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098698</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098697</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098696</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098695</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098694</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098693</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098692</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098691</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098690</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098689</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098688</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098191</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098190</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098189</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098188</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098187</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098186</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098185</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098184</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098183</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098182</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098181</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098180</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098179</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098178</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098177</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2098176</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097679</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097678</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097677</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097676</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097675</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097674</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097673</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097672</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097671</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097670</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097669</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097668</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097667</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097666</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097665</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097664</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097167</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097166</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097165</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097164</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097163</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097162</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097161</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097160</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097159</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097158</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097157</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097156</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097155</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097154</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097153</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!MAIN_CAM&amp;&amp;!WIDE_ANGLE_CAM&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097152</Policy>
+  </Policys>
+  <Events>
+    <Event class="HeadNearEvent" name="HEAD">1</Event>
+    <Event class="WIFI2p4GEvent" name="WIFI2G">3</Event>
+    <Event class="WIFI5GEvent" name="WIFI5G">2</Event>
+    <Event class="BluetoothEvent" name="BT">6</Event>
+    <Event class="MainCamEvent" name="MAIN_CAM">16</Event>
+    <Event class="WideAngleCamEvent" name="WIDE_ANGLE_CAM">17</Event>
+    <Event class="TestCardEvent" name="TESTCARD">0</Event>
+    <Event class="SwtpEvent" name="OTA">4</Event>
+  </Events>
+  <ScenarioMap>
+    <Scenario event_mask="0" sns_channel="256">1</Scenario>
+    <Scenario event_mask="0" sns_channel="1">2</Scenario>
+    <Scenario event_mask="0" sns_channel="257">3</Scenario>
+    <Scenario event_mask="0" sns_channel="0">4</Scenario>
+    <Scenario event_mask="2" sns_channel="0">5</Scenario>
+    <Scenario event_mask="8" sns_channel="256">6</Scenario>
+    <Scenario event_mask="4" sns_channel="256">6</Scenario>
+    <Scenario event_mask="64" sns_channel="256">6</Scenario>
+    <Scenario event_mask="8" sns_channel="1">7</Scenario>
+    <Scenario event_mask="4" sns_channel="1">7</Scenario>
+    <Scenario event_mask="64" sns_channel="1">7</Scenario>
+    <Scenario event_mask="8" sns_channel="257">8</Scenario>
+    <Scenario event_mask="4" sns_channel="257">8</Scenario>
+    <Scenario event_mask="64" sns_channel="257">8</Scenario>
+    <Scenario event_mask="8" sns_channel="0">9</Scenario>
+    <Scenario event_mask="4" sns_channel="0">9</Scenario>
+    <Scenario event_mask="64" sns_channel="0">9</Scenario>
+    <Scenario event_mask="10" sns_channel="0">10</Scenario>
+    <Scenario event_mask="6" sns_channel="0">10</Scenario>
+    <Scenario event_mask="66" sns_channel="0">10</Scenario>
+    <Scenario event_mask="72" sns_channel="256">11</Scenario>
+    <Scenario event_mask="68" sns_channel="256">11</Scenario>
+    <Scenario event_mask="76" sns_channel="256">11</Scenario>
+    <Scenario event_mask="12" sns_channel="256">11</Scenario>
+    <Scenario event_mask="72" sns_channel="1">12</Scenario>
+    <Scenario event_mask="68" sns_channel="1">12</Scenario>
+    <Scenario event_mask="76" sns_channel="1">12</Scenario>
+    <Scenario event_mask="12" sns_channel="1">12</Scenario>
+    <Scenario event_mask="72" sns_channel="257">13</Scenario>
+    <Scenario event_mask="68" sns_channel="257">13</Scenario>
+    <Scenario event_mask="76" sns_channel="257">13</Scenario>
+    <Scenario event_mask="12" sns_channel="257">13</Scenario>
+    <Scenario event_mask="72" sns_channel="0">14</Scenario>
+    <Scenario event_mask="68" sns_channel="0">14</Scenario>
+    <Scenario event_mask="76" sns_channel="0">14</Scenario>
+    <Scenario event_mask="12" sns_channel="0">14</Scenario>
+    <Scenario event_mask="74" sns_channel="0">15</Scenario>
+    <Scenario event_mask="70" sns_channel="0">15</Scenario>
+    <Scenario event_mask="78" sns_channel="0">15</Scenario>
+    <Scenario event_mask="14" sns_channel="0">15</Scenario>
+    <Scenario event_mask="1" sns_channel="0">16</Scenario>
+    <Scenario event_mask="0" sns_channel="256">17</Scenario>
+    <Scenario event_mask="0" sns_channel="1">17</Scenario>
+    <Scenario event_mask="0" sns_channel="257">17</Scenario>
+    <Scenario event_mask="8" sns_channel="256">17</Scenario>
+    <Scenario event_mask="4" sns_channel="256">17</Scenario>
+    <Scenario event_mask="64" sns_channel="256">17</Scenario>
+    <Scenario event_mask="8" sns_channel="1">17</Scenario>
+    <Scenario event_mask="4" sns_channel="1">17</Scenario>
+    <Scenario event_mask="64" sns_channel="1">17</Scenario>
+    <Scenario event_mask="8" sns_channel="257">17</Scenario>
+    <Scenario event_mask="4" sns_channel="257">17</Scenario>
+    <Scenario event_mask="64" sns_channel="257">17</Scenario>
+    <Scenario event_mask="72" sns_channel="256">17</Scenario>
+    <Scenario event_mask="68" sns_channel="256">17</Scenario>
+    <Scenario event_mask="76" sns_channel="256">17</Scenario>
+    <Scenario event_mask="12" sns_channel="256">17</Scenario>
+    <Scenario event_mask="72" sns_channel="1">17</Scenario>
+    <Scenario event_mask="68" sns_channel="1">17</Scenario>
+    <Scenario event_mask="76" sns_channel="1">17</Scenario>
+    <Scenario event_mask="12" sns_channel="1">17</Scenario>
+    <Scenario event_mask="72" sns_channel="257">17</Scenario>
+    <Scenario event_mask="68" sns_channel="257">17</Scenario>
+    <Scenario event_mask="76" sns_channel="257">17</Scenario>
+    <Scenario event_mask="12" sns_channel="257">17</Scenario>
+    <Scenario event_mask="0" sns_channel="257">18</Scenario>
+    <Scenario event_mask="0" sns_channel="1">18</Scenario>
+    <Scenario event_mask="0" sns_channel="257">18</Scenario>
+    <Scenario event_mask="0" sns_channel="1">18</Scenario>
+    <Scenario event_mask="2" sns_channel="1">18</Scenario>
+    <Scenario event_mask="8" sns_channel="257">18</Scenario>
+    <Scenario event_mask="4" sns_channel="257">18</Scenario>
+    <Scenario event_mask="64" sns_channel="257">18</Scenario>
+    <Scenario event_mask="8" sns_channel="1">18</Scenario>
+    <Scenario event_mask="4" sns_channel="1">18</Scenario>
+    <Scenario event_mask="64" sns_channel="1">18</Scenario>
+    <Scenario event_mask="8" sns_channel="257">18</Scenario>
+    <Scenario event_mask="4" sns_channel="257">18</Scenario>
+    <Scenario event_mask="64" sns_channel="257">18</Scenario>
+    <Scenario event_mask="8" sns_channel="1">18</Scenario>
+    <Scenario event_mask="4" sns_channel="1">18</Scenario>
+    <Scenario event_mask="64" sns_channel="1">18</Scenario>
+    <Scenario event_mask="10" sns_channel="1">18</Scenario>
+    <Scenario event_mask="6" sns_channel="1">18</Scenario>
+    <Scenario event_mask="66" sns_channel="1">18</Scenario>
+    <Scenario event_mask="72" sns_channel="257">18</Scenario>
+    <Scenario event_mask="68" sns_channel="257">18</Scenario>
+    <Scenario event_mask="76" sns_channel="257">18</Scenario>
+    <Scenario event_mask="12" sns_channel="257">18</Scenario>
+    <Scenario event_mask="72" sns_channel="1">18</Scenario>
+    <Scenario event_mask="68" sns_channel="1">18</Scenario>
+    <Scenario event_mask="76" sns_channel="1">18</Scenario>
+    <Scenario event_mask="12" sns_channel="1">18</Scenario>
+    <Scenario event_mask="72" sns_channel="257">18</Scenario>
+    <Scenario event_mask="68" sns_channel="257">18</Scenario>
+    <Scenario event_mask="76" sns_channel="257">18</Scenario>
+    <Scenario event_mask="12" sns_channel="257">18</Scenario>
+    <Scenario event_mask="72" sns_channel="1">18</Scenario>
+    <Scenario event_mask="68" sns_channel="1">18</Scenario>
+    <Scenario event_mask="76" sns_channel="1">18</Scenario>
+    <Scenario event_mask="12" sns_channel="1">18</Scenario>
+    <Scenario event_mask="74" sns_channel="1">18</Scenario>
+    <Scenario event_mask="70" sns_channel="1">18</Scenario>
+    <Scenario event_mask="78" sns_channel="1">18</Scenario>
+    <Scenario event_mask="14" sns_channel="1">18</Scenario>
+    <Scenario event_mask="0" sns_channel="257">18</Scenario>
+    <Scenario event_mask="0" sns_channel="1">18</Scenario>
+    <Scenario event_mask="0" sns_channel="257">18</Scenario>
+    <Scenario event_mask="0" sns_channel="1">18</Scenario>
+    <Scenario event_mask="2" sns_channel="1">18</Scenario>
+    <Scenario event_mask="8" sns_channel="257">18</Scenario>
+    <Scenario event_mask="4" sns_channel="257">18</Scenario>
+    <Scenario event_mask="64" sns_channel="257">18</Scenario>
+    <Scenario event_mask="8" sns_channel="1">18</Scenario>
+    <Scenario event_mask="4" sns_channel="1">18</Scenario>
+    <Scenario event_mask="64" sns_channel="1">18</Scenario>
+    <Scenario event_mask="8" sns_channel="257">18</Scenario>
+    <Scenario event_mask="4" sns_channel="257">18</Scenario>
+    <Scenario event_mask="64" sns_channel="257">18</Scenario>
+    <Scenario event_mask="8" sns_channel="1">18</Scenario>
+    <Scenario event_mask="4" sns_channel="1">18</Scenario>
+    <Scenario event_mask="64" sns_channel="1">18</Scenario>
+    <Scenario event_mask="10" sns_channel="1">18</Scenario>
+    <Scenario event_mask="6" sns_channel="1">18</Scenario>
+    <Scenario event_mask="66" sns_channel="1">18</Scenario>
+    <Scenario event_mask="72" sns_channel="257">18</Scenario>
+    <Scenario event_mask="68" sns_channel="257">18</Scenario>
+    <Scenario event_mask="76" sns_channel="257">18</Scenario>
+    <Scenario event_mask="12" sns_channel="257">18</Scenario>
+    <Scenario event_mask="72" sns_channel="1">18</Scenario>
+    <Scenario event_mask="68" sns_channel="1">18</Scenario>
+    <Scenario event_mask="76" sns_channel="1">18</Scenario>
+    <Scenario event_mask="12" sns_channel="1">18</Scenario>
+    <Scenario event_mask="72" sns_channel="257">18</Scenario>
+    <Scenario event_mask="68" sns_channel="257">18</Scenario>
+    <Scenario event_mask="76" sns_channel="257">18</Scenario>
+    <Scenario event_mask="12" sns_channel="257">18</Scenario>
+    <Scenario event_mask="72" sns_channel="1">18</Scenario>
+    <Scenario event_mask="68" sns_channel="1">18</Scenario>
+    <Scenario event_mask="76" sns_channel="1">18</Scenario>
+    <Scenario event_mask="12" sns_channel="1">18</Scenario>
+    <Scenario event_mask="74" sns_channel="1">18</Scenario>
+    <Scenario event_mask="70" sns_channel="1">18</Scenario>
+    <Scenario event_mask="78" sns_channel="1">18</Scenario>
+    <Scenario event_mask="14" sns_channel="1">18</Scenario>
+  </ScenarioMap>
+</Configs>

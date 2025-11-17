@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20240821</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>4</bigcore_id>
+            <bigcore_id>5</bigcore_id>
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+
+        <feature name="OplusDisplayTraceSettings" enable="1">
+            <!-- set oplusDisplayTrace maxsize default 10000 -->
+            <!-- <size>10000</size> -->
+        </feature>
+
+        <feature name="DolbyVision" enable="1">
+            <timeout_s>60</timeout_s>
+            <scale>6</scale>
+            <timerEnable>1</timerEnable>
+            <needDimming>0</needDimming>
+            <fullScreenOnly>1</fullScreenOnly>
+            <application name="com.netflix.mediaclient">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.netflix.mediaclient</layer>
+                    <layer>com.netflix</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="OplusFingerPrint" enable="1">
+            <backlight>0.00127 0.05049 0.08829 0.11144 0.13527 0.15539 0.17638 0.19455 0.21418 0.23459 0.25344 0.27288 0.29622 0.31917 0.33704 0.35775 0.37572 0.39310 0.41938 0.44340 0.47026 0.50200 0.53267 0.58658 0.79998</backlight>
+            <alpha>0.92727 0.91803 0.89623 0.87994 0.85538 0.83715 0.81562 0.79432 0.77461 0.75135 0.73438 0.71169 0.69207 0.67017 0.65227 0.63027 0.61143 0.59109 0.56641 0.53934 0.51174 0.47282 0.44129 0.38232 0.32741</alpha>
+        </feature>
+
+        <feature name="OplusDEE" enable="1">
+            <DC>enable</DC>
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oplus.camera">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.gallery3d">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oneplus.gallery">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.heytap.yoli">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="DispKeventThread" enable="1"/>
+
+        <feature name="PartialUpdate" enable="1"/>
+
+        <feature name="hecate" enable="1"/>
+
+        <feature name="curtain" enable="1">
+            <application name="com.instagram.android">
+                <scene type="FuzzyLayer">
+                    <layer>TransparentModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>ModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.google.android.youtube">
+                <scene type="FuzzyLayer">
+                    <layer>SurfaceView[com.google.android.youtube/com.google.android.apps.youtube.app</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>SurfaceView[com.google.android.youtube/com.google.android.youtube.app</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>InternalMainActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="DisplaySwitchSize" enable="0">
+            <application name="com.tencent.ig">
+                <scene type="Application"/>
+            </application>
+            <application name="com.mobile.legends">
+                <scene type="Application"/>
+            </application>
+            <application name="com.dts.freefireth">
+                <scene type="Application"/>
+            </application>
+            <application name="com.neptune.domino">
+                <scene type="Application"/>
+            </application>
+            <application name="com.wildspike.wormszone">
+                <scene type="Application"/>
+            </application>
+            <application name="jp.garud.ssimulator">
+                <scene type="Application"/>
+            </application>
+            <application name="com.mojang.minecraftpe">
+                <scene type="Application"/>
+            </application>
+            <application name="com.PlayMax.playergames">
+                <scene type="Application"/>
+            </application>
+            <application name="com.roblox.client">
+                <scene type="Application"/>
+            </application>
+            <application name="com.pubg.imobile">
+                <scene type="Application"/>
+            </application>
+        </feature>
+
+    </features>
+</filter-conf>

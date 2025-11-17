@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH"/>
+	<app_feature name="com.android.launcher.NEW_RECENTS_VIBRATION"/>
+	<app_feature name="com.android.launcher.gc_when_user_present" args="boolean:true"/>
+	<app_feature name="com.opus.systemui.disable_qs_list" args="String:weixinpay,osie,lris"/>
+	<app_feature name="com.android.settings.processor_detail"/>
+	<app_feature name="com.android.settings.processor_detail_gen2"/>
+	<app_feature name="com.oplus.globalcollect.enable" args="boolean:true"/>
+	<app_feature name="com.android.launcher.support_spring_animation_app_start" args="boolean:true"/>
+	<app_feature name="com.android.launcher.DISABLE_USE_NEW_LAYOUT"/>
+	<app_feature name="com.oplus.mediacontroller.fluidConfig" args="String:{&quot;statusbar_enable_default&quot;:1}"/>
+	<app_feature name="com.oplus.battery.whitelist_vowifi" args="boolean:true"/>
+	<app_feature name="com.oplus.directservice.aitoolbox_enable" args="boolean:true"/>
+	<app_feature name="com.android.launcher.packages_to_hide" args="StringList:pkgs">
+		<StringList name="pkgs" args="com.redteamobile.roaming"/>
+	</app_feature>
+	<app_feature name="com.oplus.dmp.aiask_enable" args="int:1"/>
+</extend_features>
+<!-- Timestamp 2025-06-04T21:09:46 #734337 -->

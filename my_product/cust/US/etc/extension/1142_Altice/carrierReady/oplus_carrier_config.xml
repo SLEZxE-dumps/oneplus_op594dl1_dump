@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="allow_metered_network_for_cert_download_bool" value="true"/>
+	<int name="imsi_key_availability_int" value="2"/>
+	<string name="imsi_key_download_url_string">https://ws.alticemobile.com/carrier/keys/publickey</string>
+</carrier_config>
+<!-- Timestamp 2024-08-10T17:03:20 #184982 -->

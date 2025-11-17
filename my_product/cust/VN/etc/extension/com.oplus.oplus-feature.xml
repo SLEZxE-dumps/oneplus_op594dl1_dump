@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.sido_dual_sim_coop_no4g_no5g_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_dual_sim_coop_no_service_opt"/>
+	<oplus-feature name="oplus.software.radio.signal_recovery_enabled"/>
+	<oplus-feature name="oplus.software.radio.sido_screen_on_no_45g_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_screen_on_no_service_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_lte_srv_poor_signal_ngbr_strong_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_nr_icon_pingpong_opt"/>
+	<oplus-feature name="oplus.software.radio.enable_weak_signal_backoff"/>
+	<oplus-feature name="oplus.software.radio.sido_inter_cell_coop_dual_cell_strong_sig_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_inter_cell_coop_lte_rej_15_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_elevator"/>
+	<oplus-feature name="oplus.software.radio.sido_rat_enhance_nr_backoff_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_rat_enhance_lte_backoff_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_sim_tag_opt"/>
+</oplus-config>
+<!-- Timestamp 2024-09-13T11:51:43 #225422 -->

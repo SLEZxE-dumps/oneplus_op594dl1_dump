@@ -1,0 +1,4 @@
+<oplus-config>
+    <!-- YaJun.Li@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/08/30. Add for media control -->
+    <oplus-feature name="oplus.software.audio.media_control"/>
+</oplus-config>

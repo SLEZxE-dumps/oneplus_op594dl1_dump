@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.usv_vowifi_controller"/>
+	<oplus-feature name="oplus.software.wlan.att_hotspot"/>
+	<oplus-feature name="oplus.software.radio.support_dual_nr"/>
+	<unavailable-oplus-feature name="oplus.software.radio.nwpower_bg_app_net_control_switch_enable"/>
+	<unavailable-oplus-feature name="oplus.software.radio.nwpower_app_network_monitor_switch_enable"/>
+	<unavailable-oplus-feature name="oplus.software.radio.nwpower_amc_oossearch"/>
+</oplus-config>
+<!-- Timestamp 2025-05-21T20:16:47 #722827 -->

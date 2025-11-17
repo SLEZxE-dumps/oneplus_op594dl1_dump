@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneColors>
+        <!--PhoneColor.name：手机颜色的唯一标识，由项目、手软提供-->
+        <!--ColorDescription：手机颜色描述，描述手机颜色-->
+        <!--ColorDescriptionCN：手机颜色描述（中文），描述手机颜色-->
+        <!--DefaultWallpaper :对应的锁屏壁纸-->
+        <!--DefaultWallpaperLock :对应的桌面壁纸-->
+        <!--DefaultWallpaperComponent :对应的动态壁纸-->
+        <!--ThemeDescriptionCN：主题描述（中文），描述主题名称-->
+        <!--手机颜色唯一标识、手机颜色描述由项目或手软提供，对应主题由桌面主题组根据UI要求配置-->
+        <!--该文件由OS产品中心桌面主题组维护-->
+
+     <PhoneColor name="FF465750">
+        <ColorDescription>Eternal Green</ColorDescription>
+        <ColorDescriptionCN>一瞬青</ColorDescriptionCN>
+        <DefaultWallpaper>NA</DefaultWallpaper>
+        <DefaultWallpaperLock>NA</DefaultWallpaperLock>
+        <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.op.Salami0VideoWallpaper</DefaultWallpaperComponent>
+    </PhoneColor>
+
+    <PhoneColor name="FF000000">
+        <ColorDescription>Titan Black</ColorDescription>
+        <ColorDescriptionCN>无尽黑</ColorDescriptionCN>
+        <DefaultWallpaper>NA</DefaultWallpaper>
+        <DefaultWallpaperLock>NA</DefaultWallpaperLock>
+        <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.op.Salami1VideoWallpaper</DefaultWallpaperComponent>
+    </PhoneColor>
+
+    <PhoneColor name="FFD8CBB4">
+        <ColorDescription>Marble Odyssey</ColorDescription>
+        <ColorDescriptionCN>木星岩</ColorDescriptionCN>
+        <DefaultWallpaper>NA</DefaultWallpaper>
+        <DefaultWallpaperLock>NA</DefaultWallpaperLock>
+        <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.op.Salami10VideoWallpaper</DefaultWallpaperComponent>
+    </PhoneColor>
+
+    <DefaultWallpaperComponent>com.android.wallpaper.livepicker/.service.video.op.Salami0VideoWallpaper</DefaultWallpaperComponent>
+</PhoneColors>

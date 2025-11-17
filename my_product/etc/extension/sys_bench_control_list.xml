@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sys_bench_control_list>
+<version>2024081219</version>
+    <filter-name>sys_bench_control_list</filter-name>
+
+    <BenchRuntimeConfigItem name="bench_config">
+        <bench_config index="16" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="10003" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="17" refreshRate="0" jpgmuti="0" seqwrite="10004" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="18" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="10005" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="19" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="10006" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="13" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="10007" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="21" refreshRate="0" jpgmuti="1" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="20" refreshRate="3" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="44" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="1" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="46" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="1" pdfenhance="0" xmlenhance="0"/>
+    </BenchRuntimeConfigItem>
+
+</sys_bench_control_list>

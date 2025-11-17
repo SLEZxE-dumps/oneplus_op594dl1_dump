@@ -1,0 +1,26 @@
+<!--Tips: The product configuration will not overlay the common configration. Do not configure the same configuration -->
+
+<oplus-config>
+    <!-- HeZhihui@NETWORK.REG.8515, 2020/06/12, modify for Feature Toggle -->
+    <!--oplus-feature name="oplus.software.radio.nr_icon_optimized_enabled"/-->
+    <oplus-feature name="oplus.software.radio.health_service_support"/>
+    <!-- HuangKaihui@NETWORK.CALL.226929, 2020/08/05, add for OPLUS_FEATURE_ECC_TESTMODE -->
+    <oplus-feature name="oplus.software.radio.custom_ecclist_writable"/>
+    <!-- WangHui@NETWORK.RF.8039, 2020/12/05, add for engineer sale pa test Feature Toggle -->
+    <!-- <oplus-feature name="oplus.software.radio.eng_salepatest_support"/> -->
+    <!-- WangHui@NETWORK.RF.8039, 2020/09/17, add for libdiag vendor dir Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.libdiag_vendor_support"/>
+    <!-- Tanzhengpeng@NETWORK.Tech.11345, 2020/12/22, add for use vendor diag for logkit-->
+    <oplus-feature name="oplus.software.radio.vendor_diag" />
+    <!-- WangHui@NETWORK.CALL.1981831, 2021/08/13, add for sts support auto answer logic-->
+    <oplus-feature name="oplus.software.radio.sts_auto_answer_support" />
+    <!-- WangHui@NETWORK.REG.2415820, 2021/11/02, add for use sts interface for engnetwork -->
+    <oplus-feature name="oplus.software.radio.engnw_sts_interface_support" />
+    <!-- ChenGuoyao@NETWORK.CALL.2238116, 2021/09/26, add for disable sa call control-->
+    <oplus-feature name="oplus.software.radio.sa_call_control_disabled" />
+    <!-- LiBangxu@NETWORK.DATA.4817747, 2022/12/07, add LLM feature for DE3.0 and later project -->
+    <oplus-feature name="oplus.software.radio.low_latency_mode_de3" />
+    <!-- LiXinyue@NETWORK.REG.6357884 ,2023/10/13, add recovery SA feature of APM and TAC changed -->
+    <oplus-feature name="oplus.software.radio.sa_apm_control" />
+    <oplus-feature name="oplus.software.radio.sa_tac_control" />
+</oplus-config>

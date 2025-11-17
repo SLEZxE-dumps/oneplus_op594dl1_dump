@@ -1,0 +1,11 @@
+{
+    "version": 2025052601,
+    "feature": {
+        "colorx": {
+          "cx_package_name": "com.oneplus.colorx",
+           "coolex_white_list": [
+                "com.tencent.ig"
+            ]
+    }
+  }
+}

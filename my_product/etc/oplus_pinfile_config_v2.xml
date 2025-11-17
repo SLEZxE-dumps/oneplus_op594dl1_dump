@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pin_file_config_v2>
+
+    <group mem="3">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="4">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="6">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="8">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="12">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="16">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="18">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group mem="24">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+    <group>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+    </group>
+
+</pin_file_config_v2>

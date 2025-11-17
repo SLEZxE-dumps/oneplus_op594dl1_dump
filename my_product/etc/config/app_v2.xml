@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.google.android.euicc" priority="7"/>
+  <disable pkg="com.heytap.market" priority="7"/>
+  <enable pkg="com.oplus.aimemory" priority="7"/>
+  <enable pkg="com.oplus.appbooster" priority="7"/>
+  <enable pkg="com.oplus.omoji" priority="7"/>
+</app>

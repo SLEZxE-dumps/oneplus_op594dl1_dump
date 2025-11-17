@@ -1,0 +1,55 @@
+[
+  {
+    "rank": "4",
+    "type": "0",
+    "aiUnitCoreWallpaper": "",
+    "aiUnitOriginWallpaper": "",
+    "aiUnitCoreWallpaperContours": "",
+    "homeWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_1.webp",
+    "lockWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_1.webp",
+    "thumbnail": "inspiration_theme_templates/color_os/color_os_preview_1.webp",
+    "thumbnailEng": "inspiration_theme_templates/color_os/color_os_preview_eng_1.webp",
+    "thumbnailHk": "inspiration_theme_templates/color_os/color_os_preview_traditional_1.webp",
+    "aiUnitCoreWallpaperWithSupplement": ""
+  },
+  {
+    "rank": "3",
+    "type": "1",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/healing/healing_wallpaper_ai_3.webp",
+    "aiUnitOriginWallpaper": "healing/healing_wallpaper_ai_3.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/healing/healing_wallpaper_ai_3_contours.txt",
+    "homeWallpaper": "inspiration_theme_templates/healing/healing_wallpaper_3.webp",
+    "lockWallpaper": "inspiration_theme_templates/healing/healing_wallpaper_3.webp",
+    "wallpaperWithSupplement": "inspiration_theme_templates/healing/healing_wallpaper_3.webp",
+    "thumbnail": "inspiration_theme_templates/healing/healing_preview_3.webp",
+    "thumbnailEng": "inspiration_theme_templates/healing/healing_preview_eng_3.webp",
+    "thumbnailHk": "inspiration_theme_templates/healing/healing_preview_traditional_3.webp",
+    "aiUnitCoreWallpaperWithSupplement": "low_devices_default_themes/3/healing_wallpaper_ai_3.webp",
+    "photoBackMask": "low_devices_default_themes/1/photo_back_mask",
+    "photoFrontMask": "low_devices_default_themes/1/photo_front_mask"
+  },
+  {
+    "rank": "1",
+    "type": "0",
+    "aiUnitCoreWallpaper": "",
+    "aiUnitOriginWallpaper": "",
+    "aiUnitCoreWallpaperContours": "",
+    "homeWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_1.webp",
+    "lockWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_1.webp",
+    "thumbnail": "inspiration_theme_templates/mountain/mountain_preview_1.webp",
+    "thumbnailEng": "inspiration_theme_templates/mountain/mountain_preview_eng_1.webp",
+    "thumbnailHk": "inspiration_theme_templates/mountain/mountain_preview_traditional_1.webp"
+  },
+  {
+    "rank": "0",
+    "type": "2",
+    "aiUnitCoreWallpaper": "",
+    "aiUnitOriginWallpaper": "",
+    "aiUnitCoreWallpaperContours": "",
+    "homeWallpaper": "inspiration_theme_templates/aerial_view/aerial_view_wallpaper_3.webp",
+    "lockWallpaper": "inspiration_theme_templates/aerial_view/aerial_view_wallpaper_3.webp",
+    "thumbnail": "inspiration_theme_templates/aerial_view/aerial_view_preview_3.webp",
+    "thumbnailEng": "inspiration_theme_templates/aerial_view/aerial_view_preview_eng_3.webp",
+    "thumbnailHk": "inspiration_theme_templates/aerial_view/aerial_view_preview_traditional_3.webp"
+  }
+]

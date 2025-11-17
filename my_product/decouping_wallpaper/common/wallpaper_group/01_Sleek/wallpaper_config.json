@@ -1,0 +1,23 @@
+{
+  "group": "Sleek",
+  "title": "混合材质",
+  "version": 1,
+  "wallpapers": [
+    {
+      "thumbPath": "./Sleek01.webp",
+      "originPath": "./Sleek01.webp"
+    },
+    {
+      "thumbPath": "./Sleek02.webp",
+      "originPath": "./Sleek02.webp"
+    },
+    {
+      "thumbPath": "./Sleek03.webp",
+      "originPath": "./Sleek03.webp"
+    },
+    {
+      "thumbPath": "./Sleek04.webp",
+      "originPath": "./Sleek04.webp"
+    }
+  ]
+}

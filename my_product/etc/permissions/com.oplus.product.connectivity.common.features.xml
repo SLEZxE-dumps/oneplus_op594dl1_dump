@@ -1,0 +1,40 @@
+<oplus-config>
+<!-- WangJian@CONNECTIVITY.WIFI.ARCHITECHURE, 2020/06/16   -->
+    <oplus-feature name="oplus.software.wlan.assistant" />
+
+    <oplus-feature name="oplus.software.wlan.auto_reconnect" />
+<!-- alan.sun@CONNECTIVITY.WIFI.NETWORK, 2021/8/5, Add for wifi low latency  -->
+    <oplus-feature name="oplus.software.wlan.low_latency" />
+<!-- Xiazijian@CONNECTIVITY.WIFI.BASIC.SWITCH, 2021/11/15, Add for hidden camera detection-->
+    <oplus-feature name="oplus.software.wlan.sniffer_capture_with_udp" />
+
+    <oplus-feature name="oplus.software.wlan.connection_selfcure" />
+<!-- ZhengDeng@CONNECTIVITY.WIFI.BASIC.P2P.3615099, 2022/09/15, add for AP-GC CONNECT -->
+    <oplus-feature name="oplus.software.wlan.ap_gc_connect" />
+
+<!-- ZhaoXiang@CONNECTIVITY.WIFI.CONNECT.SMARTWIFI.3055896, 2022/2/25, Add for network switch between wifi and cell -->
+    <oplus-feature name="oplus.software.wlan.seamless_switch" />
+
+<!-- XuFenghua@CONNECTIVITY.WIFI.P2P.SMARTMCC.2371952, 2022/8/16, OPLUS_FEATURE_WIFI_CAPCENTER_SMARTMCC -->
+    <oplus-feature name="oplus.software.wlan_smart_mcc_enable" />
+
+<!-- Xiazijian@CONNECTIVITY.WIFI.BASIC.3764271, 2022/08/25, OPLUS_FEATURE_DLNA_DETECT-->
+    <oplus-feature name="oplus.software.wlan.dlna_detect_enable" />
+
+<!--  BT begin -->
+<!-- GaoShangxiu@CONNECTIVITY.BT.ARCHITECHURE, 2020/07/14   -->
+    <oplus-feature name="oplus.software.bt.ble_scan_strategymode" />
+<!-- GaoShangxiu@CONNECTIVITY.BT.Audio.Feature.1621909, 2021/10/02,add for support Binuural Record -->
+    <oplus-feature name="oplus.software.bt.binaural_record" />
+<!-- ZhangZhiLin@CONNECTIVITY.BT.Basic.Feature, 2021/06/30,add for bt sar feature  -->
+    <oplus-feature name="oplus.software.bt.sar_support" />
+<!--  BT end -->
+<!--  NFC begin -->
+<!-- huangruhong@CONNECTIVITY.NFC.ARCHITECHURE, 2020/08/18,add for felica(NFC Card Emulation) toggle feature  -->
+    <oplus-feature name="oplus.software.nfc.felica_support" />
+<!--  NFC end -->
+<!-- hanshirong@CONNECTIVITY.WIFI.ARCHITECHURE, 2020/10/23   -->
+    <oplus-feature name="oplus.software.wlan.dual_sta" />
+    <oplus-feature name="oplus.software.wlan.dbs" />
+    <oplus-feature name="oplus.software.wlan.wifi6" />
+</oplus-config>

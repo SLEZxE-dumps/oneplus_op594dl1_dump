@@ -1,0 +1,7 @@
+com.oplus.camera:OplusCamera.apk::false
+com.aiunit.aon:AONService.apk::false
+com.oplus.sos:SOSHelper.apk::false
+com.coloros.systemclone:SystemClone.apk::false
+com.oneplus.colorx:Colorx.apk::false
+com.oplus.audio.effectcenter:AudioEffectCenter.apk::false
+com.oplus.remotecontrol:RemoteControl.apk::false

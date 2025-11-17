@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<feature name="android.hardware.biometrics.face"/>
+	<feature name="android.hardware.fingerprint"/>
+	<feature name="com.google.android.feature.AER_OPTIMIZED"/>
+	<feature name="oplus.software.vibration_threestage_key"/>
+</permissions>
+<!-- Timestamp 2024-10-10T15:51:48 #235454 -->

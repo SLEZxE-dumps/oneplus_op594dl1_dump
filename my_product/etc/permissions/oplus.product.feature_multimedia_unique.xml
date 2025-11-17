@@ -1,0 +1,25 @@
+<oplus-config>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2020/11/10, Add for osie and sr feature start -->
+    <oplus-feature name="oplus.software.video.sr_support"/>
+    <oplus-feature name="oplus.software.video.osie_support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2020/11/10, Add for osie and sr feature end -->
+    <!-- Tansen@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2022/06/21, add for haptic -->
+    <oplus-feature name="oplus.software.audio.haptic_channel_support"/>
+    <oplus-feature name="oplus.software.haptic_vibrator_v1.support"/>
+    <!-- end -->
+    <!-- Tansen@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2022/06/21, add for alert slider -->
+    <oplus-feature name="oplus.software.audio.alert_slider" />
+    <!-- end -->
+    <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/26, Add for lvacfs surround record -->
+    <oplus-feature name="oplus.software.video.surround_record_support"/>
+    <!-- zhanghua2@MULTIMEDIA, 2021/12/15, Add for OHA -->
+    <oplus-feature name="oplus.software.display.oha_support"/>
+    <!-- Liurongbo@MULTIMEDIA, 2022/8/18, Add for Resolution -->
+    <oplus-feature name="oplus.software.display.resolution_switch_support" />
+    <oplus-feature name="oplus.software.display.game_color_plus_v2_support" />
+    <!-- end -->
+    <!-- zhanglixia, 2023/05/30, Add for bluetooth volume sync -->
+    <oplus-feature name="oplus.software.bluetooth_volume_sync"/>
+    <!-- WangDong4@MULTIMEDIA.AUDIOSERVER.BASE, 2024/02/26, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+</oplus-config>

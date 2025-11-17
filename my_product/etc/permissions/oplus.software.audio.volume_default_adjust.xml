@@ -1,0 +1,4 @@
+<oplus-config>
+    <!-- LEI.SU@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2024/08/29. Add for volume default adjust -->
+    <oplus-feature name="oplus.software.audio.volume_default_adjust"/>
+</oplus-config>

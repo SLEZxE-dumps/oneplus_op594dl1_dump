@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attNetworkConfig>
+    <version>2022042710</version>
+    <ATT_HOTSPOT_TETHERING_SERVER_URL>http://entitlement.mobile.att.net/mhs1</ATT_HOTSPOT_TETHERING_SERVER_URL>
+    <ATT_OTHER_TETHERING_SERVER_URL>http://entitlement.mobile.att.net/teth</ATT_OTHER_TETHERING_SERVER_URL>
+</attNetworkConfig>

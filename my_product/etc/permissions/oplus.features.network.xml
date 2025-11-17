@@ -1,0 +1,50 @@
+<oplus-config>
+    <!-- RF feature begin -->
+    <!-- Mael.Ma@NETWORK.RF, 2021/07/16, enable PA ageing for NR5G-->
+    <oplus-feature name="oplus.software.radio.support_5g"/>
+    <!-- Dingjiayu@NETWORK.RF,2023/04/28,add this feature for SAR event MainCamera mipierror detecting-->
+    <oplus-feature name="oplus.software.radio.camera.inf.detect"/>
+    <!-- RF feature end -->
+    <!-- David.dong@NETWORK.RF,2021/11/25,add for supporting new pa aging-->
+    <oplus-feature name="oplus.software.radio.new_pa_aging_support"/>
+    <!-- Wanghui@NETWORK.REG.8745, 2020/07/13, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.air_interface_detect_support" />
+
+    <!-- Xiaolong.Su@NETWORK.REG.313285, 2020/09/30, add for dual 5g Enable-->
+    <oplus-feature name="oplus.software.radio.support_dual_nr"/>
+
+    <!-- Aniyo.Zhang@NETWORK.DATA.2036468, 2021/08/26, add for isExpCfg-->
+    <oplus-feature name="oplus.software.radio.smart5g_exp_cfg"/>
+    <!-- DengShaSha@NETWORK.DATA.5876373, 2023/07/06 for data eval 3.0 -->
+    <oplus-feature name="oplus.software.radio.data_eval3" />
+
+    <!-- ranganatha.r@NETWORK.CALL.2292473, 2021/10/22, add for WFC Disable 5G SA feature-->
+    <!-- wfc_disable_nrsa_config is used to enable/disable 5G SA mode during WFC call specific to carrier -->
+    <oplus-feature name="oplus.software.radio.wfc_disable_nrsa"/>
+    <!-- WangHui@NETWORK.REG.2415820, 2021/11/02, add for use sts interface for engnetwork -->
+    <oplus-feature name="oplus.software.radio.engnw_sts_interface_support" />
+    <!-- WangHui@NETWORK.REG.2678062,2021/12/14,add for ultimate five G -->
+    <oplus-feature name="oplus.software.radio.ultimate_five_g_support" />
+    <!-- HuangZihan@NETWORK.REG, 2022/01/29, add for enable google contactsProvider only for qcom export-->
+    <oplus-feature name="oplus.software.radio.sim_contacts_support"/>
+    <!-- Aniyo.Zhang@NETWORK.DATA.3677539, 2022/05/24, add for vonr-->
+    <oplus-feature name="oplus.software.radio.vonr_switch_enabled"/>
+    <!-- Seven.xing@NETWORK.REG.3926342, 2022/7/7/, add for support check sim2 detect status -->
+    <oplus-feature name="oplus.software.radio.sim_detect_check_support" />
+    <!-- Seven.xing@NETWORK.REG.3926342, 2022/7/7/, add for dual 5g Enable-->
+    <oplus-feature name="oplus.software.radio.nr_always_sa_pre" />
+    <!-- ChenZehong@NETWORK.CALL.3926342, 2022/07/08, add for disable game space mt optimization only for export-->
+    <oplus-feature name="oplus.software.radio.mt_optimization"/>
+    <!-- HuangZihan@NETWORK.REG, add for fussi engineermode show esim test -->
+    <oplus-feature name="oplus.software.radio.esim_support" />
+    <!-- Wanghui@NETWORK.REG.2253441, 2021/09/24, add for sim2 det no support -->
+    <oplus-feature name="oplus.software.radio.sim2_detect_not_support" />
+
+    <!-- YaoHao@NETOWRK.REG,4777167 2022/11/17, Add for reg monitor event 4.0 -->
+    <oplus-feature name="oplus.software.radio.nhs_reg_tracker_4.0_enabled" />
+
+    <!-- ZhuYan@NETWORK.ARCH, 2021/03/11, add for use vendor ap/modem log pb for logkit-->
+    <oplus-feature name="oplus.software.radio.apmdm_log_pb"/>
+    <!-- ZengJunyong@NETWORK.DATA, 2022/08/18 for ocloud -->
+    <oplus-feature name="oplus.software.logkit.ocloud.support"/>
+</oplus-config>

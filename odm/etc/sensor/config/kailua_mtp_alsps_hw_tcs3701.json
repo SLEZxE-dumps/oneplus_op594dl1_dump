@@ -1,0 +1,145 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "QRD"],
+    "soc_id": [ "519"]
+  },
+  "alsps_hw_tcs3701":{
+    "owner": "sns_alsps",
+    ".key_config":{
+      "owner": "sns_alsps",
+      "is_als_dri":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "is_ps_dri":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "als_lb_algo":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "ps_hw_cali":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "ps_ir_algo":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "ps_dual_power":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "ps_far_gesture":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "als_row_coe":{ "type": "int", "ver": "0",
+        "data": "110"
+      },
+      "als_ud_buf_len":{ "type": "int", "ver": "0",
+        "data": "8"
+      },
+      "als_timer_ms":{ "type": "int", "ver": "0",
+        "data": "25"
+      },
+      "ps_timer_ms":{ "type": "int", "ver": "0",
+        "data": "100"
+      }
+    },
+    ".hw_cfg":{
+      "owner": "sns_alsps",
+      "debug_mode":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "always_lb":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "use_asp1":{ "type": "int", "ver": "0",
+        "data": "0"
+      }
+    },
+    ".reg":{
+      "owner": "sns_alsps",
+      "reg0":{ "type": "int", "ver": "0",
+        "data": "0xBB00"
+      }
+    },
+    ".dynamic_cali":{
+      "owner": "sns_alsps",
+      ".dt":{
+        "owner": "sns_alsps",
+        "anti_shake_delta":{ "type": "int", "ver": "0",
+          "data": "70"
+        },
+        "low_limit":{ "type": "int", "ver": "0",
+          "data": "400"
+        },
+        "high_limit":{ "type": "int", "ver": "0",
+          "data": "600"
+        },
+        "dirty_low_step":{ "type": "int", "ver": "0",
+          "data": "100"
+        },
+        "dirty_high_step":{ "type": "int", "ver": "0",
+          "data": "150"
+        },
+        "ps_dirty_limit":{ "type": "int", "ver": "0",
+          "data": "1020"
+        },
+        "ps_ir_limit":{ "type": "int", "ver": "0",
+          "data": "500"
+        },
+        "ps_adjust_max":{ "type": "int", "ver": "0",
+          "data": "600"
+        },
+        "step_max":{ "type": "int", "ver": "0",
+          "data": "400"
+        },
+        "step_min":{ "type": "int", "ver": "0",
+          "data": "70"
+        },
+        "step_div":{ "type": "int", "ver": "0",
+          "data": "1500"
+        }
+      },
+      ".dc":{
+        "owner": "sns_alsps",
+        "dynamic_cali_max":{ "type": "int", "ver": "0",
+          "data": "1024"
+        },
+        "raw2offset_radio":{ "type": "int", "ver": "0",
+          "data": "20800"
+        },
+        "offset_max":{ "type": "int", "ver": "0",
+          "data": "96"
+        },
+        "offset_range_min":{ "type": "int", "ver": "0",
+          "data": "-255"
+        },
+        "offset_range_max":{ "type": "int", "ver": "0",
+          "data": "255"
+        },
+        "cali_jitter_limit":{ "type": "int", "ver": "0",
+          "data": "20"
+        },
+        "cal_offset_margin":{ "type": "int", "ver": "0",
+          "data": "80"
+        }
+      }
+    },
+    ".algo":{
+      "owner": "sns_alsps",
+      "gold_ch":{ "type": "str", "ver": "0",
+        "data": "3215, 1648, 1397, 5790, 23220, 2021, 1926, 2210, 5767, 17459"
+      },
+      "ir_diver":{ "type": "str", "ver": "0",
+        "data": "0.09, 0.13, 0.47, 0.55"
+      },
+      "cct_coef_warm":{ "type": "str", "ver": "0",
+        "data": "3169, -6038, 24612, -44472, 78242, 68297, -119019, -1389, 13902, 364, -12196"
+      },
+      "cct_coef_cold":{ "type": "str", "ver": "0",
+        "data": "-32465, 19163, -48006, 42940, -124029, -128552, 256962, 11941, -64832, -8505, 68646"
+      },
+      "lux_coef":{ "type": "str", "ver": "0",
+        "data": "-0.02305, 0.11976, -0.20243, 0.07715, 0.25081, 0.28294, 0.19395, -0.05899, -0.12056, -0.05358, -0.06344, 0.16413"
+      }
+    }
+  }
+}

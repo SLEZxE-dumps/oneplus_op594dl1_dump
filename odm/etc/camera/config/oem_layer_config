@@ -1,0 +1,19 @@
+[
+
+{
+  "VendorTag": "featureList",
+  "Type":    "String",
+  "Count":   "6",
+  "Value":   "   0x8001,      0x00FD,      222,
+                 0x8001,      0x0002,      111",
+  "Comment": "operationMode, cameraID,  featureID"
+},
+
+{
+  "VendorTag": "enableSHDR",
+  "Type":    "Int32",
+  "Count":   "1",
+  "Value":   "0"
+}
+
+]

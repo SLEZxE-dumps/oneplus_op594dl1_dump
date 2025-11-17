@@ -1,0 +1,13 @@
+service virtualcameraprovider /odm/bin/hw/virtualcameraprovider
+    interface android.hardware.camera.provider@2.7::ICameraProvider virtual/0
+    interface android.hardware.camera.provider@2.6::ICameraProvider virtual/0
+    interface android.hardware.camera.provider@2.5::ICameraProvider virtual/0
+    interface android.hardware.camera.provider@2.4::ICameraProvider virtual/0
+    interface vendor.oplus.hardware.virtual_device.camera.manager@1.0::IVirtualCameraManager default
+    oneshot
+    disabled
+    class hal
+    user cameraserver
+    group camera system graphics
+    ioprio rt 4
+    capabilities SYS_NICE

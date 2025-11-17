@@ -1,0 +1,110 @@
+{
+	department = Android;
+	group = USB;
+	surface_reason = ["null:usb.UsbDeviceManager"];
+}
+{
+	department = Android;
+	group = Stability;
+	surface_reason = ["BinderResourceFull","system_server"];
+}
+{
+	department = Network;
+	group = Wlan;
+	surface_reason = ["handle_chan_stats_work","rsnSaQueryRequest","ConnectivityModuleConnector","wifi.ClientModeImpl","pcie0_main","wlan"];
+}
+{
+	department = Network;
+	group = Modem;
+	surface_reason = ["NetworkStack","NetworkStats","ipa_assert","system_bin_netd","modem boot failure","qxm_mdsp"];
+}
+{
+	department = BSP;
+	group = RTC;
+	surface_reason = ["mtk_rtc_work_queue"];
+}
+{
+	department = BSP;
+	group = UFS;
+	surface_reason = ["pa-da error","UFS_FAULT"];
+}
+{
+	department = BSP;
+	group = Storage;
+	surface_reason = ["IO_hung"];
+}
+{
+	department = BSP;
+	group = Charger;
+	surface_reason = ["OCP_REBOOT"];
+}
+{
+	department = DFX;
+	group = Stability;
+	surface_reason = ["aop crashed", "cpu_core_hang","OCP_Reboot","HANG_DETECT","use-after-free","Hw-reboot","HWT","HW-Reboot","HW reboot","verity_handle_err"];
+}
+{
+	department = DFX;
+	group = Stability;
+	surface_reason = ["sspm_ini_timeout","PMIC_Abnormal","dm-verity","Tz_err_fatal","arm_smmu_context_fault","dm-verity","Handle a watchdog bite","Fatal Error type_ 1","shutdown_detect_func"];
+}
+{
+	department = DFX;
+	group = Stability;
+	surface_reason = ["intr_no_response","HW-reboot"];
+}
+{
+	department = Multimedia;
+	group = Surfaceflinger;
+	surface_reason = ["__system_bin_surfaceflinger","surfaceflinger","nwatchcall"];
+}
+{
+	department = Multimedia;
+	group = Audio;
+	surface_reason = ["AudioSystem","AudioServer","MediaServer"];
+}
+{
+	department = Display;
+	group = Driver;
+	surface_reason = ["graphics.composer","display"];
+}
+{
+	department = Sound;
+	group = Driver;
+	surface_reason = ["snd_dma_free_pages"];
+}
+{
+	department = Android;
+	group = PowerManager;
+	surface_reason = ["PowerManagerService_blocked"];
+}
+{
+	department = Android;
+	group = Alarmmanager;
+	surface_reason = ["AlarmManagerService"];
+}
+{
+	department = BSP;
+	group = Drivers;
+	surface_reason = ["acc_ctrlrequest"];
+}
+{
+	department = Multimedia;
+	group = GPU;
+	surface_reason = ["adreno_dispatcher_work"];
+}
+{
+	department = Android;
+	group = Display;
+	surface_reason = ["view.WindowManagerGlobal","surfaceControl","esd_check_failed"];
+}
+{
+	department = Android;
+	group = Androidfg;
+	surface_reason = ["android.fg_blocked"];
+}
+{
+	department = Android;
+	group = Binder;
+	surface_reason = ["Parcel.createExceptionOrNull"];
+}

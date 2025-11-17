@@ -1,0 +1,6 @@
+service media.oplusswcodec /odm/bin/oplusmediaswcodec
+    class main
+    user mediacodec
+    group camera drmrpc mediadrm audio
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks

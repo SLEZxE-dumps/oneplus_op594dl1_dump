@@ -1,0 +1,28 @@
+#Add for adsp can use diag qdss on user build, refer to create_stp_policy
+on boot
+   mkdir /config/stp-policy/coresight-stm:p_ost.policy
+   chmod 660 /config/stp-policy/coresight-stm:p_ost.policy
+   mkdir /config/stp-policy/coresight-stm:p_ost.policy/default
+   chmod 660 /config/stp-policy/coresight-stm:p_ost.policy/default
+   write /sys/bus/coresight/devices/coresight-stm/traceid 0x10
+
+on property:ro.oplus.image.my_engineering.type=cta
+   setprop ro.odm.audio.subtype CTA
+
+on property:ro.oplus.image.my_engineering.type=allnetcmccfield
+   setprop ro.odm.audio.subtype MOS
+
+on property:ro.oplus.image.my_engineering.type=allnetcufield
+   setprop ro.odm.audio.subtype MOS
+
+on property:ro.oplus.image.my_engineering.type=allnetctfield
+   setprop ro.odm.audio.subtype MOS
+
+on property:ro.vendor.oplus.operator=VODAFONE_EEA
+   setprop ro.odm.audio.subtype VDF
+
+on property:ro.vendor.oplus.operator=VODAFONE_NONEEA
+   setprop ro.odm.audio.subtype VDF
+
+on property:ro.vendor.oplus.operator=ORANGE
+   setprop ro.odm.audio.subtype ORANGE

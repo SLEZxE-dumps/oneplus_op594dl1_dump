@@ -1,0 +1,5 @@
+on property:debug.oplus.video.log.switch=On
+    write /sys/module/msm_video/parameters/msm_vidc_debug 0x103F133F
+
+on property:debug.oplus.video.log.switch=Off
+    write /sys/module/msm_video/parameters/msm_vidc_debug 0x10181001

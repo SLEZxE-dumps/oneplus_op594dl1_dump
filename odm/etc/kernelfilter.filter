@@ -1,0 +1,2742 @@
+#######gyx creat for kernel log filter ######
+# name and content can no include # { } "
+# [\\\\/:*?\"<>|] can not be use as name all of these characters will be replace as _
+# if reason not set will be set as "Uk" means unkown default
+# if content is other means anything can match
+# sub content must can be found [parent_found_line-10 parent_found_line-10 ]
+# if content is null,means just a parent folder
+#name content reason
+
+#"a"
+{
+	"kernel/KE/dm-verity"
+	{
+		conditions = ["Kernel panic - not syncing: dm-verity device corrupted"];
+		fline = [1,100];
+		cline = [0,100];
+		group = "BSP";
+		reason = "dm-verity";
+	}
+	# mtk known
+	"Kernel (KE)"
+	{
+		conditions = ["Exception Class: Kernel (KE)"];
+		#add here
+		"k64"{
+			conditions = ["k64] fork"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"om.zhiqupk.root"{
+			conditions = ["om.zhiqupk.root"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"yumie64"{
+			conditions = ["yumie64] fork"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"king user"{
+			conditions = ["king user] fork"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"krpr"{
+			conditions = ["krpr] fork"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"krs_100193"{
+			conditions = ["krs_100193] fork"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"o360.mobilesafe"{
+			conditions = ["o360.mobilesafe] fork"];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "has_root";
+		}
+		"tewilovesyouyet"{
+			conditions = ["tewilovesyouyet"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "virus";
+		}
+		"RT throttling0103"{
+			conditions = ["aee_wdt_atf_info","sched: RT throttling activated cpu=","kick=0x00000001,check=0x00000003"];
+			cline = [-10000,10000];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "RT throttling";
+		}
+		"RT throttling1030"{
+			conditions = ["aee_wdt_atf_info","sched: RT throttling activated cpu=","kick=0x00000010,check=0x00000030"];
+			cline = [-10000,10000];
+			fline = [-10000,10000];
+			group = "Android";
+			reason = "RT throttling";
+		}
+		"subsys_if_on"
+		{
+			conditions = ["PC is at [","subsys_if_on+0x","pm_suspend+0x"];
+			cline = [-10000,10000];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "subsys clk on";
+		}
+		"wifi them"
+		{
+			conditions = ["PC is at wmt_cl_set_cur_state+","thermal_cdev_update"];
+			fline = [-10000,10000];
+			cline = [-10000,10000];
+			group = "BSP";
+			reason = "hw"; #6625 bad
+		}
+		"UserCrash"
+		{
+			conditions = ["PC is at","sysrq_handle_crash"];
+			fline = [0,10];
+			cline = [0,0];
+			group = "Android";
+			reason = "user";
+		}
+		"strnlen"
+		{
+			conditions = ["PC is at strnlen+"];
+			fline = [-10,100];
+			group = "BSP";
+			reason = "fixed";
+		}
+
+		"socket case"
+		{
+			conditions = ["inet_put_port+","tcp_close+","inet_release+"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "fixed";
+		}
+		"ged_dvfs"
+		{
+			conditions = ["__lock_task_sighand+","do_send_sig_info+","ged_dvfs_probe_signal+"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "fixed";
+		}
+		"Mem frag"
+		{
+			conditions = ["swiotlb_full+"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "Mem frag";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["Bad mode in Synchronous Abort handler detected, code "];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "hw";
+		}
+		"kmem_cache_alloc"
+		{
+			conditions = ["PC is at","kmem_cache_alloc"];
+			fline = [-10,20];
+			cline = [0,0];
+			group = "BSP";
+			reason = "hw";
+		}
+
+		"%s,($0$)"
+		{
+			#http://gerrit.scm.adc.com:8080/#/c/155412/
+			conditions = ["arch_reset: cmd = ","mutex_lock","pmic_config_interface"];
+			fline = [-10000,10000];
+			cline = [-10,10];
+			group = "BSP";
+			reason = "fixed";
+		}
+
+		"pmic6311 voltage abnormal"
+		{
+			#http://gerrit.scm.adc.com:8080/#/c/143337/
+			conditions = ["cur_vproc = 60000"];
+			fline = [-10000,10000];
+			group = "BSP";
+			#http://gerrit.scm.adc.com:8080/#/c/143337/
+			reason = "fixed";
+		}
+		"gpu error"
+		{
+			conditions = ["mali-renderer]BUG: failure at"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "gpu error";
+		}
+		"modem error"
+		{
+			conditions = ["disable_subsys+","md_cd_power_off+"];
+			fline = [-10000,10000];
+			cline = [-100,100];
+			group = "NetWork";
+			reason = "modem error";
+
+		}
+		"dvfs timeout"
+		{
+			conditions = ["[CPUHVFS] CLUSTER0 DVFS TIMEOUT"];
+			cline = [-500,500];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "dvfs timeout";
+		}
+		"OTG switch"
+		{
+			conditions = ["xhci_unregister_plat+"];
+			cline = [-500,500];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "fix OTG swtich";
+		}
+		"sdcard error"
+		{
+			conditions = ["msdc1 -> check card state<7> <- msdc_check_write_timeout()"];
+			cline = [-500,500];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "sdcard error";
+
+		}
+		"FAT-fs error"{
+			conditions = ["FAT-fs (mmcblk1p1): error, invalid access to FAT (entry"];
+			cline = [-10,10];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "sdcard error";
+		}
+		"Wifi DPM timeout"{
+			conditions = ["mtk_btif 1100c000.btif: **** DPM device timeout"];
+			cline = [-10,10];
+			fline = [-10000,10000];
+			group = "Connectivity";
+			reason = "Wifi DPM timeout";
+		}
+		"Sdcard DPM timeout"{
+			conditions = ["mtk-msdc 11240000.msdc1: **** DPM device timeout"];
+			cline = [-10,10];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "Sdcard DPM timeout";
+		}
+		#add here
+		"cpu0 wdt"
+		{
+			conditions = ["kick=0x00000000,check=0x00000001"];
+			fline = [0,10000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "cpu0 tick";
+		}
+		"cpu4 wdt"
+		{
+			conditions = ["kick=0x00000000,check=0x00000010"];
+			fline = [0,10000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "cpu4 tick";
+		}
+		"cpu%s wdt,($1$$0$)"
+		{
+			conditions = ["kick=","check="];
+			fline = [0,10000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "cpu tick";
+		}
+		"Hang_Detect"
+		{
+			conditions = ["[Hang_Detect] we should triger	HWT	"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "Hang_Detect";
+		}
+		"mmc error"
+		{
+			conditions = ["msdc_command_resp_polling","msdc0 -> XXX CMD<","msdc_dump_trans_error","[msdc]0000 ["];
+			cline = [-10000,10000];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "mmc error";
+		}
+		#wen.luo@BSP.Kernel.stability, 2019/06/24, add begin
+		"ipanic"
+		{
+			conditions = ["PC is at [<","ipanic"];
+			fline = [-10000,10000];
+			cline = [0,0];
+			"Init Proc Error"
+			{
+				conditions = ["kill init"];
+				fline = [-20,10000];
+				reason = "user";
+			}
+			"IO_hung"
+			{
+				conditions = ["IO blocked too long time"];
+				fline = [-10000,20000];
+				group = "BSP";
+				reason = "hw";
+			}
+			"by_"
+			{
+				conditions = ["Backtrace:"];
+				fline = [1,10];
+				"%s,($0$)"
+				{
+					conditions = [">] "];
+					fline = [1,5];
+					group = "BSP";
+					reason = "UK";
+				}
+			}
+		}
+		"PC is at_%s,($1$)"
+		{
+			conditions = ["PC is at [<",">] "];
+			fline = [-10000,10000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		#add end
+		"__arch_copy_from_user"
+		{
+			conditions = ["__arch_copy_from_user+"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "ring_buffer";
+		}
+		"vdec_get_fb"
+		{
+			conditions = ["vdec_get_fb+"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "vdec";
+		}
+		"ext4_writepage"
+		{
+			conditions = ["ext4_writepage+"];
+			fline = [-10000,10000];
+			group = "BSP";
+			reason = "ext4";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["PC is at"];
+			group = "BSP";
+			reason = "Uk";
+		}
+	}
+	
+	#Bin.Wen@BSP.Kernel.stability, 2021/03/16, add for PMIC Abnormal Status
+	"PMIC_Abnormal"
+	{
+		conditions = ["GCC_RESET_STATUS"];
+		"0x42"
+		{
+			conditions = ["0x42"];
+			fline = [-1,1];
+			group = "BSP";
+			reason = "PMIC";
+		}
+		"0x42"
+		{
+			conditions = ["0x43"];
+			fline = [-1,1];
+			group = "BSP";
+			reason = "PMIC";
+		}
+	}
+	"kernel(HWT)"
+	{
+		conditions = ["Exception Class: HWT"];
+		fline = [1,100];
+		cline = [0,100];
+		"emimpu_violation_irq"
+		{
+			conditions = ["emimpu_violation_irq"];
+			fline = [1,200];
+			cline = [0,200];
+			group = "BSP";
+			reason = "HWT";
+		}
+	}
+	"kernel(HWT)"
+	{
+		conditions = ["Exception Class: HWT"];
+		fline = [1,100];
+		cline = [0,100];
+		"mtk_vcodec_dec_v2"
+		{
+			conditions = ["alloc_iova","system_heap.ko","mtk_vcodec_dec_v2.ko"];
+			fline = [1,200];
+			cline = [0,200];
+			group = "BSP";
+			reason = "HWT";
+		}
+	}
+	#wen.luo@BSP.Kernel.stability, 2019/06/24, add for HWT HW-reboot
+	"Kernel(HWT)"
+	{
+		conditions = ["Exception Class: HWT"];
+		#add here
+		"CLK_HANG_RSC_ResetCallback"
+		{
+			conditions = ["RSC_ResetCallback"];
+			fline = [-100,1000];
+			group = "CAM";
+			reason = "CLK";
+		}
+		"MD_md_cd_power_off"
+		{
+			conditions = ["md_cd_power_off"];
+			fline = [-100,1000];
+			group = "NetWork";
+			reason = "modem";
+		}
+		"L2C_Parity_Error"
+		{
+			conditions = ["L2C Parity Error"];
+			fline = [-100,1000];
+			group = "BSP";
+			reason = "L2C";
+		}
+		"CONN_sys_disable_op"
+		{
+			conditions = ["CONN_sys_disable_op"];
+			fline = [-100,1000];
+			group = "CNN";
+			reason = "CLK";
+		}
+		"mtk_iommu_TF"
+		{
+			conditions = ["mtk_iommu: secure mtk_iommu_secure_bk_tf_dump"];
+			fline = [-100,10000];
+			group = "BSP";
+			reason = "IOMMU";
+		}
+		"CLK_HANG"
+		{
+			conditions = ["vmlinux  spm_mtcmos_ctrl"];
+			fline = [1,100];
+			"%s,($0$)"
+			{
+				conditions = ["vmlinux"];
+				fline = [1,5];
+				group = "BSP";
+				reason = "CLK";
+			}
+			"%s,($0$)"
+			{
+				conditions = ["vmlinux"];
+				fline = [0,3];
+				group = "BSP";
+				reason = "CLK";
+			}
+		}
+		"%s,($1$)"
+		{
+			conditions = ["Interrupt: disable:","vmlinux"];
+			fline = [1,100];
+			cline = [0,100];
+			group = "BSP";
+			reason = "HWT";
+		}
+		"%s,($1$)"
+		{
+			conditions = ["Detail   :"];
+			fline = [1,100];
+			cline = [0,100];
+			group = "BSP";
+			reason = "HWT";
+		}
+	}
+	"kernel(OCP_REBOOT)"
+	{
+		conditions = ["Exception Class: OCP reboot"];
+		fline = [1,100];
+		"PG_SDN_STS0_1"
+		{
+			conditions = ["PG_SDN_STS0_1[0x20B]"];
+			fline = [0,300];
+			"STRUP_VBUCK1_PG_STATUS"
+			{
+				conditions = ["0xFFFE"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VBUCK6_PG_STATUS"
+			{
+				conditions = ["0xFFFD"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VBUCK5_PG_STATUS"
+			{
+				conditions = ["0xFFFB"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VBUCK4_PG_STATUS"
+			{
+				conditions = ["0xFFF7"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VBUCK3_PG_STATUS"
+			{
+				conditions = ["0xFFEF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VBUCK2_PG_STATUS"
+			{
+				conditions = ["0xFFDF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VBUCK7_PG_STATUS"
+			{
+				conditions = ["0xFFBF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VS3_PG_STATUS"
+			{
+				conditions = ["0xFF7F"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VA12_2_PG_STATUS"
+			{
+				conditions = ["0xFEFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VA12_1_PG_STATUS"
+			{
+				conditions = ["0xFDFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VIO075_PG_STATUS"
+			{
+				conditions = ["0xFBFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_DIGRF_PG_STATUS"
+			{
+				conditions = ["0xF7FF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_MODEM_PG_STATUS"
+			{
+				conditions = ["0xEFFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VAUX18_PG_STATUS"
+			{
+				conditions = ["0xDFFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VS1_PG_STATUS"
+			{
+				conditions = ["0xBFFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VS2_PG_STATUS"
+			{
+				conditions = ["0x7FFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+		}
+		"PG_SDN_STS2_3"
+		{
+			conditions = ["PG_SDN_STS2_3[0x20D]"];
+			fline = [0,300];
+			"STRUP_VEMC_PG_STATUS"
+			{
+				conditions = ["0xFFFE"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VM18_PG_STATUS"
+			{
+				conditions = ["0xFFFD"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VIO18_PG_STATUS"
+			{
+				conditions = ["0xFFFB"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VA15_PG_STATUS"
+			{
+				conditions = ["0xFFF7"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VUFS18_PG_STATUS"
+			{
+				conditions = ["0xFFEF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VUFS12_PG_STATUS"
+			{
+				conditions = ["0xFFDF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VRFIO18_PG_STATUS"
+			{
+				conditions = ["0xFFBF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VRF12_PG_STATUS"
+			{
+				conditions = ["0xFF7F"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VRF18_PG_STATUS"
+			{
+				conditions = ["0xFEFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VRF13_PG_STATUS"
+			{
+				conditions = ["0xFDFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VRF09_PG_STATUS"
+			{
+				conditions = ["0xFBFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_APU_PG_STATUS"
+			{
+				conditions = ["0xF7FF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_MDFE_PG_STATUS"
+			{
+				conditions = ["0xEFFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_CPUM_PG_STATUS"
+			{
+				conditions = ["0xDFFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_CPUB_PG_STATUS"
+			{
+				conditions = ["0xBFFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+			"STRUP_VSRAM_CPUL_PG_STATUS"
+			{
+				conditions = ["0x7FFF"];
+				fline = [0,1];
+				group = "BSP";
+				reason = "OCP";
+			}
+		}
+	}
+	"kernel(OCP_REBOOT)"
+	{
+		conditions = ["Exception Class: OCP reboot"];
+		fline = [1,100];
+		cline = [0,100];
+		group = "BSP";
+		reason = "OCP";
+	}
+	"QCOM_OCP_REBOOT"
+	{
+		conditions = ["PM: OCP Occured: PMIC:"];
+		fline = [1,10000];
+		cline = [0,100];
+		group = "BSP";
+		reason = "OCP";
+	}
+	"kernel(HWT)"
+	{
+		conditions = ["Exception Class: HWT"];
+		fline = [1,100];
+		cline = [0,100];
+		group = "BSP";
+		reason = "HWT";
+	}
+	"HW-reboot"
+	{
+		conditions = ["Exception Class: Hardware Reboot"];
+		fline = [-1000,1000];
+		cline = [-100,1000];
+		"%s,($1$)"
+		{
+			conditions = ["HW reboot Analysis>","Type>"];
+			fline = [-100,100];
+			"%s,($0$)"
+			{
+				conditions = ["illegal address"];
+				fline = [-5,5];
+				group = "BSP";
+				reason = "HW-reboot";
+			}
+		}
+		"%s,($0$)"
+		{
+			conditions = ["HW reboot, check"];
+			cline = [-100,100];
+			fline = [-100,100];
+			group = "BSP";
+			reason = "hw?";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["Detail   :"];
+			cline = [-100,100];
+			fline = [-100,100];
+			group = "BSP";
+			reason = "HW-reboot";
+		}
+	}
+	"HW-Reboot"
+	{
+		conditions = ["Exception Class: Hardware Reboot"];
+		fline = [-100,100];
+		group = "BSP";
+		reason = "HW-Reboot";
+	}
+	"HANG_DETECT"
+	{
+		conditions = ["Exception Class: HANG_DETECT"];
+		fline = [-10000,10000];
+		cline = [-10000,10000];
+		"SS_reboot"
+		{
+			conditions = ["hang_detect thread counts down -1:11"];
+			fline = [-10000,50000];
+			group = "Android";
+			reason = "WDT";
+		}
+		"SS_dump"
+		{
+			conditions = ["hang_detect thread counts down -1:12"];
+			fline = [-10000,50000];
+			group = "BSP";
+			reason = "WDT";
+		}
+		"SS_run"
+		{
+			conditions = ["hang_detect thread counts down -1:10"];
+			fline = [-10000,50000];
+			group = "BSP";
+			reason = "WDT";
+		}
+		"SS_swt"
+		{
+			conditions = ["hang_detect thread counts down -1:14"];
+			fline = [-10000,50000];
+			group = "Android";
+			reason = "WDT";
+		}
+		"SS_shutdown"
+		{
+			conditions = ["hang_detect thread counts down -1:3"];
+			fline = [-10000,50000];
+			group = "BSP";
+			reason = "WDT";
+		}
+	}
+	#...
+	# "%s,($0$)"
+	# {
+	# 	conditions = ["Exception Class: "];
+	# 	"%s,($0$)"
+	# 	{
+	# 		conditions = ["Exception Type: "];
+	# 		"%s,($0$)"
+	# 		{
+	# 			conditions = ["PC is at" "Uk"];
+	# 		}
+	# 	}
+	# }
+	#for qcom
+
+	# qcom known
+	"sched_get_nr_running_avg"
+	{
+		conditions = ["sched_get_nr_running_avg","update_running_avg"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "fixed";
+	}
+	"process_one_work"
+	{
+		conditions = ["PC is at process_one_work+","LR is at worker_thread"];
+		cline = [-5,5];
+		group = "BSP";
+		reason = "hypnus";
+	}
+	"cpu_core_hang"
+	{
+		conditions = ["core hangs reported from"];
+		cline = [-10,1000];
+		group = "BSP";
+		reason = "core_hang";
+	}
+	"cpufreq_resume"
+	{
+		conditions = ["PC is at cpufreq_resume+"];
+		cline = [-5,5];
+		group = "BSP";
+		reason = "hypnus";
+	}
+	"pinctrl_error"
+	{
+		conditions = ["-pinctrl ",".pinctrl: not freeing pin ","as part of deactivating group "," - it is already used for some other setting"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "charger";
+	}
+	"wifiIRQSleep"
+	{
+		conditions = ["BUG: scheduling while atomic: ","schedule_timeout_uninterruptible+","msleep+","wcnss_pronto_log_debug_regs+"];
+		cline = [-15,35];
+		group = "BSP";
+		reason = "Wifi";
+	}
+	"vos_mem_copy"
+	{
+		conditions = ["vos_mem_copy","wlan"];
+		cline = [-500,500];
+		group = "connectivity";
+		reason = "Uk";
+	}
+	"EDAC cache error"
+	{
+		conditions = ["EDAC cache"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "EDAC";
+	}
+	"EDAC arm64"
+	{
+		conditions = ["EDAC arm64: "];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "EDAC";
+
+	}
+	"strcmp error in snd"
+	{
+		conditions = ["strcmp+0x8c","snd_soc_dapm_mux_update_power"];
+		cline = [-500,500];
+		group = "multimedia";
+		reason = "Uk";
+	}
+	"ioread32"
+	{
+		conditions = ["ioread32","bam_pipe_set_desc_write_offset"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "to_be_fixed";
+	}
+	"mdss_dsi_cmds_tx"
+	{
+		conditions = ["synchronous external abort","mdss_dsi_cmds_tx"];
+		cline = [-500,500];
+		group = "multimedia";
+		reason = "Uk";
+	}
+	"VOS BUG in hdd_ssr_timer_cb"
+	{
+		conditions = ["VOS BUG in hdd_ssr_timer_cb"];
+		cline = [-500,500];
+		group = "connectivity";
+		reason = "Uk";
+	}
+	"VOS BUG in hdd_wlan_re_init"
+	{
+		conditions = ["VOS BUG in hdd_wlan_re_init","VosWDThread"];
+		cline = [-500,500];
+		group = "multimedia";
+		reason = "fixed";
+	}
+	"kobject_get"
+	{
+		conditions = ["kobject_get","request_firmware"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "to_be_fixed";
+	}
+	"intr_no_response"
+	{
+		conditions = ["watchdog bite!","SMP: failed to stop secondary CPUs"];
+		cline = [-10,1000];
+		group = "BSP";
+		reason = "intr_no_response";
+	}
+	"sdcard_err"
+	{
+		conditions = ["mmc1: Timeout waiting for hardware interrupt."];
+		cline = [-500,500];
+		fline = [-10000,10000];
+		group = "BSP";
+		reason = "sdcard_err";
+	}
+	"SearchDaemon WDT"
+	{
+		conditions = ["watchdog bite!","SearchDaemon]Watchdog"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "3rdParty";
+	}
+	"deadlock_mdss"
+	{
+		conditions = ["watchdog bite!","__mutex_lock_slowpath+","mdss_mdp_clk_ctrl+","mdss_mdp_overlay_kickoff+"];
+		cline = [-500,500];
+		group = "multimedia";
+		reason = "deadlock_mdss";
+
+	}
+	"Uk peripheral"
+	{
+		conditions = ["watchdog bite!","unknown peripheral"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "hw";
+	}
+	"msm_iommu"
+	{
+		conditions = ["watchdog bite!","msm_iommu_secure_fault_handler_v2+"];
+		cline = [-50,50];
+		group = "multimedia";
+		reason = "hw";
+	}
+	"default WDT"
+	{
+		conditions = ["watchdog bite!","default]Watchdog"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "3rdParty";
+	}
+	"SearchDeamon"
+	{
+		conditions = ["watchdog bite!","SearchDeamon"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "3rdParty";
+	}
+	"athena_v5.dat"
+	{
+		conditions = ["watchdog bite!","athena_v5.dat]Watchdog"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "3rdParty";
+	}
+	"NotificationObs"
+	{
+		conditions = ["watchdog bite!","NotificationObs]Watchdog"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "3rdParty";
+	}
+	"libsu.so"
+	{
+		conditions = ["watchdog bite!","libsu.so]Watchdog"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "3rdParty";
+	}
+	"mdsswdt"
+	{
+		conditions = ["watchdog bite!","mdss_dsi_fifo_status: ctrl ndx=0 status="];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "fixed";
+	}
+	"gpudeadlock"
+	{
+		conditions = ["watchdog bite!","kgsl kgsl-3d0: --gpu syncpoint deadlock print end--"];
+		cline = [-500,500];
+		group = "multimedia";
+		reason = "gpudeadlock";
+	}
+	"mmc0error"
+	{
+		conditions = ["watchdog bite!","mmc0: Unexpected interrupt ","mmc_cmdq_error_work+"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "hw";
+	}
+	"rmnet_unrgister_timeout"
+	{
+		conditions = ["watchdog bite!","unregister_netdev+","smp_call_function+"];
+		cline = [-500,500];
+		group = "network";
+		reason = "rmnet";
+	}
+	"snd_soc_dapm_sync"
+	{
+		conditions = ["watchdog bite!","snd_soc_dapm_sync+","msm8x16_wcd_enable_ext_mb_source+"];
+		cline = [-500,500];
+		group = "multimedia";
+		reason = "snd_soc";
+	}
+	"AudioTrack"
+	{
+		conditions = ["watchdog bite!","AudioTrack]Watchdog"];
+		cline = [-10,10];
+		group = "multimedia";
+		reason = "AudioTrack";
+	}
+	"Block Exception"
+	{
+		conditions = ["Kernel reboot from Block Exception","lastReboot = "];
+		cline = [0,2];
+		group = "Android";
+		reason = "Block";
+	}
+	"sdhci"
+	{
+		conditions = ["PC is at sdhci_dumpregs+"];
+		cline = [0,2];
+		group = "Android";
+		reason = "emmc";
+		"%s"
+		{
+			conditions = ["mmc0: "];
+			cline = [0,40];
+			fline = [-500,500];
+			group = "BSP";
+			reason = "emmc";
+		}
+
+	}
+	"hungtask"
+	{
+		conditions = ["]dump all the hung tasks"];
+		group = "BSP";
+		reason = "Block";
+		"wait_rcu_gp"
+		{
+			conditions = ["] wait_rcu_gp+","] synchronize_rcu_expedited+"];
+			cline = [0,40];
+			fline = [0,500];
+			group = "BSP";
+			reason = "Block";
+		}
+		"bit_wait_io"
+		{
+			conditions = [">] bit_wait_io+","] __mutex_lock_slowpath+"];
+			cline = [-50,500];
+			fline = [0,500];
+			group = "BSP";
+			reason = "Block";
+		}
+		"bit_wait_io"
+		{
+			conditions = [">] __synchronize_srcu+",">] fsnotify_destroy_group+","__fput+"];
+			cline = [0,40];
+			fline = [0,500];
+			group = "BSP";
+			reason = "Block";
+		}
+	}
+	"hungtask" #maybe log too more
+	{
+		conditions = ["] wait_rcu_gp+"];
+		group = "BSP";
+		reason = "Block";
+		"wait_rcu_gp"
+		{
+			conditions = ["] wait_rcu_gp+","] synchronize_rcu_expedited+"];
+			cline = [0,40];
+			fline = [0,500];
+			group = "BSP";
+			reason = "Block";
+		}
+	}
+	"hungtask" #maybe log too more
+	{
+		conditions = [">] __synchronize_srcu+"];
+		group = "BSP";
+		reason = "Block";
+		"bit_wait_io"
+		{
+			conditions = [">] __synchronize_srcu+",">] fsnotify_destroy_group+","__fput+"];
+			cline = [0,40];
+			fline = [0,500];
+			group = "BSP";
+			reason = "Block";
+		}
+	}
+	"put_cred_rcu"
+	{
+		conditions = ["Kernel panic - not syncing: CRED: put_cred_rcu() "];
+		group = "BSP";
+		reason = "Root";
+	}
+	"Reversed reboot"
+	{
+		conditions = ["unknown reboot: ","]Triggered from","]Triggered from"];
+		cline = [0,2];
+		group = "BSP";
+		reason = "Uk";
+		"KPD_PS_HOLD"
+		{
+			conditions = ["Triggered from KPD (power key press)","Triggered from PS_HOLD"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"HWRST_PS_HOLD"
+		{
+			conditions = ["Triggered from Hard Reset","Triggered from PS_HOLD"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"KPD_UVLO"
+		{
+			conditions = ["Triggered from KPD (power key press)","Triggered from UVLO (Under Voltage Lock Out)"];
+			cline = [0,1];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"HWRST_PMIC_WD"
+		{
+			conditions = ["Triggered from Hard Reset","Triggered from PMIC_WD (PMIC watchdog)"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"KPD_BOOT"
+		{
+			conditions = ["Triggered from KPD (power key press)","Unknown[0x0000]"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"RTC_PS_HOLD"
+		{
+			conditions = ["Triggered from RTC (RTC alarm expiry)","Triggered from PS_HOLD"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"RTC_UVLO"
+		{
+			conditions = ["Triggered from RTC (RTC alarm expiry)","Triggered from UVLO (Under Voltage Lock Out)"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"KPD_GP1"
+		{
+			conditions = ["Triggered from KPD (power key press)","Triggered from GP1"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"KPD_GP2"
+		{
+			conditions = ["Triggered from KPD (power key press)","Triggered from GP2"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"PON1_PS_HOLD"
+		{
+			conditions = ["Triggered from PON1","Triggered from PS_HOLD"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"RTC_GP1"
+		{
+			conditions = ["Triggered from RTC (RTC alarm expiry)","Triggered from GP1"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"RTC_GP2"
+		{
+			conditions = ["Triggered from RTC (RTC alarm expiry)","Triggered from GP1"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"RTC_BOOT"
+		{
+			conditions = ["Triggered from RTC (RTC alarm expiry)","Unknown[0x0000]"];
+			cline = [0,2];
+			group = "BSP";
+			reason = "Uk";
+		}
+
+
+	}
+
+	"TP_hw_err"
+	{
+		conditions = ["Unable to handle kernel paging","synaptics_i2c_suspend+","i2c-msm-v2 78b6000.i2c: NACK: slave not responding"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "TP_hw_err";
+	}
+	"mmc_resume_err"
+	{
+		conditions = ["Kernel BUG at","dpm_wd_handler+","* DPM device timeout *"];
+		cline = [-500,500];
+		group = "BSP";
+		reason = "sdcard_err";
+	}
+	"%s,($0$)"
+	{
+		conditions = ["Bad mode in Synchronous Abort handler detected, code "];
+		fline = [-10000,10000];
+		group = "BSP";
+		reason = "hw";
+	}
+	"IO_hung"
+	{
+		conditions = ["IO blocked too long time"];
+		fline = [-10000,20000];
+		group = "BSP";
+		reason = "hw";
+	}
+	"TZBSP_KRNL_FATAL_ERR_TYPE"
+	{
+		conditions = ["TZBSP_KRNL_FATAL_ERR_TYPE  Fatal Error type: a"];
+		fline = [0,500];
+		cline = [0,0];
+		"UFS_FAULT"
+		{
+			conditions = ["70023e APPS_TCU 4e 40000402"];
+			fline = [-20,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"ADSP_FAULT"
+		{
+			conditions = ["70023e APPS_TCU 4d 402"];
+			fline = [-20,0];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"SMMU_FAULT"
+		{
+			conditions = ["SMMU_ERR_FATAL_ADDR_SYND_REG"];
+			fline = [-100,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+	}
+	
+	"DDR_Hardware_error"{
+		conditions = ["Unable to handle kernel paging request"];
+		fline = [-100,10000];
+		reason = "hw-mem";
+	}
+
+	"Exception Trap"
+	{
+		conditions = ["Internal error: "];
+		"Initiactive Bug"
+		{
+			conditions = ["Internal error: Oops - BUG:"];
+			fline = [-20,10000];
+			"%s,($0$)"
+			{
+				conditions = ["PC is at"];
+				fline = [-20,10000];
+			}
+			"%s,($0$)"
+			{
+				conditions = ["pc :"];
+				fline = [-20,10000];
+			}
+		}
+		"Initiactive Bug"
+		{
+			conditions = ["Internal error: synchronous external abort"];
+			fline = [-20,10000];
+			"%s,($0$)"
+			{
+				conditions = ["PC is at"];
+				fline = [-20,10000];
+			}
+			"%s,($0$)"
+			{
+				conditions = ["pc :"];
+				fline = [-20,10000];
+			}
+		}
+		"NULL pointer"
+		{
+			conditions = ["Unable to handle kernel NULL pointer dereference"];
+			fline = [-100,10000];
+			"User Triggered Crash" {
+				conditions = ["PC is at sysrq_handle_crash"];
+				fline = [-20,10000];
+			}
+			"%s,($0$)"
+			{
+				conditions = ["PC is at"];
+				fline = [-20,10000];
+				reason = "2?hw-mem:Uk";
+			}
+			"%s,($0$)"
+			{
+				conditions = ["pc :"];
+				fline = [-20,10000];
+				reason = "2?hw-mem:Uk";
+			}
+
+		}
+		"NULL pointer"
+		{
+			conditions = ["Unable to handle kernel access to user memory"];
+			fline = [-100,10000];
+			"%s,($0$)"
+			{
+				conditions = ["pc :"];
+				fline = [-20,10000];
+				reason = "2?hw-mem:Uk";
+			}
+
+		}
+
+		"Unhandled memory abort"{
+			conditions = ["Unhandled fault:"];
+			fline = [-100,10000];
+			"Alignment Fault"
+			{
+				conditions = ["alignment fault"];
+				fline = [-100,10000];
+				"%s,($0$)"
+				{
+					conditions = ["PC is at"];
+					fline = [-100,10000];
+					reason =  "2?hw:Uk";
+				}
+			}
+			"External Abort"
+			{
+				conditions = ["external abort"];
+				fline = [-10000,10000];
+				"%s,($0$)"
+				{
+					conditions = ["PC is at"];
+					fline = [-20,10000];
+					reason = "2?hw-mem:Uk";
+				}
+			}
+
+			"Uk fault"
+			{
+				"%s,($0$)"
+				{
+					conditions = ["PC is at"];
+					fline = [-20,10000];
+					reason = "2?hw-mem:Uk";
+				}
+			}
+
+			"MMU Fault"
+			{
+				"%s,($0$)"
+				{
+					conditions = ["PC is at"];
+					fline = [-20,10000];
+					reason = "2?hw-mem:Uk";
+				}
+			}
+		}
+		"Undefined Insturction"
+		{
+			conditions = ["Internal error: Oops - undefined instruction:", "Internal error: undefined instructioni"];
+			"PC invalid"
+			{
+				conditions = ["PC is at 0x"];
+				"%s,($0$)"
+				{
+					fline = [-20,10000];
+					conditions = ["LR is at"];
+					reason = "2?hw-inst:Uk";
+				}
+			}
+			"PC valid"
+			{
+				reason = "hw-inst";
+				"%s,($0$)"
+				{
+					conditions = ["PC is at"];
+					fline = [-20,10000];
+					reason = "hw-inst";
+				}
+			}
+		}
+		"EXT4"
+		{
+			conditions = ["EXT4-fs error"];
+			"%s,($0$)"
+			{
+				conditions = ["EXT4-fs error"];
+				fline = [-20,10000];
+				reason = "EXT4-fs";
+			}
+		}
+		"Impossible Exception"
+		{
+			conditions = ["Oops - bad mode"];
+			fline = [-100,10000];
+			reason = "hw";
+		}
+		"Debug Exception"{
+			conditions = ["Unhandled debug exception"];
+			fline = [-100,10000];
+			reason = "hw";
+		}
+		"BRK handler:"
+		{
+			conditions = ["Internal error: BRK handler:"];
+			fline = [-20,20];
+			"%s,($0$)"
+			{
+				conditions = ["pc :"];
+				fline = [-20,100];
+			}
+		}
+		"SP or PC alignment exception"{
+			conditions = ["other"];
+			reason = "hw";
+		}
+	}
+	"Watchdog bite"{
+		conditions = ["watchdog bite!"];
+		"otg"
+		{
+			conditions = ["OTG IRQ: 166 in LPM"];
+			cline = [0,100];
+			fline = [-500,500];
+			reason = "otg";
+		}
+		"RenderThread"
+		{
+			conditions = ["RenderThread","futex_wake+"];
+			fline = [-500,500];
+			cline = [0,0];
+			group = "multimedia";
+			reason = "RenderThread";
+		}
+		"wdt %s,($2$)"
+		{
+			conditions = ["Call trace:","'backtrace'","'backtrace'"];
+			cline = [0,100];
+			fline = [-100,300];
+			reason = "wdt";
+
+		}
+	}
+	"Initiative Panic"
+	{
+		conditions = ["Kernel panic - not syncing"];
+		"Subsystem Fatal Error" {
+			"modem"{
+				"Powerup error"{
+					conditions =  ["Powerup error: modem!"];
+					reason = "modem";
+				}
+				"modem crashed"
+				{
+					conditions =  ["Subsystem modem crashed during SSR"];
+					reason = "modem";
+				}
+				"modem crashed"
+				{
+					conditions =  ["remoteproc-mss"];
+					reason = "modem";
+				}
+				"Timed out"{
+					conditions = ["Timed out waiting for error ready: modem!"];
+					reason = "modem";
+				}
+			}
+			"wcnss"{
+				"Powerup error"{
+					conditions = ["Powerup error: wcnss!"];
+					reason = "wcnss";
+				}
+				"Subsystem crashed"
+				{
+					conditions = ["Subsystem wcnss crashed during SSR"];
+					reason = "wcnss";
+				}
+				"Timed out"{
+					conditions = ["Timed out waiting for error ready: wcnss!"];
+					reason = "wcnss";
+				}
+			}
+			"cdsp"{
+				"Subsystem crashed"
+				{
+					conditions = ["remoteproc-cdsp"];
+					reason = "cdsp";
+				}
+			}
+			"slpi"{
+				"Subsystem crashed"
+				{
+					conditions = ["remoteproc-slpi"];
+					reason = "slpi";
+				}
+			}
+			"adsp"{
+				"adsp"{
+					conditions = ["subsys-restart: subsystem_restart_dev(): Restart sequence requested for adsp"];
+					reason = "adsp";
+				}
+				"Subsystem crashed"{
+					conditions = ["Subsystem adsp crashed during SSR"];
+					reason = "adsp";
+				}
+			}
+			"adsp crashed"{
+				conditions = ["adsp crashed"];
+				reason = "adsp";
+			}
+		}
+		"Out of memory"{
+			conditions = ["Out of memory and no killable processes..."];
+			fline = [-100,10000];
+			reason = "Outofmemory";
+		}
+		"Init Proc Error"{
+			conditions = ["kill init"];
+			fline = [-20,10000];
+			reason = "user";
+		}
+		"EXT4-fs"
+		{
+			conditions = ["Kernel panic - not syncing: EXT4-fs (device dm-0): panic forced after error", "Kernel panic - not syncing: EXT4-fs (device mmcblk0p42): panic forced after error"];
+			fline = [-100,10000];
+			reason = "EXT4-fs";
+		}
+		"stackCorrupted"
+		{
+			conditions = ["Kernel panic - not syncing: stack-protector: Kernel stack is corrupted in:"];
+			fline = [-100,10000];
+			reason = "stackCorrupted";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["Kernel panic - not syncing:"];
+			fline = [-100,100];
+		}
+	}
+	"kernel_lowmem"
+	{
+		conditions = ["lowmem_dbg: dump start", "critical:1"];
+		cline = [-10000,20000];
+		group = "BSP";
+		reason = "memory_abnormal";
+	}
+	"Restart applied by user process"
+	{
+		conditions = ["Restarting system with command"];
+		reason = "user";
+		"%s,($0$)"
+		{
+			conditions = ["Restarting system with command"];
+			reason =  "user";
+		}
+	}
+	"AP Watchdog bark"
+	{
+		conditions = ["Watchdog bark!"];
+		fline = [-500,500];
+		group = "BSP";
+		reason = "Uk";
+	}
+	"ext4"
+	{
+		conditions = ["dmesg_end"];
+		cline = [-500,0];
+		"ext4_fs_error"
+		{
+			conditions = ["EXT4-fs error"];
+			fline = [-5000,0];
+			cline = [0,0];
+			group = "bsp";
+			reason = "file_system";
+		}
+	}
+	"ufs"
+	{
+		conditions = ["dmesg_end"];
+		cline = [-3000,0];
+		"ufs_error"
+		{
+			conditions = ["pwr ctrl cmd 0x2 with mode 0x11 completion timeout"];
+			fline = [-3000,0];
+			cline = [0,0];
+			group = "bsp";
+			reason = "storage";
+		}
+	}
+	"ufs"
+	{
+		conditions = ["dmesg_end"];
+		cline = [-3000,0];
+		"ufs_error"
+		{
+			conditions = ["ufshcd_host_reset_and_restore: Host init failed"];
+			fline = [-3000,0];
+			cline = [0,0];
+			group = "bsp";
+			reason = "storage";
+		}
+		"pa-da error"
+		{
+			conditions = ["pa_err_cnt_total"];
+			fline = [-3000,0];
+			cline = [0,0];
+			group = "bsp";
+			reason = "UFS";
+		}
+		"pa-da error"
+		{
+			conditions = ["dl_err_cnt_total"];
+			fline = [-3000,0];
+			cline = [0,0];
+			group = "bsp";
+			reason = "UFS";
+		}
+	}
+	"cache"
+	{
+		conditions = ["dmesg_end"];
+		cline = [-3000,0];
+		"cache_error"
+		{
+			conditions = ["EDAC kryo_edac:"];
+			fline = [-300,0];
+			cline = [0,0];
+			group = "bsp";
+			reason = "cache";
+		}
+	}
+	"before crash"
+	{
+		conditions = ["dmesg_end"];
+		fline = [-100,0];
+		"%s,($0$)"
+		{
+			conditions = ["Fatal error on"];
+			fline = [-100,0];
+			group = "BSP";
+			reason = "subsystem";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["cdsp subsystem failure"];
+			fline = [-100,0];
+			group = "BSP";
+			reason = "subsystem";
+		}
+	}
+	"rpm_err_fatal"
+	{
+		conditions = ["rpm_err_fatal"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "rpm_err_fatal";
+		"PMIC_%s,($0$)"
+		{
+			conditions = ["PMIC " ,"Vreg Settling error"];
+			fline = [-10,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+	}
+	"Tz_noc_fatal"
+	{
+		conditions = ["tz_noc_result_begin"];
+		cline = [0,500];
+		"Gladiator_InitMem_G0"
+		{
+			conditions = ["initiator = Gladiator_InitMem_G0"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"qxs_pimem"
+		{
+			conditions = ["target = qxs_pimem"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"qxm_mdsp"
+		{
+			conditions = ["initiator = qxm_mdsp"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"qxm_mcdma"
+		{
+			conditions = ["initiator = qxm_mcdma"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "modem";
+		}
+		"qxm_bimc_snoc"
+		{
+			conditions = ["initiator = qxm_bimc_snoc"];
+			fline = [0,500];
+			cline = [0,0];
+			"qhs_wcss"
+			{
+				conditions = ["target = qhs_wcss"];
+				fline = [0,500];
+				cline = [0,0];
+				group = "WLAN";
+				reason = "wlan";
+			}
+			"qns_snoc_cnoc"
+			{
+				conditions = ["target = qns_snoc_cnoc"];
+				fline = [0,5];
+				cline = [0,0];
+					"qhs_qdss_cfg"
+					{
+						conditions = ["target = qhs_qdss_cfg"];
+						fline = [0,50];
+						cline = [0,0];
+						group = "MODEM";
+						reason = "modem";
+					}
+					"qhs_pmic_arb"
+					{
+						conditions = ["target = qhs_pmic_arb"];
+						fline = [0,50];
+						cline = [0,0];
+						group = "BSP";
+						reason = "PMIC";
+					}
+					"qhs_ufs_mem_cfg"
+					{
+						conditions = ["target = qhs_ufs_mem_cfg"];
+						fline = [0,50];
+						cline = [0,0];
+						group = "BSP";
+						reason = "ufs";
+					}
+			}
+		}
+
+		"qxm_bimc_snoc"
+		{
+			conditions = ["initiator = qxm_bimc_snoc"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"xm_usb3_0"
+		{
+			conditions = ["initiator = xm_usb3_0"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"Timeout_faults"
+		{
+			conditions = ["Time-out faults"];
+			fline = [0,100];
+			cline = [0,10];
+			"pcie0_main"
+			{
+				conditions = ["xs_pcie_0_T_main"];
+				fline = [0,100];
+				cline = [0,10];
+				group = "BSP";
+				reason = "wlan";
+			}
+			"pcie0_main"
+			{
+				conditions = ["NIU_xs_pcie_0_T"];
+				fline = [0,100];
+				cline = [0,10];
+				group = "BSP";
+				reason = "wlan";
+			}
+			"qhs_ipa"
+			{
+				conditions = ["qhs1_center_main/qhs_ipa"];
+				fline = [0,100];
+				cline = [0,10];
+				group = "BSP";
+				reason = "Tz";
+			}
+			"qhs_security"
+			{
+				conditions = ["NIU_qhs0_east/qhs_security"];
+				fline = [0,5];
+				cline = [0,10];
+				group = "BSP";
+				reason = "Tz";
+			}
+			"NIU_qhs_aoss"
+			{
+				conditions = ["center_region/NIU_qhs_aoss"];
+				fline = [0,5];
+				cline = [0,10];
+				group = "BSP";
+				reason = "Tz";
+			}
+		}
+		"qnm_aggre2_noc"
+		{
+			conditions = ["initiator = qnm_aggre2_noc"];
+			fline = [0,500];
+			cline = [0,0];
+			"qxm_ipa"
+			{
+				conditions = ["BID/PID/MID = qxm_ipa"];
+				fline = [0,500];
+				cline = [0,0];
+				group = "WLAN";
+				reason = "wlan";
+			}
+		}
+		"qhm_aoss"
+		{
+			conditions = ["initiator = qhm_aoss"];
+			fline = [0,500];
+			cline = [0,0];
+			"qns_cnoc_a2noc"
+			{
+				conditions = ["target = qns_cnoc_a2noc"];
+				fline = [0,500];
+				cline = [0,0];
+				group = "BSP";
+				reason = "ddr";
+			}
+		}
+		"noc_error_qnm_mdsp"
+		{
+			conditions = ["qnm_mdsp"];
+			fline = [0,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_qhs_display_cfg"
+		{
+			conditions = ["target = qhs_display_cfg"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_qhs_gpuss_cfg"
+		{
+			conditions = ["target = qhs_gpuss_cfg"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_qhm_dcc"
+		{
+			conditions = ["BID/PID/MID = qhm_dcc"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_qnm_gemnoc_pcie"
+		{
+			conditions = ["initiator = qnm_gemnoc_pcie"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_xs_pcie_0"
+		{
+			conditions = ["target = xs_pcie_0"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_qns_mem_noc_sf0"
+		{
+			conditions = ["target = qns_mem_noc_sf0"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_odd_tile_hm"
+		{
+			conditions = ["odd_tile_hm/NIU_qns_llcc3_T"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"noc_error_gpuss"
+		{
+			conditions = ["center_region/NIU_qhs_gpuss_cfg"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+	}
+	"aop crashed"
+	{
+		conditions = ["AOP crashed"];
+		cline = [0,1000];
+		group = "BSP";
+		reason = "aop crashed";
+		"PMIC_VRM_ERR"
+		{
+			conditions = ["PMIC VRM error"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"DDRaux clock switch hang"
+		{
+			conditions = ["aop_err_fatal (lr: 0x000061"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"AP gic stuck"
+		{
+			conditions = ["ARC status (CX: 11121148)"];
+			fline = [-50,200];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"AP gic stuck"
+		{
+			conditions = ["ARC status (CX: 11121140)"];
+			fline = [-50,200];
+			cline = [0,0];
+			group = "BSP";
+			reason = "BSP";
+		}
+		"APPS NON SECURE WD BITE"
+		{
+			conditions = ["APPS NON SECURE WD BITE"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"APPS SECURE WD BITE"
+		{
+			conditions = ["APPS SECURE WD BITE"];
+			fline = [-50,100];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+	}
+	
+	"Tz_err_fatal"
+	{
+		conditions = ["TZ_log_begin"];
+		cline = [0,500];
+		group = "BSP";
+		reason = "Tz_err_fatal";
+		"RPM_WDOG"
+		{
+			conditions = ["Fatal Error: RPM_WDOG"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"RPM_ERR"
+		{
+			conditions = ["Fatal Error: RPM_ERR"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"XPU_VIOLATION"
+		{
+			conditions = ["Fatal Error: XPU_VIOLATION"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"NON_SECURE_WDT"
+		{
+			conditions = ["Fatal Error: NON_SECURE_WDT"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"SMMU_FAULT"
+		{
+			conditions = ["Fatal Error: SMMU_FAULT"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"SMMU_FAULT"
+		{
+			conditions = ["SMMU_ERR_FATAL_NSEC_FAULT_NAME_REG"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+
+		"SError"
+		{
+			conditions = ["EL1_SPEL1_SERR"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"EL1_SPEL1_SYNCH"
+		{
+			conditions = ["EL1_SPEL1_SYNCH"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"qxs_pimem"
+	    {
+		  	conditions = ["SYSTEM_NOC 23 7 4a 4101 1db780 0 29 0 0 0 0 0 0 0 0"];
+		  	fline = [0,500];
+		  	cline = [0,0];
+		  	group = "BSP";
+		  	reason = "Tz";
+	    }
+		"cdsp"
+		{
+			conditions = ["GEM_NOC 4010d 1f 45 bb04 1d20 0 8 0 0 0 0 0 0 0 0"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"gpu noc"
+		{
+			conditions = ["CONFIG_NOC f 3 6c 4020 74fdc 0 29"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"gpu noc"
+		{
+			conditions = ["CONFIG_NOC f 3 6c 4222 74fdc 0 29"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+
+		"gpu noc"
+		{
+			conditions = ["SYSTEM_NOC f 3 45 4020 3d74fdc 0 29"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"gpu noc"
+		{
+			conditions = ["GEM_NOC 104 f 4b"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"qxm_mdsp"
+		{
+			conditions = ["GEM_NOC 40405 7 8c 5304 800be600 10 8a"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"Gladiator_InitMem_G0"
+		{
+			conditions = ["GEM_NOC 404 3f c 0 40"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"ipa noc"
+		{
+			conditions = ["GEM_NOC 8000f 3 15 4020 1e16080 0 29"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem noc"
+		{
+			conditions = ["GEM_NOC 8000f 3 15 4020 1e16080 0 29"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+
+		"lpass"
+		{
+			conditions = ["GEM_NOC 404 3f b 0"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["GEM_NOC 404 3f 8b 0"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"rpmh"
+		{
+			conditions = ["GEM_NOC 41d 3 8d 5305"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"wcss_hm"
+		{
+			conditions = ["GEM_NOC f 3 8d 5305 18a108b0 0 89 0 0 0 0 0 0 0 0"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"cdsp"
+		{
+			conditions = ["SYSTEM_NOC 10d 1f 45 bb04"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["GEM_NOC 20415 7f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["CONFIG_NOC 7040d 0 63 5305"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"IMEM"
+		{
+			conditions = ["SYSTEM_NOC 7 3f 49 46e2"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["GEM_NOC 20415 6f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["SYSTEM_NOC f 3 44 5305"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"ufs"
+		{
+			conditions = ["AGGRE1_NOC 105 1f aa b800"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["GEM_NOC 20415 4f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["GEM_NOC 20415 1f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["SYSTEM_NOC f 3 45 4020"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["CONFIG_NOC 5000f 3 46 8200"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["GEM_NOC 40405 3 8c 5304"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["CONFIG_NOC 7040d 0 63 5305"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"ufs"
+		{
+			conditions = ["GEM_NOC 20405 6f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["GEM_NOC 20415 2f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"mcdma"
+		{
+			conditions = ["GEM_NOC 20415 6f 85 5530"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"wlan"
+		{
+			conditions = ["AGGRE1_NOC 115 f 82 b206"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"modem"
+		{
+			conditions = ["GEM_NOC 40405 0 8b 5304"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"SMMU_FAULT"
+		{
+			conditions = ["ECATS generated a fault interrupt!"];
+			fline = [-200,0];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+			"SID_0x884"
+			{
+				conditions = ["SID=0x884"];
+				fline = [-10,10];
+				cline = [0,0];
+				group = "BSP";
+				reason = "Tz";
+			}
+			"SID_0x120"
+			{
+				conditions = ["SID=0x120"];
+				fline = [-10,10];
+				cline = [0,0];
+				group = "BSP";
+				reason = "Tz";
+			}
+			"SID_0x1a0"
+			{
+				conditions = ["SID=0x1a0"];
+				fline = [-10,10];
+				cline = [0,0];
+				group = "BSP";
+				reason = "Tz";
+			}
+		}
+		"SMMU_FAULT"
+		{
+			conditions = ["[TF W SS ]SUBSYSTEM=platform"];
+			fline = [-200,0];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"KGSL_INTERRUPT"
+		{
+			conditions = ["CP opcode error interrupt"];
+			fline = [-200,0];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"TZBSP_KRNL_FATAL_ERR_TYPE Fatal Error type: 6"
+		{
+			conditions = ["TZBSP_KRNL_FATAL_ERR_TYPE  Fatal Error type: 6"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["TZBSP_KRNL_FATAL_ERR_TYPE  Fatal Error type:"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"GEM_NOC"
+		{
+			conditions = ["GEM_NOC"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"MEM_NOC"
+		{
+			conditions = ["MEM_NOC"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"CONFIG_NOC"
+		{
+			conditions = ["CONFIG_NOC"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"APPS_TCU"
+		{
+			conditions = ["APPS_TCU"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"SYSTEM_NOC"
+		{
+			conditions = ["SYSTEM_NOC"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"AGGRE1_NOC"
+		{
+			conditions = ["AGGRE1_NOC"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"AGGRE2_NOC"
+		{
+			conditions = ["AGGRE2_NOC"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+		"TZBSP_KRNL_FATAL_ERR_TYPE"
+		{
+			conditions = ["TZBSP_KRNL_FATAL_ERR_TYPE"];
+			fline = [0,500];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Tz";
+		}
+	}
+	"sdi_fail"
+	{
+		conditions = ["Failed in SDI"];
+		cline = [-10,1000];
+		group = "BSP";
+		reason = "sdi";
+	}
+	"DDR_Init_Failed"
+	{
+		conditions = ["DDR Init Failed"];
+		cline = [-10,1000];
+		group = "BSP";
+		reason = "sdi";
+	}
+	"rpm_err_fatal"
+	{
+		conditions = ["rpm_log_begin","rpm_err_fatal"];
+		cline = [0,1000];
+		group = "BSP";
+		reason = "rpm_err_fatal";
+		"PMIC_%s,($0$)"
+		{
+			conditions = ["PMIC " ,"Vreg Settling error"];
+			fline = [-10,0];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"PMIC_%s,($0$)"
+		{
+			conditions = ["PMIC " ,"Settling time estimated"];
+			fline = [-10,0];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"RPM Wdog Bark"
+		{
+			conditions = ["- RPM Wdog Bark"];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"Bus Fault"
+		{
+			conditions = ["- Bus Fault"];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"Non-secure WdogBite"
+		{
+			conditions = ["- APPS Non-secure Wdog Bite"];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"secure WdogBite"
+		{
+			conditions = ["secure_wdog_expired"];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"TZ Invoked Abort"
+		{
+			conditions = ["TZ Invoked Abort"];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"Normal Abort"
+		{
+			conditions = ["- Normal Abort"];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["Fatal Error: "];
+			fline = [-50,50];
+			cline = [0,0];
+			group = "BSP";
+			reason = "Uk";
+		}
+		"other"
+		{
+			conditions = ["other"];
+		}
+	}
+	"fatal_error_init_ram_dump"
+	{
+		conditions = ["fatal_error... DDR_On:0 ...init RAM DUMP"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "BSP";
+	}
+	"PMIC"
+	{
+		conditions = ["GCC_RESET_STATUS", "0x42"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "Uk";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 1"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 2"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 3"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 4"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 5"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 6"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 7"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 8"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	"ocp"
+	{
+		conditions = ["ocp: 9"];
+		cline = [0,0];
+		group = "BSP";
+		reason = "hw";
+	}
+	#many project meet gcc 0x3 but kernel last log have Suspend info, problem may occur at suspend state
+	"other"
+	{
+		conditions = ["dmesg_end"];
+		cline = [-10,0];
+		"shutdown_crash systemserver"
+		{
+			conditions = ["oppo_shutdown_detect", "current phase systemserver"];
+			fline = [-3000,0];
+			cline = [0,0];
+			group = "BSP";
+		}
+		"shutdown_crash init"
+		{
+			conditions = ["oppo_shutdown_detect", "current phase init"];
+			fline = [-3000,0];
+			cline = [0,0];
+			group = "BSP";
+		}
+		"Suspend"
+		{
+			conditions = ["suspend ns"];
+			fline = [-5,0];
+			cline = [0,0];
+			group = "BSP";
+		}
+	}
+
+	"reboot"
+	{
+		conditions = ["reboot_log_begin"];
+		fline = [0,5000];
+		"%s,($0$)"
+		{
+			conditions = ["bootup critical service "];
+			fline = [0,5000];
+			cline = [0,0];
+			group = "Android";
+			reason = "reboot";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["OCP Occured: "];
+			fline = [0,5000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "hw";
+		}
+		"lowLevelShutdown"
+		{
+			conditions = ["PowerManagerService: lowLevelShutdown, reason=battery"];
+			fline = [0,5000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "charger";
+		}
+		"lowLevelShutdown"
+		{
+			conditions = ["POWER_SUPPLY_CAPACITY_LEVEL_CRITICAL, should shutdown"];
+			fline = [0,5000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "charger";
+		}
+		"%s,($0$)"
+		{
+			conditions = ["GP_FAULT"];
+			fline = [0,500000];
+			cline = [0,0];
+			group = "BSP";
+			reason = "hw";
+		}
+	}
+	"other"
+	{
+		conditions = ["other"];
+	}
+}

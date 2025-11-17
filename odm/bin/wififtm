@@ -1,0 +1,44 @@
+#!/vendor/bin/sh
+
+#svc wifi disable
+#sleep 5
+insmod vendor/lib/modules/qca_cld3_kiwi_v2.ko
+sleep 1
+ifconfig wlan0 up
+sleep 9
+echo 5 > /sys/module/kiwi_v2/parameters/con_mode
+
+#modify for con_mode is 0
+cnt=0
+while true
+do
+    mode=$(cat /sys/module/kiwi_v2/parameters/con_mode)
+    echo $mode
+    if test $mode -eq 0
+    then
+       #echo "is 0"
+       echo 5 > /sys/module/kiwi_v2/parameters/con_mode
+       #setprop persist.wlan.ftm1 1
+    else
+       #echo "is 5"
+       #setprop persist.wlan.ftm2 1
+       break
+    fi
+
+    let cnt+=1
+    #echo $cnt
+    #setprop persist.wlan.ftm3 1
+    if test $cnt -eq 10
+    then
+        break
+    fi
+    sleep 1
+done
+
+sleep 5
+/vendor/bin/myftm -J -I 0 -B DBS_OR_SBS
+sleep 2
+/vendor/bin/myftm -J -I 0 --nss 1 --rateBw 8 -r 26 -f 5180 -a 1 -X 00:03:7F:44:55:69 -Y 00:03:7F:44:55:68 -N 00:03:7F:44:55:71 -x 1
+sleep 2
+/vendor/bin/myftm -J -I 0 --nss 1 --rateBw 8 -r 26 -f 5180 -a 1 -X 00:03:7F:44:55:69 -Y 00:03:7F:44:55:68 -N 00:03:7F:44:55:71 -x 0
+ftmdaemon -n -dd

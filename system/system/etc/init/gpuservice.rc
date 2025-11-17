@@ -1,0 +1,15 @@
+#ifdef OPLUS_ARCH_EXTENDS
+#CaoYang@MULTIMEDIA.DISPLAY, 2023/9/18, Add for decoupling
+on late-init
+    chmod 0666 /sys/kernel/tracing/events/kgsl/enable
+    chmod 0666 /sys/kernel/tracing/events/kgsl/kgsl_regwrite/enable
+#endif
+
+service gpu /system/bin/gpuservice
+    class core
+    user gpu_service
+    group graphics readtracefs
+
+#xieyuan@multimedia.GPU,2025/05/20 add for 8735 dcvs_boost feature switch
+on property:sys.boot_completed=1
+    write /sys/class/kgsl/kgsl-3d0/dcvs_boost 1

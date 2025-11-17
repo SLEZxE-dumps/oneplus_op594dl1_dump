@@ -1,0 +1,52 @@
+service drm /system/bin/drmserver
+    disabled
+    class main
+    user drm
+    group drm system inet drmrpc readproc
+    task_profiles ProcessCapacityHigh
+
+#//#ifdef MTK_COMMON_FEATURE_DRMSERVER64
+on property:ro.boot.hardware=qcom && property:ro.zygote=zygote32
+    setprop qcom.oplus.drmserver 32
+
+on property:ro.boot.hardware=qcom && property:ro.zygote=zygote32_64
+    setprop qcom.oplus.drmserver 32
+
+on property:ro.boot.hardware=qcom && property:ro.zygote=zygote64_32
+    setprop qcom.oplus.drmserver 32
+
+on property:ro.boot.hardware=qcom && property:ro.zygote=zygote64
+    setprop qcom.oplus.drmserver 64
+
+on property:drm.service.enabled=true && property:qcom.oplus.drmserver=32
+    start drm
+
+on property:drm.service.enabled=1 && property:qcom.oplus.drmserver=32
+    start drm
+
+on property:drm.service.enabled=true && property:ro.vendor.mtk_prefer_64bit_proc=0
+    start drm
+
+on property:drm.service.enabled=1 && property:ro.vendor.mtk_prefer_64bit_proc=0
+    start drm
+
+service drm64 /system/bin/drmserver64
+    disabled
+    class main
+    user drm
+    # Add drmserver access sdcard and internal storage permission
+    group drm system inet drmrpc readproc
+    task_profiles ProcessCapacityHigh
+
+on property:drm.service.enabled=true && property:qcom.oplus.drmserver=64
+    start drm64
+
+on property:drm.service.enabled=1 && property:qcom.oplus.drmserver=64
+    start drm64
+
+on property:drm.service.enabled=true && property:ro.vendor.mtk_prefer_64bit_proc=1
+    start drm64
+
+on property:drm.service.enabled=1 && property:ro.vendor.mtk_prefer_64bit_proc=1
+    start drm64
+#//#endif /* MTK_COMMON_FEATURE_DRMSERVER64 */

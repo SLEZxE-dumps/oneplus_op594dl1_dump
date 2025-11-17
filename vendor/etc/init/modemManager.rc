@@ -1,0 +1,7 @@
+#ifdef OPLUS_MODEM_MANAGER_REMOVE
+#Wuxiaoyu@NETWORK.ARCH.4767950, Add for modemManager GTS fail
+#service vendor.modemManager /vendor/bin/modemManager
+#    class main
+#    user radio
+#    group radio
+_MODEM_MANAGER_REMOVE

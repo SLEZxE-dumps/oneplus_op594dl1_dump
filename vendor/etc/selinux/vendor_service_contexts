@@ -1,0 +1,374 @@
+#line 1 "vendor/oplus/system/sepolicy/ossi_generic/vendor/service_contexts"
+
+#ifdef OPLUS_SUBSYS_ARCH
+#Ruijiagui@Network.ARCH, 2020/10/22, add for subsys-services
+vendor.oplus.hardware.subsys_interface.subsys.ISubsys/default             u:object_r:hal_subsys_service:s0
+vendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot1    u:object_r:hal_subsys_service:s0
+vendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot2    u:object_r:hal_subsys_service:s0
+#endif /* OPLUS_SUBSYS_ARCH */
+
+#Lixueming@Network.ARCH, 2022/08/02, add for OplusRadio-AIDL
+vendor.oplus.hardware.radio.IRadioStable/OplusRadio0  u:object_r:hal_radio_service:s0
+vendor.oplus.hardware.radio.IRadioStable/OplusRadio1  u:object_r:hal_radio_service:s0
+
+#zhoulanlin@Network.IMS, 2022/11/01, add for OplusAppRadio-AIDL
+vendor.oplus.hardware.appradioaidl.IAppRadioStable/OplusAppRadio0  u:object_r:hal_radio_service:s0
+vendor.oplus.hardware.appradioaidl.IAppRadioStable/OplusAppRadio1  u:object_r:hal_radio_service:s0
+
+#ifdef OPLUS_FEATURE_ORMS
+#Xiehuilong@GAME.ORMS, 2022/06/07, Add for oplus orms aidl hal service on Android T
+vendor.oplus.hardware.ormsHalService.IOrmsAidlHalService/default  u:object_r:oplus_orms_aidl_hal_service:s0
+#endif /* OPLUS_FEATURE_ORMS */
+
+#ifdef OPLUS_FEATURE_WIFI_SUPPLICANTAIDL
+#FanBingqi@CONNECTIVITY.WIFI.CONNECTION.CONNECT.3631233, 2022/06/20, Add for oplus supplicant hal service on Android T
+vendor.oplus.hardware.wifi.supplicant.IOplusSupplicant/default  u:object_r:oplus_supplicant_aidl_hal_service:s0
+#endif /*OPLUS_FEATURE_WIFI_SUPPLICANTAIDL*/
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Wei.Dai@BSP.Security.Basic, 2022/09/24, Add for fingerprintpay aidl
+vendor.oplus.hardware.biometrics.fingerprintpay.IFingerprintPay/default     u:object_r:hal_fingerprintpay_service:s0
+
+#Wei.Dai@BSP.Security.Basic 2022/07/11 add for eid aidl
+vendor.oplus.hardware.eid.IEidDevice/default     u:object_r:hal_eid_service:s0
+
+#Wei.Dai@BSP.SECURTIY.BASIC add for cryptoeng aidl
+vendor.oplus.hardware.cryptoeng.ICryptoeng/default     u:object_r:hal_cryptoeng_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Shilei.Song@BSP.Fingerprint.Secure, 2022/09/18, add for riskdetect
+vendor.oplus.hardware.riskdetect.IRiskDetect/default u:object_r:hal_riskdetect_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#Kezhi.Zhu@Kernel.Sched, 2022/07/26, Add for IPerformance aidl service
+vendor.oplus.hardware.performance.IPerformance/default u:object_r:hal_oplus_performance_aidl_service:s0
+
+#Kezhi.Zhu@Kernel.Sched, 2022/07/26, Add for IPerformance aidl service
+vendor.oplus.hardware.power.powermonitor.IPowerMonitor/default u:object_r:hal_oplus_powermonitor_aidl_service:s0
+
+#ifdef OPLUS_FEATURE_GAMEOPT
+#satoshi@GameEco.Game, 2022/06/21, Add for gameopt aidl
+vendor.oplus.hardware.gameopt.IGameOptHalService/default    u:object_r:hal_gameopt_aidl_service:s0
+#endif /*OPLUS_FEATURE_GAMEOPT*/
+
+#ifdef OPLUS_FEATURE_ENGINEERTOOLS
+#Wei.Dai@BSP.Security.Basic, 2022/10/25, Add for engineer aidl
+vendor.oplus.hardware.engineer.IEngineer/default              u:object_r:oplus_hal_engineer_service:s0
+#endif /* OPLUS_FEATURE_ENGINEERTOOLS */
+
+#ifdef OPLUS_FEATURE_OSENSE
+#Xiehuilong@GAME.ORMS, 2022/09/07, Add for oplus osense aidl hal service on Android T
+vendor.oplus.hardware.osense.client.IOsenseAidlHalReporter/default  u:object_r:fwk_osense_aidl_service:s0
+#endif /* OPLUS_FEATURE_OSENSE */
+
+#ifdef OPLUS_FEATURE_PANELCHAPLIN
+#GaryGuo@DISPLAY,Oct/19/2022, add for PanelChaplin
+vendor.oplus.hardware.display.MixLut3D.IMixLut3D/default u:object_r:hal_oplus_display_MixLut3D_service:s0
+#endif OPLUS_FEATURE_PANELCHAPLIN
+
+#ifdef OPLUS_FEATURE_DCS
+#Liang.Zhengli@ANDROID.UPDATABILITY, 2022/10/07, Add for commondcs aidl hal service on Android T
+vendor.oplus.hardware.commondcs.ICommonDcsAidlHalService/default  u:object_r:commondcs_aidl_service:s0
+#endif OPLUS_FEATURE_DCS
+
+#ifdef OPLUS_FEATURE_MIDAS
+#Faquan.Yao@BSP.Power, 2022/09/08, add for handlefactory
+vendor.oplus.hardware.handlefactory.IHandleFactory/default  u:object_r:hal_oplus_handle_factory_service:s0
+#endif /* OPLUS_FEATURE_MIDAS */
+
+#ifdef OPLUS_FEATURE_RPMH
+#Zhigao.Zhang@BSP.Kernel.No.2.Standby, 2022/07/22, for rpmh aidl service.
+vendor.oplus.hardware.rpmh.IRpmh/default    u:object_r:hal_oplus_rpmh_aidl_service:s0
+#endif /* OPLUS_FEATURE_RPMH */
+
+#ifdef OPLUS_FEATURE_ARCH_WIFI
+#LiangXiao@CONNECTIVITY.WIFI.BASIC.3631197, 2022/05/15, Add for oplus wifi aidl hal service on Android T
+vendor.oplus.hardware.wifi.IOplusWifiService/default  u:object_r:oplus_wifi_aidl_hal_service:s0
+#endif /*OPLUS_FEATURE_ARCH_WIFI*/
+
+#ChenGuoyao@NETWORK.ARCH.3631218, 2022/06/06, Add for hidl2aidl
+vendor.oplus.hardware.esim.IOplusEsim/default u:object_r:hal_esim_service:s0
+#endif OPLUS_FEATURE_ESIM
+
+#ifdef OPLUS_FEATURE_CHG_BASIC
+#Jianchao.Shi@BSP.CHG.BASIC, 2022/11/07, add for charger aidl
+vendor.oplus.hardware.charger.ICharger/default u:object_r:hal_charger_service:s0
+#endif /* OPLUS_FEATURE_CHG_BASIC */
+
+#ifdef OPLUS_FEATURE_OLC
+#Yange.zhang@DFT, 2022/10/10, Add for olc hal
+vendor.oplus.hardware.olc2.IOplusLogCore/default u:object_r:hal_olc_aidl_service:s0
+#endif /* OPLUS_FEATURE_OLC */
+
+#ifdef OPLUS_FEATURE_BLUETOOTH_AUDIO_EXTEND
+#Shengtao.Zhao@MULTIMEDIA.AUDIODRIVER.FEATURE, 2022/11/03, Add for binaural_record hidl2aidl
+vendor.oplus.hardware.binaural_record.IBinauralRecordProviderFactory/default    u:object_r:hal_audio_service:s0
+##endif /* OPLUS_FEATURE_BLUETOOTH_AUDIO_EXTEND */
+
+#ifdef OPLUS_FEATURE_CAMMIDASSERVICE
+#dongmeihan@camera, 2022/10/19, add for cammidasservice aidl
+vendor.oplus.hardware.cammidasservice.IMIDASService/default   u:object_r:hal_oplus_cammidasservice_aidl_service:s0
+#endif /* OPLUS_FEATURE_CAMMIDASSERVICE */
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#Sheng.Zhu@BSP.touch, 2022/09/29, add for touch factory aidl
+vendor.oplus.hardware.touch.IOplusTouch/default u:object_r:hal_oplus_touch_aidl_service:s0
+#endif /* OPLUS_FEATURE_TP_BASIC*/
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#pengwei@BSP.touch, 2022/11/03, add for misc factory aidl
+vendor.oplus.hardware.misc.IOplusMisc/default u:object_r:hal_oplus_misc_aidl_service:s0
+#endif /* OPLUS_FEATURE_TP_BASIC*/
+
+#ifdef OPLUS_VIRTUAL_MODEM_COMM
+#Tanzhengpeng@NETWORK.ARCH, 2022/04/29, Add for virtual modem communication
+vendor.oplus.hardware.communicationcenter.IDmtpService/default                   u:object_r:hal_commcenter_service:s0
+#endif /* OPLUS_VIRTUAL_MODEM_COMM */
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Bin.Lv@BSP.Security.Basic, 2022/09/24, Add for fido aidl
+vendor.oplus.hardware.fido.fidoca.IFidoDaemon/default                   u:object_r:hal_fido_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_FEATURE_OPLUS_SENSOR
+#pei.lu@BSP.sensor, 2022/09/29, add for sensor factory aidl
+vendor.oplus.hardware.oplusSensor.ISensorFeature/default u:object_r:hal_oplusSensor_aidl_service:s0
+#endif /* OPLUS_FEATURE_OPLUS_SENSOR *
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Bin.Lv@BSP.Security.Basic, 2022/09/24, Add for fido2 aidl
+vendor.oplus.hardware.fido.fido2ca.IFidoDaemon/default                   u:object_r:hal_fido2_service:s0
+#endif /* OPLUS_FEATURE_SECURITY_COMMON */
+
+#ifdef OPLUS_ARCH_NFC
+#LiuWenjie@CONNECTIVITY.NFC.ARCH, 2022/10/18, Add for: oplus nfc Aidl
+vendor.oplus.hardware.nfc.IOplusNfc/default  u:object_r:hal_oplus_nfc_service:s0
+#endif /* OPLUS_ARCH_NFC */
+
+#ifdef OPLUS_FEATURE_NFC_EXTNS
+#XiaoShengtao@CONNECTIVITY.NFC.BASIC, 2022/10/10, Add for nfcextns aidl.
+vendor.oplus.hardware.nfcExtns.INfcExtns/default       u:object_r:hal_nfcextns_service:s0
+#endif /* OPLUS_FEATURE_NFC_EXTNS */
+
+#ifdef OPLUS_FEATURE_LOCATION_AIDL
+#Jiangzi.Yang@CONNECTIVITY.GPS.LOCATION, 2023/07/01, Add for oplus locaiton aidl
+vendor.oplus.hardware.location.IOplusLocation/default    u:object_r:hal_oplus_location_service:s0
+#endif /* OPLUS_FEATURE_LOCATION_AIDL */
+
+#if defined(OPLUS_FEATURE_PXLW_IRIS5)
+#Xiangyun.Yu@MULTIMEDIA.DISPLAY, 2023/06/06, Add for iris display service and feature service
+vendor.pixelworks.hardware.display.IIris/default        u:object_r:hal_display_iris_service:s0
+vendor.pixelworks.hardware.feature.IIrisFeature/default u:object_r:hal_feature_irisfeature_service:s0
+#endif/*OPLUS_FEATURE_PXLW_IRIS5*/
+
+#Meiwei@BSP.Kernel.CPU, 2023-07-05 add for uah enable
+vendor.oplus.hardware.urcc.IUrcc/default       u:object_r:hal_urcc_service:s0
+
+#ifdef OPLUS_FEATURE_SECURITY_COMMON
+#Wei.Dai@BSP.Security.Basic 2023/07/05 add for new aidl service to secure_element
+vendor.oplus.hardware.secure_element.ISecureElement/default          u:object_r:hal_secure_element_extend_service:s0
+#endif
+
+#ifdef OPLUS_FEATURE_VIRTUAL_CAMERA
+#William@NEOP.ABILITY.VD, 2023/07/25, Add for virtual camera aidl
+vendor.oplus.hardware.virtual_device.camera.manager.IVirtualCameraManager/default    u:object_r:hal_virtualdevice_camera_aidl_service:s0
+android.hardware.camera.provider.ICameraProvider/oplus/0          u:object_r:hal_camera_service:s0
+#endif //OPLUS_FEATURE_VIRTUAL_CAMERA
+
+#ifdef OPLUS_FEATURE_VIRTUAL_AUDIO
+#ChenGuangming@NEOP.ABILITY.VD, 2023/03/26, Add for virtual audio aidl
+vendor.oplus.hardware.virtual_device.audio.IStatusProvider/default u:object_r:hal_audio_service:s0
+#endif /* OPLUS_FEATURE_VIRTUAL_AUDIO */
+
+#ifdef OPLUS_FEATURE_DISPLAY_COLOR
+#Qiyi.Zhang@MULTIMEDIA.DISPLAY.LCD, 2023/6/8, Add for displaycolor Aidl
+vendor.oplus.hardware.displaycolorfeature.IDisplayColorFeature/default u:object_r:oplus_hal_displaycolor_service:s0
+#endif OPLUS_FEATURE_DISPLAY_COLOR
+
+#ifdef OPLUS_SATELLITE_COMM
+#Tanzhengpeng@NETWORK.ARCH.3941403, 2022/04/29, Add for satellite communication
+vendor.oplus.hardware.radio.satellite.rsmc.ISmcService/default             u:object_r:hal_satelliteril_service:s0
+#endif /* OPLUS_VIRTUAL_MODEM_COMM */
+
+#line 1 "vendor/oplus/system/sepolicy/ossi_qcom/vendor/service_contexts"
+
+com.silead.fingerprintService u:object_r:silead_fp_service:s0
+
+#Lixueming@Network.ARCH, 2022/08/02, add for OplusRadio-AIDL
+vendor.oplus.hardware.ims.IImsStable/OplusImsRadio0  u:object_r:hal_radio_service:s0
+vendor.oplus.hardware.ims.IImsStable/OplusImsRadio1  u:object_r:hal_radio_service:s0
+
+
+#ifdef OPLUS_FEATURE_SECURE_COMMON
+#Wei.Dai@BSP.Security.Basic 2022/11/02, Add for transfer aidl
+vendor.oplus.hardware.transfer.ITransfer/ATMWiFiHidlServer     u:object_r:oplus_hal_transfer_service:s0
+#endif /* OPLUS_FEATURE_SECURE_COMMON */
+
+#ifdef OPLUS_FEATURE_DOLBY_VISION
+#Sunqinhua@MULTIMEDIA.MMSERVER.PLAYER, 2022/07/20, Add for dolby vision integration
+com.dolby.DolbyVisionService                         u:object_r:dsv_service:s0
+#endif OPLUS_FEATURE_DOLBY_VISION
+
+#ifdef OPLUS_FEATURE_CAMERA_COMMON
+#li.hong@camera 2022/10/18 for cameraextension aidl interface
+vendor.oplus.hardware.cameraextension.ICameraExtensionService/default u:object_r:hal_cameraextension_aidl_service:s0
+vendor.oplus.hardware.sendextcamcmd.ISendExtCamCmdService/default u:object_r:hal_sendextcamcmd_service:s0
+#endif /* OPLUS_FEATURE_CAMERA_COMMON *
+
+#ifdef OPLUS_FEATURE_OPROJECT
+#You.Li@BSP.Stability, 2022/09/28, add for oplus_project
+vendor.oplus.hardware.stability.oplus_project.IOplusProject/default  u:object_r:hal_project_aidl_service:s0
+#endif /* OPLUS_FEATURE_OPROJECT */
+
+#ifdef OPLUS_FEATURE_CAMERA_COMMON
+#fuxiang@Camera, 2023/8/11, add for camera_rfi interface
+vendor.oplus.hardware.camera_rfi.ICameraRfiService/default u:object_r:hal_camera_rfi_service:s0
+#endif /* OPLUS_FEATURE_CAMERA_COMMON */
+
+#ifdef OPLUS_FEATURE_DOLBY_VISION
+#liuxiaofo@MULTIMEDIA.MMSERVER.PLAYER, 2024/6/20, Add for dolby vision integration
+android.hardware.media.c2.IComponentStore/dolby u:object_r:hal_codec2_service:s0
+#endif OPLUS_FEATURE_DOLBY_VISION
+#line 1 "device/qcom/sepolicy_vndr/generic/vendor/common/service_contexts"
+# Copyright (c) 2021, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Changes from Qualcomm Innovation Center are provided under the following license:
+#
+# Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+android.hardware.neuralnetworks.IDevice/qti-default                   u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/qti-gpu                       u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/qti-dsp                       u:object_r:hal_neuralnetworks_service:s0
+vendor.qti.hardware.radio.ims.IImsRadio/imsradio0                     u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.ims.IImsRadio/imsradio1                     u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.qtiradio.IQtiRadioStable/slot1              u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.qtiradio.IQtiRadioStable/slot2              u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.am.IQcRilAudio/slot1                        u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.am.IQcRilAudio/slot2                        u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.display.config.IDisplayConfig/default             u:object_r:vendor_hal_vnddisplayconfig_service:s0
+vendor.qti.hardware.radio.qcrilhook.IQtiOemHook/oemhook0              u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.qcrilhook.IQtiOemHook/oemhook1              u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.internal.deviceinfo.IDeviceInfo/deviceinfo  u:object_r:vendor_hal_telephony_service2:s0
+vendor.qti.hardware.radio.qtiradioconfig.IQtiRadioConfig/default      u:object_r:vendor_hal_telephony_service2:s0
+android.hardware.camera.provider.ICameraProvider/vendor.qti/0         u:object_r:hal_camera_service:s0
+android.hardware.camera.provider.ICameraProvider/vendor_qti/0         u:object_r:hal_camera_service:s0
+#Refer to b/236750094
+android.hardware.drm.IDrmFactory/widevine                             u:object_r:hal_drm_service:s0
+vendor.qti.hardware.wifi.supplicant.ISupplicantVendor/default         u:object_r:hal_wifi_supplicant_service:s0
+vendor.qti.ims.datachannelservice.IDataChannelService/default         u:object_r:vendor_hal_imsdc_service:s0
+#line 1 "device/qcom/sepolicy_vndr/qva/vendor/common/service_contexts"
+# Copyright (c) 2021, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# Changes from Qualcomm Innovation Center are provided under the following license:
+#
+# Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted (subject to the limitations in the
+# disclaimer below) provided that the following conditions are met:
+#
+#    * Redistributions of source code must retain the above copyright
+#      notice, this list of conditions and the following disclaimer.
+#
+#    * Redistributions in binary form must reproduce the above
+#      copyright notice, this list of conditions and the following
+#      disclaimer in the documentation and/or other materials provided
+#      with the distribution.
+#
+#    * Neither the name of Qualcomm Innovation Center, Inc. nor the names of its
+#      contributors may be used to endorse or promote products derived
+#      from this software without specific prior written permission.
+#
+# NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE
+# GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT
+# HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+# IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+# ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+# GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+# IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+# OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Changes from Qualcomm Innovation Center are provided under the following license:
+# Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+vendor.qti.hardware.qxr.IQXRCoreService/default        u:object_r:vendor_hal_qvrd_service:s0
+vendor.qti.hardware.qxr.IQXRCamService/default         u:object_r:vendor_hal_qvrd_service:s0
+vendor.qti.hardware.qxr.IQXRModService/default         u:object_r:vendor_hal_qvrd_service:s0
+vendor.qti.hardware.qxr.IQXRSplitService/default        u:object_r:vendor_hal_sxrd_service:s0
+vendor.qti.hardware.qxr.IQXRAudioService/default        u:object_r:vendor_hal_sxrd_service:s0
+vendor.qti.hardware.data.connectionfactory.IFactory/slot0 u:object_r:vendor_hal_dataconnection_service:s0
+vendor.qti.hardware.data.connectionfactory.IFactory/slot1 u:object_r:vendor_hal_dataconnection_service:s0
+vendor.qti.data.txpwrservice.ITxPwrService/default     u:object_r:vendor_hal_qms_service:s0
+vendor.qti.hardware.bttpi.IBtTpi/default     u:object_r:vendor_hal_bttpi_service:s0
+vendor.qti.gnss.ILocAidlGnss/default        u:object_r:hal_gnss_service:s0
+vendor.qti.qegahal.IQegahal/default                    u:object_r:vendor_hal_qegahal_service:s0
+
+android.hardware.security.keymint.IKeyMintDevice/strongbox                u:object_r:hal_keymint_service:s0
+android.hardware.security.sharedsecret.ISharedSecret/strongbox            u:object_r:hal_sharedsecret_service:s0
+android.hardware.security.keymint.IRemotelyProvisionedComponent/strongbox u:object_r:hal_keymint_service:s0
+vendor.qti.gnss.ILocAidlGnss/default                   u:object_r:hal_gnss_service:s0
+vendor.qti.qhcp.IQHDC/default                          u:object_r:vendor_hal_qms_service:s0
+vendor.qti.hardware.qspa.IQspa/default                u:object_r:vendor_hal_qspa_service:s0
+
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.

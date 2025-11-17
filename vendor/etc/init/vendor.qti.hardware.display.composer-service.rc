@@ -1,0 +1,9 @@
+service vendor.qti.hardware.display.composer /vendor/bin/hw/vendor.qti.hardware.display.composer-service
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    socket pps stream 0660 system system
+    # Jared.wu@PERFORMANCE, 2022/08/11, Change cpuset to display to allow hwc run on big cores.
+    writepid /dev/cpuset/display/tasks

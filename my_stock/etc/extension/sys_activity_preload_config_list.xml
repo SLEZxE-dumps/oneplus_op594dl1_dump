@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+  <version>2023083001</version>
+  <filter-name>sys_activity_preload_config_list</filter-name>
+  <!-- policy switch controlled by feature, only can be modified by rus!-->
+  <!-- <switchConfig is used for RUS update, xml in mystock modify this cannot effect"/> -->
+  <switchConfig enabled="false" onlyHighPerf="false"/>
+
+  <!-- durtime config -->
+  <durConfig preloadDur="5000" preloadGameDur="20000"/>
+
+  <!--black list pkg={pkgName}, default is null-->
+  <blackList pkg="com.coloros.childrenspace"/>
+  <blackList pkg="com.duowan.kiwi"/>
+  <blackList pkg="tv.danmaku.bili"/>
+  <blackList pkg="us.zoom.videomeetings"/>
+	
+  <!--white list pkg={pkgName}, defalut is null-->
+  <whiteList pkg=""/>
+
+  <mem total="8" MaxAppSlots="19"  PreloadGameSlots="1" NeedFreeSlots="5"/>
+  <mem total="12" MaxAppSlots="27" PreloadGameSlots="1" NeedFreeSlots="5"/>
+  <mem total="16" MaxAppSlots="35" PreloadGameSlots="2" NeedFreeSlots="5"/>
+  <!--mem total="24" MaxAppSlots-->
+  <!--mem total="32" MaxAppSlots-->
+</filter-conf>

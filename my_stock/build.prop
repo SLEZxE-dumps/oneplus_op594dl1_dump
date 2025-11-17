@@ -1,0 +1,24 @@
+# build prop start
+ro.oplus.image.my_stock.type=export_OnePlus
+ro.oplus.image.my_stock.date=2025-10-05 22:29:08
+ro.oplus.image.my_stock.date.utc=1759674548
+ro.opa.device_model_id=ga-oplus-skill-os121-211011
+ro.config.notification_sound=Whoop_doop.ogg
+ro.config.calendar_sound=Cozy.ogg
+ro.config.alarm_alert=Cloudscape.ogg
+ro.config.notification_sim2=Free.ogg
+ro.config.notification_sms=Free.ogg
+ro.config.ringtone_sim2=OnePlus_new_feeling.ogg
+ro.config.ringtone=OnePlus_new_feeling.ogg
+ro.config.omoji_path=/my_stock/etc/Omoji
+ro.oplus.camera.video.beauty.switch=oplus.switch.video.beauty
+ro.oplus.camera.video_beauty.prefix=oplus.video.beauty.
+ro.camera.privileged.3rdpartyApp=com.mediatek.expert.mtkcamhelper;com.aiunit.aon;
+ro.oplus.osense_app_memcg=true
+dalvik.vm.madvise.odexfile.size=104857600
+dalvik.vm.madvise.vdexfile.size=104857600
+ro.oplus.camera.portrait_center.prefix=oplus.portrait.center.
+ro.oplus.camera.portrait.center.switch=oplus.switch.portrait.center
+ro.oplus.system.camera.flashlight=com.oplus.motor.flashlight
+persist.bluetooth.shortcut.action=false
+ro.oplus.image.my_stock.version=10.0.0.46.2025100522252933765101.547d694a

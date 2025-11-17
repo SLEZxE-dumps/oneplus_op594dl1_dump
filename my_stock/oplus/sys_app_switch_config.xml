@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2024040110</version>
+    <filter-name>sys_app_switch_config</filter-name>
+
+    <!-- monitor all package change notification start -->
+    <matchAppDefault>com.coloros.appswitch.all</matchAppDefault>
+    <matchAppDefault>com.nearme.statistics.rom</matchAppDefault>
+    <matchAppDefault>com.coloros.colorfilestand</matchAppDefault>
+    <matchAppDefault>android</matchAppDefault>
+
+    <!-- add for remove oppo related keywords-->
+    <matchAppDefault>com.oplus.deepthinker</matchAppDefault>
+    <matchAppDefault>com.oplus.safecenter</matchAppDefault>
+    <matchAppDefault>com.oplus.securitypermission</matchAppDefault>
+    <matchAppDefault>com.oplus.onetrace</matchAppDefault>
+    <matchAppDefault>com.oplus.obrain</matchAppDefault>
+    <matchAppDefault>com.oplus.battery</matchAppDefault>
+    <matchAppDefault>com.oplus.exserviceui</matchAppDefault>
+    <matchAppDefault>com.oplus.athena</matchAppDefault>
+    <matchAppDefault>com.oplus.autotest.themismonitor</matchAppDefault>
+    <matchAppDefault>com.oplus.autotest.memleakmonitor</matchAppDefault>
+    <matchAppDefault>com.oplus.autotest.performance</matchAppDefault>
+    <matchAppDefault>com.oplus.statistics.rom</matchAppDefault>
+    <matchAppDefault>com.oplus.exsystemservice</matchAppDefault>
+    <matchAppDefault>com.oplus.linker</matchAppDefault>
+    <matchAppDefault>com.android.systemui</matchAppDefault>
+    <matchAppDefault>com.oplus.pscanvas</matchAppDefault>
+    <!-- monitor all package change notification end -->
+
+    <!-- monitor all Activity change notification start -->
+    <matchActivityDefault>com.oplus.deepthinker</matchActivityDefault>
+    <matchActivityDefault>com.coloros.appswitch.all</matchActivityDefault>
+    <matchActivityDefault>com.oplus.statistics.rom</matchActivityDefault>
+    <!-- monitor all Activity change notification end -->
+
+    <!-- pause in recents animation start -->
+    <matchRecentsAnimApp>com.ss.android.ugc.aweme</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.smile.gifmaker</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.kuaishou.nebula</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.ugc.aweme.lite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.qqlive</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.article.video</matchRecentsAnimApp>
+    <matchRecentsAnimApp>tv.danmaku.bili</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.youku.phone</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.baidu.haokan</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.hunantv.imgo.activity</matchRecentsAnimApp>
+    <switchRecentsAnimApp>1</switchRecentsAnimApp>
+    <!-- pause in recents animation end -->
+
+    <!-- Broadcast notification start-->
+    <rule>
+        <pkg>com.coloros.osecret</pkg>
+         <config>
+            <type>2</type>
+                <name>com.android.packageinstaller</name>
+                <name>com.coloros.gamespace</name>
+                <name>com.oplus.cosa</name>
+                <name>com.oneplus.backuprestore</name>
+                <name>com.google.android.packageinstaller</name>
+                <name>com.nearme.gamecenter</name>
+        </config>
+    </rule>
+    <!-- Broadcast notification end-->
+
+    <!-- forbidden app relaunch -->
+    <forbiddenAppRelaunch>tv.danmaku.bili</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>tv.danmaku.bilibilihd</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.ss.android.article.video</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.qiyi.video.pad</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.youku.phone</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.tencent.qqlive</forbiddenAppRelaunch>
+    <!-- forbidden app relaunch -->
+</filter-conf>
+

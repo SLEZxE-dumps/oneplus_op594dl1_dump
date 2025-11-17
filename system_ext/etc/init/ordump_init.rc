@@ -1,0 +1,32 @@
+service ordump_create /system_ext/bin/ordump_ctrl
+    class core
+    user root
+    disabled
+    oneshot
+    group root system media_rw shell everybody
+    seclabel u:r:ordump:s0
+
+service ordump_init /system_ext/bin/ordump_ctrl -i
+    class core
+    user root
+    disabled
+    oneshot
+    group root system media_rw shell everybody
+    seclabel u:r:ordump:s0
+
+service ordump_clean /system_ext/bin/ordump_ctrl -c
+    class core
+    user root
+    disabled
+    oneshot
+    group root system media_rw shell everybody
+    seclabel u:r:ordump:s0
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus.ordump.enable=true
+    mkdir /data/persist_log/DCS/de/ordump 0777 system system
+    mkdir /data/persist_log/DCS/en/ordump 0777 system system
+    mkdir /data/persist_log/ordump 0777 system system
+    start ordump_create
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus.ordump.enable=false
+    start ordump_clean

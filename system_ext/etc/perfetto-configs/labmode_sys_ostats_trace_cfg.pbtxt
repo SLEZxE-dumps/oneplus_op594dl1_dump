@@ -1,0 +1,137 @@
+buffers: {
+    size_kb: 63488
+    fill_policy: DISCARD
+}
+buffers: {
+    size_kb: 2048
+    fill_policy: DISCARD
+}
+data_sources: {
+    config {
+        name: "android.packages_list"
+        target_buffer: 1
+    }
+}
+data_sources: {
+    config {
+        name: "linux.system_info"
+        target_buffer: 1
+    }
+}
+data_sources: {
+    config {
+        name: "linux.process_stats"
+        target_buffer: 1
+        process_stats_config {
+            scan_all_processes_on_start: true
+        }
+    }
+}
+data_sources: {
+    config {
+        name: "linux.sys_stats"
+        sys_stats_config {
+            cpufreq_period_ms: 1000
+        }
+    }
+}
+
+trigger_config: {
+    trigger_mode: CLONE_SNAPSHOT
+    trigger_timeout_ms: 432000000
+    triggers: {
+        name: "sys_ostats_pefetto_trigger"
+    }
+}
+
+data_sources: {
+    config {
+        name: "android.log"
+        android_log_config {
+            log_ids: LID_EVENTS
+            log_ids: LID_CRASH
+            log_ids: LID_KERNEL
+            log_ids: LID_DEFAULT
+            log_ids: LID_RADIO
+            log_ids: LID_SECURITY
+            log_ids: LID_STATS
+            log_ids: LID_SYSTEM
+        }
+    }
+}
+
+data_sources: {
+    config {
+        name: "android.statsd"
+        statsd_tracing_config {
+            raw_push_atom_id: 8
+            raw_push_atom_id: 27
+            raw_push_atom_id: 28
+            raw_push_atom_id: 41
+            raw_push_atom_id: 42
+            raw_push_atom_id: 48
+            raw_push_atom_id: 94
+            raw_push_atom_id: 99
+            raw_push_atom_id: 100
+            raw_push_atom_id: 169
+            raw_push_atom_id: 332
+            raw_push_atom_id: 367
+            raw_push_atom_id: 368
+            raw_push_atom_id: 373
+            raw_push_atom_id: 474
+            raw_push_atom_id: 475
+            raw_push_atom_id: 476
+            raw_push_atom_id: 477
+
+            pull_config {
+                raw_pull_atom_id: 10022
+                raw_pull_atom_id: 10042
+                raw_pull_atom_id: 10062
+                raw_pull_atom_id: 10063
+                raw_pull_atom_id: 10064
+                raw_pull_atom_id: 10092
+                raw_pull_atom_id: 10095
+                raw_pull_atom_id: 10096
+                raw_pull_atom_id: 100199
+                raw_pull_atom_id: 100200
+                raw_pull_atom_id: 150114
+                raw_pull_atom_id: 150130
+                raw_pull_atom_id: 150134
+                raw_pull_atom_id: 10171
+                raw_pull_atom_id: 10172
+                pull_frequency_ms: 1000
+                packages: "SYSTEM_AID"
+                packages: "NOBODY_AID"
+                packages: "AID_NOBODY"
+                packages: "AID_GRAPHICS"
+                packages: "AID_INCIDENTD"
+                packages: "AID_STATSD"
+                packages: "AID_RADIO"
+                packages: "com.android.systemui"
+                packages: "com.android.vending"
+                packages: "AID_SYSTEM"
+                packages: "AID_ROOT"
+                packages: "AID_BLUETOOTH"
+                packages: "AID_LMKD"
+                packages: "com.android.managedprovisioning"
+                packages: "AID_MEDIA"
+                packages: "AID_NETWORK_STACK"
+                packages: "com.google.android.providers.media.module"
+                packages: "com.android.imsserviceentitlement"
+                packages: "com.google.android.cellbroadcastreceiver"
+                packages: "com.google.android.apps.nexuslauncher"
+                packages: "com.google.android.markup"
+                packages: "com.android.art"
+                packages: "com.google.android.art"
+                packages: "AID_KEYSTORE"
+                packages: "AID_VIRTUALIZATIONSERVICE"
+                packages: "com.google.android.permissioncontroller"
+                packages: "AID_NFC"
+                packages: "AID_SECURE_ELEMENT"
+                packages: "com.google.android.wearable.media.routing"
+                packages: "com.google.android.healthconnect.controller"
+                packages: "com.android.telephony.qns"
+            }
+        }
+    }
+}

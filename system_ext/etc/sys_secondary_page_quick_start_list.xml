@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>20250114</version>
+    <filter-name>sys_secondary_page_quick_start_list</filter-name>
+    <func_switch value="1"/>
+    <activity cmp_name="com.oplus.wirelesssettings/com.android.settings.SettingsActivity#WIFI_SETTINGS" type="2"/>
+    <activity cmp_name="com.oplus.wirelesssettings/com.android.settings.SettingsActivity#BLUETOOTH_SETTINGS" type="1"/>
+    <activity cmp_name="com.oplus.wirelesssettings/com.android.settings.SettingsActivity#WIRELESS_SETTINGS" type="1" delayTime="150"/>
+    <activity cmp_name="com.android.phone/com.android.simsettings.activity.OplusSimSettingsActivity" type="1" delayTime="150"/>
+    <activity cmp_name="com.oplus.wallpapers/.personal.PersonalActivity" type="0"/>
+    <activity cmp_name="com.oplus.notificationmanager/.NotificationCenterActivity" type="1" delayTime="30"/>
+    <activity cmp_name="com.oplus.securitypermission/com.oplusos.securitypermission.privacy.PrivacySettingsDashboardActivity" type="1" delayTime="30"/>
+    <activity cmp_name="com.oplus.sos/.ui.SOSHelperSettingActivity" type="1"/>
+    <activity cmp_name="com.android.settings/com.oplus.settings.OplusSettingsActivity$EmergencySettingsActivity" type="1"/>
+    <activity cmp_name="com.coloros.digitalwellbeing/.ui.activity.PhoneUseTimeActivity" type="2"/>
+    <activity cmp_name="com.oplus.battery/com.oplus.powermanager.fuelgaue.PowerConsumptionActivity" type="1"/>
+    <activity cmp_name="com.android.settings/com.oplus.settings.OplusSettingsActivity$DeviceInfoSettingsActivity" type="1" delayTime="50"/>
+    <activity cmp_name="com.coloros.sceneservice/.settings.SettingsActivity" type="1"/>
+    <activity cmp_name="com.coloros.operationManual/.feedbackandtips.view.activity.MainActivity" type="1"/>
+    <activity cmp_name="com.android.settings/com.oplus.settings.OplusSettingsActivity$AppSettingsActivity" type="1"/>
+    <activity cmp_name="com.android.settings/.Settings$MoreSystemSettingsActivity" type="1"/>
+    <activity cmp_name="com.android.settings/.Settings$SoundSettingsActivity" type="1"/>
+    <activity cmp_name="com.android.settings/.Settings$DisplaySettingsActivity" type="1"/>
+    <activity cmp_name="com.android.settings/.Settings$AccountDashboardActivity" type="1"/>
+    <activity cmp_name="com.android.settings/com.oplus.settings.OplusSettingsActivity$SpecialFeatureActivity" type="1"/>
+    <secondarypagepackage_switch value="0"/>
+    <!-- domestic project application list begin -->
+    <package package_name="com.tencent.mm"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.app.WeChatSplashActivity^,
+                ^.plugin.account.ui.WelcomeActivity^,
+                ^.plugin.account.ui.LoginPasswordUI^,
+                ^.plugin.account.ui.LoginVoiceUI^,
+                ^.plugin.gallery.ui.AlbumPreviewUI^,
+                ^.ui.chatting.gallery.MediaHistoryGalleryUI^,
+                ^.plugin.voip.ui.VideoActivity^,
+                ^.plugin.gallery.ui.ImagePreviewUI^,
+                ^.plugin.finder.ui.FinderShareFeedRelUI^,
+                ^.plugin.sns.ui.improve.ImproveSnsTimelineUI^,
+                ^.plugin.profile.ui.ContactInfoUI^,
+                ^.plugin.sns.ui.SnsUserUI^,
+                ^.plugin.sns.ui.SnsGalleryUI^,
+                ^.ui.chatting.ChattingUI^,
+                ^.plugin.finder.feed.ui.FinderProfileUI^,
+                ^.plugin.remittance.ui.RemittanceBusiUI^,
+                ^.plugin.exdevice.ui.ExdeviceRankInfoUI^,
+                ^.plugin.exdevice.ui.ExdeviceProfileUI^,
+                ^.plugin.sns.ui.SnsCommentDetailUI^,
+                ^.plugin.finder.feed.ui.FinderLivePersonalCenterUI^,
+                ^.plugin.teenmode.ui.SettingsTeenModeIntro^,
+                ^.plugin.setting.ui.setting.SettingsCareModeIntro^,
+                ^.plugin.webview.ui.tools.MMWebViewUI^,
+                ^.plugin.ting.TingFlutterActivity^
+            ],
+            ^unsupportStartFrom^:[
+                ^.app.WeChatSplashActivity^
+            ]
+        }"
+    />
+    <package package_name="com.xunmeng.pinduoduo"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.xunmeng.pdd_av_foundation.pddimagekit_android.ImagePreviewActivity^,
+                ^.chat.camera.ChatCameraActivity^,
+                ^.app_album.album.MultiImageSelectorActivity^,
+                ^.activity.NewPageActivity^
+            ]
+        }"
+    />
+    <package package_name="com.ss.android.ugc.aweme"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.splash.SplashActivity^,
+                ^.shortvideo.ui.VideoRecordNewActivity^,
+                ^.tools.infini.core.InfiniEditActivity^,
+                ^.commerce.sdk.mall.wholepage.MallContainerActivity^,
+                ^.live.LiveDummyActivity^,
+                ^.live.LivePlayActivity^,
+                ^com.bytedance.android.shopping.anchorv4.containers.ProductDetailActivity^,
+                ^.qrcode.userqr.UserQRActivity^,
+                ^.wallet.ui.WalletActivity^,
+                ^.watchlater.activity.WatchLaterListActivity^,
+                ^com.bytedance.ies.ugc.aweme.hunter.fullpage.HunterContainerActivity^,
+                ^.setting.ui.DouYinSettingNewVersionActivity^,
+                ^.shortvideo.ui.scan.ScanNewActivity^,
+                ^.search.activity.SearchResultActivity^,
+                ^.detail.ui.DetailActivity^,
+                ^.socialnotice.fans.FansDetailActivity^,
+                ^.socialnotice.view.activity.NotificationDetailActivity^,
+                ^com.bytedance.mira.stub.p0.StubSingleTopActivity1^,
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^.closefriends.moment3.container.MomentActivity^,
+                ^.im.sdk.module.session.fold.FoldListActivity^,
+                ^.hotspot.HotSpotDetailActivity^,
+                ^.music.ui.MusicDetailActivity^,
+                ^.trends.TrendsDetailActivity^,
+                ^.bullet.ui.BulletContainerActivity^,
+                ^.qrcode.ecom.ScanCommodityActivity^,
+                ^.search.activity.SearchResultWithAssignUiModePoiLifeActivity^,
+                ^.search.common.activity.ECSearchActivity^,
+                ^.profile.ui.UserProfileActivity^,
+                ^com.bytedance.locallife.page.poi.LifePoiActivity^,
+                ^.contact.ui.ContactsActivity^,
+                ^.friends.ui.RawAddFriendsActivity^,
+                ^.im.search.ui.ImSearchActivity^,
+                ^.im.face2face.group.F2fGroupCreateActivity^,
+                ^.im.group.impl.business.create.GroupListActivity^,
+                ^.interaction.profilevisitor.ProfileVisitorActivity^,
+                ^.profile.ui.CropActivity^,
+                ^.profile.ui.ProfileEditActivity^,
+                ^.profile.cardentry.cardmanage.CardEntryManageActivity^,
+                ^com.bytedance.android.shopping.deepfeed.DeepFeedProductActivity^
+            ],
+            ^unsupportStartFrom^:[
+                ^.splash.SplashActivity^
+            ]
+        }"
+    />
+    <package package_name="com.eg.android.AlipayGphone"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.alipay.android.living.activity.LivingDetailActivity^,
+                ^com.alipay.mobile.scan.as.main.MainCaptureActivity^,
+                ^com.alipay.mobile.beehive.photo.ui.PhotoSelectActivity^,
+                ^com.alipay.android.phone.msgboxapp.ui.activity.MBoxTabPageActivity^,
+                ^com.alipay.mobile.socialwidget.ui.msgtab.pages.SmartMsgtabPage^,
+                ^com.alipay.mobile.nebulax.xriver.activity.XRiverActivity^,
+                ^com.alipay.android.living.activity.StandAloneTabActivity^,
+                ^com.alipay.mobile.chatapp.ui.PersonalChatMsgActivity_^,
+                ^com.alipay.mobile.socialcontactsdk.contact.select.page.FriendSelectActivity^
+            ]
+        }"
+    />
+    <package package_name="com.baidu.searchbox"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.SplashActivity^,
+                ^.video.feedflow.tab.VideoTabActivity^,
+                ^.video.linkageflow.VideoFlowLinkageFullActivity^,
+                ^.godeye.CodeScannerActivity^
+            ]
+        }"
+    />
+    <package package_name="com.smile.gifmaker"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.yxcorp.gifshow.HomeActivity^,
+                ^com.yxcorp.gifshow.detail.PhotoDetailActivity^,
+                ^com.yxcorp.gifshow.detail.PhotoDetailActivityTablet^,
+                ^com.yxcorp.plugin.qrcode.api.QRCodeScanActivity^,
+                ^com.yxcorp.gifshow.camera.record.CameraActivity^,
+                ^com.yxcorp.gifshow.v3.EditorActivity^
+            ]
+        }"
+    />
+    <package package_name="com.taobao.taobao"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.ali.user.mobile.login.ui.UserLoginActivity^,
+                ^com.etao.feimagesearch.capture.CaptureActivity^,
+                ^com.etao.feimagesearch.IrpActivity^
+            ]
+        }"
+    />
+    <package package_name="com.kuaishou.nebula"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.yxcorp.gifshow.HomeActivity^,
+                ^com.yxcorp.gifshow.detail.PhotoDetailActivity^,
+                ^com.yxcorp.gifshow.detail.PhotoDetailActivityTablet^,
+                ^com.yxcorp.plugin.qrcode.api.QRCodeScanActivity^,
+                ^com.yxcorp.gifshow.camera.record.CameraActivity,
+                ^com.yxcorp.gifshow.v3.EditorActivity
+            ]
+        }"
+    />
+    <package package_name="com.autonavi.minimap"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.autonavi.map.activity.SplashActivity^
+            ]
+        }"
+    />
+    <package package_name="com.jingdong.app.mall"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.jd.lib.scan.lib.zxing.client.android.NewCaptureActivity^,
+                ^com.jd.lib.scan.photobuy.ImageSearchActivity^,
+                ^com.jd.lib.mediamaker.maker.JdmmMediaMakerActivityDark^
+            ]
+        }"
+    />
+    <package package_name="com.ss.android.ugc.aweme.lite"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.ss.android.ugc.aweme.splash.SplashActivity^,
+                ^com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity^,
+                ^com.ss.android.ugc.aweme.tools.infini.core.InfiniEditActivity^,
+                ^com.ss.android.ugc.aweme.commerce.sdk.mall.wholepage.MallContainerActivity^,
+                ^com.ss.android.ugc.aweme.wallet.ui.WalletActivity^,
+                ^com.ss.android.ugc.aweme.qrcode.userqr.UserQRActivity^,
+                ^com.bytedance.ies.ugc.aweme.hunter.fullpage.HunterContainerActivity^,
+                ^com.ss.android.ugc.aweme.watchlater.activity.WatchLaterListActivity^,
+                ^com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity^,
+                ^com.bytedance.mira.stub.p0.StubSingleTaskActivity1^,
+                ^com.ss.android.ugc.aweme.search.activity.SearchResultActivity^,
+                ^com.ss.android.ugc.aweme.detail.ui.DetailActivity^,
+                ^com.ss.android.ugc.aweme.live.LiveDummyActivity^,
+                ^com.ss.android.ugc.aweme.live.LivePlayActivity^,
+                ^com.bytedance.android.shopping.anchorv4.containers.ProductDetailActivity^,
+                ^com.ss.android.ugc.aweme.socialnotice.fans.FansDetailActivity^,
+                ^com.ss.android.ugc.aweme.socialnotice.view.activity.NotificationDetailActivity^,
+                ^com.bytedance.mira.stub.p0.StubSingleTopActivity1^,
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^com.ss.android.ugc.aweme.closefriends.moment3.container.MomentActivity^,
+                ^com.ss.android.ugc.aweme.im.sdk.module.session.fold.FoldListActivity^,
+                ^com.ss.android.ugc.aweme.hotspot.HotSpotDetailActivity^,
+                ^com.ss.android.ugc.aweme.music.ui.MusicDetailActivity^,
+                ^com.ss.android.ugc.aweme.trends.TrendsDetailActivity^,
+                ^com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity^,
+                ^com.ss.android.ugc.aweme.qrcode.ecom.ScanCommodityActivity^,
+                ^com.ss.android.ugc.aweme.search.activity.SearchResultWithAssignUiModePoiLifeActivity^,
+                ^com.ss.android.ugc.aweme.search.common.activity.ECSearchActivity^,
+                ^com.ss.android.ugc.aweme.profile.ui.UserProfileActivity^,
+                ^com.bytedance.locallife.page.poi.LifePoiActivity^,
+                ^com.ss.android.ugc.aweme.contact.ui.ContactsActivity^,
+                ^com.ss.android.ugc.aweme.friends.ui.RawAddFriendsActivity^,
+                ^com.ss.android.ugc.aweme.im.search.ui.ImSearchActivity^,
+                ^com.ss.android.ugc.aweme.im.face2face.group.F2fGroupCreateActivity^,
+                ^com.ss.android.ugc.aweme.im.group.impl.business.create.GroupListActivity^,
+                ^com.ss.android.ugc.aweme.interaction.profilevisitor.ProfileVisitorActivity^,
+                ^com.ss.android.ugc.aweme.profile.ui.CropActivity^,
+                ^com.ss.android.ugc.aweme.profile.ui.ProfileEditActivity^,
+                ^com.ss.android.ugc.aweme.profile.cardentry.cardmanage.CardEntryManageActivity^,
+                ^com.bytedance.android.shopping.deepfeed.DeepFeedProductActivity^
+            ],
+            ^unsupportStartFrom^:[
+                ^com.ss.android.ugc.aweme.splash.SplashActivity^
+            ]
+        }"
+    />
+    <package package_name="com.dragon.read"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^com.bytedance.mira.stub.p0.StubSingleTaskActivity1^,
+                ^.reader.ui.ReaderActivity^,
+                ^.component.shortvideo.impl.ShortSeriesActivity^,
+                ^.component.audio.impl.ui.page.AudioPlayActivity^
+            ]
+        }"
+    />
+    <package package_name="com.xingin.xhs"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.xingin.matrix.notedetail.NoteDetailActivity^,
+                ^com.xingin.matrix.detail.activity.DetailFeedActivity^,
+                ^com.xingin.alioth.search.GlobalSearchActivity^,
+                ^com.xingin.alioth.imagesearch.active.container.ActiveImageSearchActivity^
+            ]
+        }"
+    />
+    <package package_name="com.phoenix.read"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^com.dragon.read.pages.main.MainFragmentActivity^,
+                ^com.dragon.read.reader.ui.ReaderActivity^,
+                ^com.dragon.read.component.shortvideo.impl.ShortSeriesActivity^
+            ]
+        }"
+    />
+    <package package_name="com.tencent.qqlive"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.ona.activity.VideoDetailActivity^
+            ]
+        }"
+    />
+    <package package_name="com.sankuai.meituan"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.meituan.android.scan.ScanQRInMeituanActivity^,
+                ^com.meituan.android.scan.NewArActivity^,
+                ^com.sankuai.waimai.bussiness.order.detail.WMOrderDetailActivity^,
+                ^com.meituan.android.yoda.activity.YodaRouterTransparentActivity^,
+                ^com.meituan.android.pt.homepage.modules.secondfloor.SecondFloorActivity^
+            ]
+        }"
+    />
+    <package package_name="com.tencent.mtt"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.ss.android.article.news"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.ss.android.qrscan.barcodescanner.CaptureActivity^,
+                ^com.bytedance.android.openlive.plugin.LivePlayerActivity^,
+                ^com.bytedance.ugc.medialib.tt.page.VideoPreviewActivity^,
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^com.bytedance.mira.stub.p0.StubTranslucentActivity^
+            ]
+        }"
+    />
+    <package package_name="com.baidu.BaiduMap"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.baidu.baidumaps.guide.TermsActivity^,
+                ^com.baidu.baidumaps.MapsActivity^
+            ]
+        }"
+    />
+    <package package_name="com.kugou.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.sina.weibo"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.SplashActivity^,
+                ^.composerinde.ForwardComposerActivityV2^,
+                ^.mediaproducer.activity.StoryCameraIndependentActivity^,
+                ^.mediaproducer2.VideoMakerActivity^,
+                ^.qrcode.CaptureActivity^,
+                ^.mediaproducer2.PhotoPickerCompatActivity^,
+                ^.page.profilev2.detail.share.MyQrCodeV2Activity^,
+                ^.page.ProfileInfoActivity^,
+                ^.weiyou.contacts.GroupChatForwardActivity^
+            ]
+        }"
+    />
+    <package package_name="com.android.bankabc"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.qiyi.video"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.youku.phone"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.youku.saosao.activity.CaptureActivity^,
+                ^com.youku.ui.activity.DetailActivity^
+            ]
+        }"
+    />
+    <package package_name="com.greenpoint.android.mc10086.activity"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="tv.danmaku.bili"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.bilibili.app.qrcode.QRcodeCaptureActivity^,
+                ^com.bilibili.app.authorspace.ui.AuthorSpaceActivity^
+            ]
+        }"
+    />
+    <package package_name="com.tmri.app.main"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.ss.android.article.video"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.activity.SplashActivity^,
+                ^com.ss.android.common.app.XGSceneContainerActivity^,
+                ^com.ixigua.feature.mine.qrcode.QRCodeActivity^
+            ]
+        }"
+    />
+    <package package_name="com.taobao.idlefish"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.webview.WebHybridActivity^,
+                ^com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity^,
+                ^com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity^
+            ]
+        }"
+    />
+    <package package_name="com.xs.fm"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.snda.wifilocating"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.wifitutu.user.login.ui.ForceLoginActivity^,
+                ^com.wifitutu.user.login.ui.UserLoginActivity^,
+                ^com.wifitutu.ui.tools.share.QRScanActivity^
+            ]
+        }"
+    />
+    <package package_name="com.UCMobile"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.uc.ucamera.UCameraActivity^
+            ]
+        }"
+    />
+    <package package_name="com.baidu.searchbox.lite"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.baidu.searchbox.video.feedflow.tab.VideoTabActivity^,
+                ^com.baidu.searchbox.godeye.CodeScannerActivity^
+            ]
+        }"
+    />
+    <package package_name="com.wuba"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.quark.browser"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.lemon.lv"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.vega.recorder.scan.ScanActivity^,
+                ^com.vega.main.home.toolpage.live.VideoToLiveMiddlewareActivity^,
+                ^com.vega.gallery.main.MainMediaActivity^,
+                ^com.vega.launcher.precondition.DeeplinkActivity^,
+                ^com.vega.gallery.activity.script.BusinessNewChainMediaSelectActivity^
+            ],
+            ^unsupportStartFrom^:[
+                ^com.vega.main.home.toolpage.live.VideoToLiveMiddlewareActivity^,
+                ^com.vega.launcher.precondition.DeeplinkActivity^
+            ]
+        }"
+    />
+    <package package_name="com.larus.nova"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.ss.android.ugc.live"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity^,
+                ^com.ss.android.ugc.aweme.tools.infini.core.InfiniEditActivity^,
+                ^com.ss.android.ugc.aweme.live.LiveDummyActivity^,
+                ^com.ss.android.ugc.aweme.live.LivePlayActivity^,
+                ^com.bytedance.android.shopping.anchorv4.containers.ProductDetailActivity^,
+                ^com.ss.android.ugc.aweme.commerce.sdk.mall.wholepage.MallContainerActivity^,
+                ^com.bytedance.ies.ugc.aweme.hunter.fullpage.HunterContainerActivity^,
+                ^com.ss.android.ugc.aweme.wallet.ui.WalletActivity^,
+                ^com.ss.android.ugc.aweme.qrcode.userqr.UserQRActivity^,
+                ^com.ss.android.ugc.aweme.watchlater.activity.WatchLaterListActivity^,
+                ^com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity^,
+                ^com.ss.android.ugc.aweme.search.activity.SearchResultActivity^,
+                ^com.ss.android.ugc.aweme.detail.ui.DetailActivity^,
+                ^com.ss.android.ugc.aweme.socialnotice.fans.FansDetailActivity^,
+                ^com.ss.android.ugc.aweme.socialnotice.view.activity.NotificationDetailActivity^,
+                ^com.bytedance.mira.stub.p0.StubSingleTopActivity1^,
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^com.ss.android.ugc.aweme.closefriends.moment3.container.MomentActivity^,
+                ^com.ss.android.ugc.aweme.im.sdk.module.session.fold.FoldListActivity^,
+                ^com.ss.android.ugc.aweme.hotspot.HotSpotDetailActivity^,
+                ^com.ss.android.ugc.aweme.music.ui.MusicDetailActivity^,
+                ^com.ss.android.ugc.aweme.trends.TrendsDetailActivity^,
+                ^com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity^,
+                ^com.ss.android.ugc.aweme.qrcode.ecom.ScanCommodityActivity^,
+                ^com.ss.android.ugc.aweme.search.activity.SearchResultWithAssignUiModePoiLifeActivity^,
+                ^com.ss.android.ugc.aweme.search.common.activity.ECSearchActivity^,
+                ^com.ss.android.ugc.aweme.profile.ui.UserProfileActivity^,
+                ^com.bytedance.locallife.page.poi.LifePoiActivity^,
+                ^com.ss.android.ugc.aweme.contact.ui.ContactsActivity^,
+                ^com.ss.android.ugc.aweme.friends.ui.RawAddFriendsActivity^,
+                ^com.ss.android.ugc.aweme.im.search.ui.ImSearchActivity^,
+                ^com.ss.android.ugc.aweme.im.face2face.group.F2fGroupCreateActivity^,
+                ^com.ss.android.ugc.aweme.im.group.impl.business.create.GroupListActivity^,
+                ^com.ss.android.ugc.aweme.interaction.profilevisitor.ProfileVisitorActivity^,
+                ^com.ss.android.ugc.aweme.profile.ui.CropActivity^,
+                ^com.ss.android.ugc.aweme.profile.ui.ProfileEditActivity^,
+                ^com.ss.android.ugc.aweme.profile.cardentry.cardmanage.CardEntryManageActivity^,
+                ^com.bytedance.android.shopping.deepfeed.DeepFeedProductActivity^
+            ],
+            ^unsupportStartFrom^:[
+                ^com.ss.android.ugc.aweme.splash.SplashActivity^
+            ]
+        }"
+    />
+    <package package_name="com.chinamworld.main"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.shizhuang.duapp"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.modules.mall_search.graphsearch.GraphSearchMainActivity^,
+                ^.media.publish.activity.TotalPublishProcessActivity,
+                ^.modules.imagepicker.ImagePickerActivity^
+            ]
+        }"
+    />
+    <package package_name="com.ss.android.article.lite"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.android.bytedance.search.imagesearch.ImageSearchActivity^,
+                ^com.bytedance.android.live_ecommerce.livelite.LiveLiteActivity^,
+                ^com.ss.android.live.host.livehostimpl.OpenLiveWebViewActivity^,
+                ^com.bytedance.mira.stub.p0.StubStandardActivity1^,
+                ^com.bytedance.mira.stub.p0.StubTranslucentActivity^
+            ]
+        }"
+    />
+    <package package_name="com.tencent.news"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.login.module.scan.ScanQrCodeActivity^,
+                ^.kkvideo.shortvideo.VerticalVideoVideoActivity^,
+                ^.ui.UserHomeActivity^
+            ]
+        }"
+    />
+    <package package_name="com.alibaba.android.rimet"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.taobao.ma.ui.ScanActivity2^,
+                ^com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity^,
+                ^com.alibaba.android.dingtalk.photoui.activitys.AlbumActivity^
+            ]
+        }"
+    />
+    <package package_name="com.alibaba.wireless"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.ali.user.mobile.login.ui.UserLoginActivity^,
+                ^.launch.ma.CamActivity^
+            ]
+        }"
+    />
+    <package package_name="com.baidu.homework"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.common.camera.NewCameraManyQuestionsActivity^,
+                ^.activity.scan.ScanActivity^
+            ]
+        }"
+    />
+    <package package_name="com.icbc"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.tencent.qqmusic"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.camerascan.view.CameraScanActivity^
+            ]
+        }"
+    />
+    <package package_name="com.ximalaya.ting.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <package package_name="com.achievo.vipshop"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.search.activity.SearchCameraActivity^,
+                ^.search.activity.CropImgActivity^,
+                ^.commons.logic.activity.VipMediaChooseActivity^
+            ]
+        }"
+    />
+    <!-- domestic project application list end -->
+
+    <!-- export project application list begin -->
+    <package package_name="com.google.android.youtube"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.whatsapp"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.facebook.katana"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.instagram.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.facebook.orca"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.facebook.messaging.threadsettings2.activity.ThreadSettingsActivity^
+            ]
+        }"
+    />
+
+    <package package_name="com.google.android.contactkeys"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.google.android.safetycore"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.google.android.apps.youtube.music"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.snapchat.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.truecaller"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^.toptabs.impl.ui.CallHistoryTabsContainerActivity^
+            ]
+        }"
+    />
+
+    <package package_name="com.ss.android.ugc.trill"
+        anim_level="3|4"
+        custom_config_body="{
+            ^unsupportActivitys^:[
+                ^com.ss.android.ugc.aweme.splash.SplashActivity^,
+                ^com.ss.android.ugc.aweme.detail.ui.DetailActivity^
+            ]
+        }"
+    />
+
+    <package package_name="com.google.android.photopicker"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="org.telegram.messenger"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.spotify.music"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.finshell.fin"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="in.amazon.mShop.android.shopping"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.lemon.lvoverseas"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.flipkart.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="cn.wps.moffice_eng"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.facebook.lite"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.meesho.supply"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.netflix.mediaclient"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.linkedin.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.jio.myjio"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.whatsapp.w4b"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.mxtech.videoplayer.ad"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+
+    <package package_name="com.video.fun.app"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="net.one97.paytm"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.instagram.barcelona"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.lenovo.anyshare.gps"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.openai.chatgpt"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.myairtelapp"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.whereismytrain.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.pinterest"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.nearme.statistics.rom"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.bigwinepot.nwdn.international"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.playit.videoplayer"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.instagram.lite"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.myntra.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.google.mainline.telemetry"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="in.mohalla.sharechat"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.twitter.android"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+
+    <package package_name="com.einnovation.temu"
+        anim_level="3|4"
+        custom_config_body="{
+        }"
+    />
+    <!-- export project application list end -->
+</filter-conf>

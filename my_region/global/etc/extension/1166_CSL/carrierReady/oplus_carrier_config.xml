@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="1"/>
+	<int name="vowifi_preferred_hide_mode" value="1"/>
+	<boolean name="display_call_type_icon_bool" value="true"/>
+	<boolean name="hide_ims_apn_bool" value="false"/>
+	<int name="config_show_allow_2g" value="1"/>
+</carrier_config>
+<!-- Timestamp 2025-05-08T20:05:29 #704310 -->

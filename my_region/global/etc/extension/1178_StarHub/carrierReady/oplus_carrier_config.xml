@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<int name="vowifi_roaming_preferred_mode" value="1"/>
+	<boolean name="carrier_oplus_support_ut_pwd_bool" value="true"/>
+	<boolean name="show_oplus_video_hold_bool" value="true"/>
+</carrier_config>
+<!-- Timestamp 2025-04-18T11:51:20 #664600 -->

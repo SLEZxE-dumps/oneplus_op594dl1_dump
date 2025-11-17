@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<int name="config_show_allow_2g" value="1"/>
+</carrier_config>
+<!-- Timestamp 2025-04-28T09:54:34 #699518 -->

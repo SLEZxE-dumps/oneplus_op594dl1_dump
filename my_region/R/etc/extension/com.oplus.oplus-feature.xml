@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.wlan.wlan_assistant_default_value_enable_ex"/>
+	<oplus-feature name="com.oplus.nfc.HceAccesscardRegionControl"/>
+</oplus-config>
+<!-- Timestamp 2025-06-27T19:09:03 #763824 -->

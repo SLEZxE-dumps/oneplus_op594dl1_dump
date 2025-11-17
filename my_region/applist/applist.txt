@@ -1,0 +1,2 @@
+com.nearme.instant.platform:Instant.apk::false
+com.oplus.callrecorder:OplusCallRecorder.apk::false

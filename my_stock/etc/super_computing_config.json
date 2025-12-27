@@ -1,0 +1,12 @@
+{
+	"version":"2024082001",
+	"settings": [
+		{
+			"type": "0",
+			"typeName": "technique_title",
+			"title": "technique_soc_title"
+		}
+	],
+	"certificate": [],
+	"technique": []
+}

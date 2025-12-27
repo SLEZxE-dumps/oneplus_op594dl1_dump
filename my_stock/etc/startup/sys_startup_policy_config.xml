@@ -1,0 +1,45 @@
+<filter-conf>
+<version>2025101602</version>
+<isOpen>1</isOpen>
+<filter-name>sys_startup_policy_config</filter-name>	
+	<ForbidRestartService>1</ForbidRestartService>	
+	<DelayRestartService>
+        <delay_rs name = "activity_starting" time = "5:6" mem = "8" enable = "1" window = "5000" />
+    </DelayRestartService>
+	<DelayRestartService>
+        <delay_rs name = "screen_turning_on" time = "5:6" lightos="2" enable = "1" window = "5000" />
+    </DelayRestartService>
+
+	<LightOsFeatureConfig>
+	    <FeatureConfig name = "adjust_mem_level_switch"  intVal = "2" />
+	    <FeatureConfig name = "adjust_mem_level_interval"  longVal = "15000" />
+	    <FeatureConfig name = "normal_startup_switch"  intVal = "2"/>
+	    <FeatureConfig name = "JobExecIntervalRestricted"  intVal = "2" />
+	    <FeatureConfig name = "JobProcStartRestricted"  intVal = "2" />
+	    <FeatureConfig name = "JobExecInterval"  longVal= "30000" />
+	    <FeatureConfig name = "JobProcStartInterval"  longVal= "60000" />
+	    <FeatureConfig name = "JobProcStartQuota"  intVal= "2" />
+        <FeatureConfig name = "JobScreenOnRestriction"  intVal= "2" />
+	    <FeatureConfig name = "JobWizardRestricted"  intVal= "2" />
+	    <FeatureConfig name = "BootPressureExpEnable"  intVal = "2" />
+	    <FeatureConfig name = "prevent_not_used_startup_switch"  intVal = "2"/>
+		<FeatureConfig name = "remove_duplicate_boot_receivers_switch"  intVal = "2"/>
+	    <FeatureConfig name = "lightos_oplus_boot_completed_delay_time"  longVal = "260000"/>
+	    <FeatureConfig name = "appStandbyRestrictSysAppSwitch"  intVal = "2" />
+        <FeatureConfig name = "dream_fast_switch"  intVal = "2" />
+        <FeatureConfig name = "remove_pre_boot_receiver_before_wizard_switch"  intVal = "2" />
+		<FeatureConfig name = "cpu_job_restriction_switch"  intVal = "1" />
+		<FeatureConfig name = "memory_job_restriction_switch"  intVal = "1" />
+		<FeatureConfig name = "prevent_startwindow_cekill"  intVal = "2" />
+		<FeatureConfig name = "adjust_temp_white_list_changed_switch"  intVal = "2" />
+        <FeatureConfig name = "camryStrategySwitch"  intVal = "2" />
+		<FeatureConfig name = "batteryChangedFilterSwitch"  intVal = "2" />
+		<FeatureConfig name = "preventBindServiceFromAndroid"  intVal = "2" />
+        <FeatureConfig name = "scene_job_restriction"  intVal = "3" />
+		<FeatureConfig name = "FilterUntrackedUidJobEnable" intVal = "2" />
+		<FeatureConfig name = "condition_not_used_switch" intVal = "3" />
+		<FeatureConfig name = "condition_not_used_not_provisioned_switch" intVal = "3" />
+		<FeatureConfig name = "enable_skip_bg_mem_trim_on_fg" intVal = "3" />
+		<FeatureConfig name = "enable_platform_compat_cache_ext" intVal = "3"/>
+	</LightOsFeatureConfig>
+</filter-conf>

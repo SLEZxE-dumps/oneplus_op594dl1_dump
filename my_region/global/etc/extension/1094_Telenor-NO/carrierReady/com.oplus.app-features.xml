@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:36 #4c03b737-955b-4e05-84a4-16f35b27b0ae -->

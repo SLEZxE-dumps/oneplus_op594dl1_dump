@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.show_lte_for_4g"/>
+	<app_feature name="com.android.phone.simsettings.not_set_apn_type" args="StringList:array">
+		<StringList name="array" args="dun"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:38 #a1268b02-2458-4801-ad18-880e54843e3d -->

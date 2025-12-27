@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<int name="volte_visible" value="1"/>
+</carrier_config>
+<!-- Timestamp 2025-09-24T15:08:20 #998244 -->

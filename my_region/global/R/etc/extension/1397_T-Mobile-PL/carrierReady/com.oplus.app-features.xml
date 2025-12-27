@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_switch_title_dynamic" args="String:wifi_call_title_for_pl_tmobile"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:36 #9fe9493d-ae6c-48c8-b720-256f49453a42 -->

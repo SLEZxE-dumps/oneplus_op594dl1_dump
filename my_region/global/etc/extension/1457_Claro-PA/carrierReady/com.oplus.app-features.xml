@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.show_3g_for_h"/>
+	<app_feature name="com.android.systemui.show_4dot5g_for_4gplus"/>
+	<app_feature name="com.android.systemui.show_g_for_gprs"/>
+	<app_feature name="com.android.systemui.show_lte_for_4g"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:37 #580ab0e4-a7a0-45e6-863b-e468c3b9601d -->

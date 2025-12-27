@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.not_set_apn_type" args="StringList:array">
+		<StringList name="array" args="dun"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:35 #8b4cd550-a4a2-470e-9375-8ed785dc6981 -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.show_lte_for_4g"/>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+	<app_feature name="com.android.phone.simsettings.not_set_apn_type" args="StringList:array">
+		<StringList name="array" args="dun"/>
+	</app_feature>
+	<app_feature name="com.android.systemui.show_lteplus_for_4gplus"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:33 #ab70da80-5734-4fb6-a290-d25fd5bf4f61 -->

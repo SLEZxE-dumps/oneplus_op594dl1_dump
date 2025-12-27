@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.show_vonr" args="boolean:true"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:35 #a80b35ea-6be1-4f37-97ec-db375c7e0eb9 -->

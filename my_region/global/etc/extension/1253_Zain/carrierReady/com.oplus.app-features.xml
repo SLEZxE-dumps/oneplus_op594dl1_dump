@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.disable_vowifi_on_airplaneon_dynamic"/>
+	<app_feature name="com.android.phone.simsettings.data_roaming_domestic_on_switch_control_national_dynamic"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:34 #6d8546d0-a162-42f4-ae4e-5923aa4b7109 -->

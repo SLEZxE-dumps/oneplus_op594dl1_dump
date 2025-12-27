@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.softbank_voice_type"/>
+	<app_feature name="com.android.incallui.display_caller_id_name"/>
+	<app_feature name="com.oplus.blacklistapp.harass_intercept_anonymous_etc"/>
+	<app_feature name="com.android.contacts.harass_intercept_anonymous_etc"/>
+	<app_feature name="com.android.phone.add_harass_intercept_type"/>
+	<app_feature name="com.android.server.telecom.add_harass_intercept_type"/>
+	<app_feature name="com.android.incallui.add_harass_intercept_type"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:35 #a1d663d8-c602-47d5-9f51-e2c236cabd72 -->

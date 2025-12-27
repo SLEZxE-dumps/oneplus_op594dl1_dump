@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.title_id_for_vowifi_notify" args="String:vowifi_pref_title"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:38 #736bacf8-7998-4c0d-bfb8-bd46f07839bd -->

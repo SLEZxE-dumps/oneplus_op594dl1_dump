@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.disable_vowifi_on_airplaneon_dynamic"/>
+	<app_feature name="com.android.systemui.show_vo5g"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:38 #563a4e5a-fbaa-4209-b673-a7a3a67adfad -->

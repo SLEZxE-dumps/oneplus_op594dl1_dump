@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="carrier_allow_transfer_cs_call_bool" value="true"/>
+	<boolean name="carrier_allow_transfer_ims_call_bool" value="true"/>
+</carrier_config>
+<!-- Timestamp 2025-08-14T09:56:43 #925825 -->

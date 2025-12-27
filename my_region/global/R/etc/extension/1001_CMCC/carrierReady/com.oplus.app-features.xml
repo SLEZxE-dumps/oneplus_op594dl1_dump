@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.show_hdplus" args="boolean:true"/>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:35 #ab3f720d-ae7e-4b1f-9853-e17ec4bf33b4 -->

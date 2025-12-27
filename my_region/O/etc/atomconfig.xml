@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<AtomTracker>
+<version>1000</version>
+<atom>
+        <atomConfig appId="054502" appSide="1" enable="1" expired="FOR_EVER" mask="2,21037" policy="0" rule="cellchange&amp;&amp;passivegps" version="4">
+            <parameter name="max_daily_size" value="819200" />
+            <parameter name="max_daily_count" value="10" />
+            <parameter name="atom_data_config" value="2" />
+            <parameter name="save_data_to_local" value="0" />
+            <parameter name="enable_debug_log" value="0" />
+            <parameter name="send_data_interval" value="300000" />
+        </atomConfig>
+		<atomConfig appId="99999" enable="1" rule="datechange" stopRule="" action="" policy="0" mask="21018,21026,21027,21024,21025,21028,21029" expired="FOR_EVER" appSide="1" version="1">
+			<parameter name="max_daily_count" value="10000" />
+			<parameter name="policy_interval" value="30000" />
+			<parameter name="max_daily_size" value="81920000" />
+			<parameter name="atom_data_mask21018" value="15" />
+			<parameter name="atom_record_event_config" value="1"/>
+		</atomConfig>
+        <atomConfig appId="54500" enable="1" rule="screen&amp;&amp;datachannel==2&amp;&amp;frontapp&amp;&amp;subwayscene" stopRule="datachannel!=2||!screen||!frontapp||!subwayscene" action="" policy="0" mask="10201,21002,21003" expired="2026-12-31" appSide="1" version="2">
+            <parameter name="user_set_fetch_data" value="1" />
+            <parameter name="atom_data_config" value="10201" />
+            <parameter name="primary_rule_expire_time" value="7200000" />
+            <parameter name="policy_interval" value="60000" />
+            <parameter name="enable_debug_log" value="0" />
+            <parameter name="save_data_to_local" value="0" />
+            <parameter name="crowd_monitor_app_list" value="com.google.android.youtube,com.whatsapp,com.facebook.katana,com.instagram.android" />
+            <parameter name="max_daily_size" value="1638400" />
+        </atomConfig>
+</atom>
+</AtomTracker>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.update_volte_switch_title_dynamic"/>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+	<app_feature name="com.android.phone.network_mode_cust_hide_list">
+		<StringList args="oplus_2g_only_auto:hide"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2025-11-13T11:58:37 #65059589-f1aa-44ff-b863-b921adecaace -->

@@ -1,0 +1,47 @@
+on late-init
+    chmod 0664 /dev/mdmfeature
+    chown system system /dev/mdmfeature
+
+on early-init
+    exec_start update_single_sim_config
+    exec_start update_feature_link
+
+
+
+service update_feature_map /odm/bin/hw/mdm_feature update_feature_map
+    class core
+    user root
+    group root shell system radio
+    oneshot
+
+service read_feature_map /odm/bin/hw/mdm_feature read_feature_map
+    class early_hal
+    user root
+    group root shell system radio
+    disabled
+    oneshot
+
+#ifdef OPLUS_FEATURE_DYNAMIC_SINGLESIM
+##Wei.Peng@NETWORK.SIM.3745536,2022/7/15
+##Add for dynamic single sim feature
+service update_single_sim_config /odm/bin/hw/mdm_feature update_single_sim_config
+    class animation
+    user root
+    group root shell system radio
+    oneshot
+
+service update_feature_link /odm/bin/hw/mdm_feature update_feature_link
+    class early_hal
+    user root
+    group root shell system radio
+    disabled
+    oneshot
+
+on property:ro.vendor.oplus.radio.multisim.config=*
+    setprop persist.radio.multisim.config ${ro.vendor.oplus.radio.multisim.config}
+#endif
+
+##Jallo.Zhang@NETWORK.SIM.4702539,2022/11/07
+##Add for single and dual card XML link of XTS certification
+on property:ro.boot.radio.multisim.config=*
+     setprop persist.radio.multisim.config ${ro.boot.radio.multisim.config}

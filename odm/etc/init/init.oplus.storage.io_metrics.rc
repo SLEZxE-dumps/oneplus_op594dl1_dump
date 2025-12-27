@@ -1,0 +1,28 @@
+service oplus.storage.io_metrics.on /odm/bin/init.oplus.storage.io_metrics.sh "on"
+    class late_start
+    user root
+    disabled
+    seclabel u:r:oplus_storage_io_metrics:s0
+    oneshot
+
+service oplus.storage.io_metrics.off /odm/bin/init.oplus.storage.io_metrics.sh "off"
+    class late_start
+    user root
+    disabled
+    seclabel u:r:oplus_storage_io_metrics:s0
+    oneshot
+
+on property:sys.boot_completed=1
+    start oplus.storage.io_metrics.on
+
+on property:sys.oplus.high.performance=1
+    start oplus.storage.io_metrics.off
+
+on property:sys.oplus.high.performance=0
+    start oplus.storage.io_metrics.on
+
+on property:sys.oplus.high.performance.spec=1
+    start oplus.storage.io_metrics.off
+
+on property:sys.oplus.high.performance.spec=0
+    start oplus.storage.io_metrics.on

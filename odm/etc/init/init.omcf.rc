@@ -1,0 +1,32 @@
+on post-fs-data
+    mkdir /data/vendor/omcf 0777 system root
+
+on property:persist.vendor.radio.omcf_premission=system
+    start omcf-system-sh
+
+service omcf-system-sh /vendor/bin/sh /odm/bin/init.omcf_chown_system.sh
+    class core
+    user root
+    group root shell system radio
+    disabled
+    oneshot
+
+on property:persist.vendor.radio.omcf_premission=radio
+    start omcf-radio-sh
+
+service omcf-radio-sh /vendor/bin/sh /odm/bin/init.omcf_chown_radio.sh
+    class core
+    user root
+    group root shell system radio
+    disabled
+    oneshot
+
+on property:persist.vendor.radio.omcf_premission=root
+    start omcf-root-sh
+
+service omcf-root-sh /vendor/bin/sh /odm/bin/init.omcf_chown_root.sh
+    class core
+    user root
+    group root shell system radio
+    disabled
+    oneshot

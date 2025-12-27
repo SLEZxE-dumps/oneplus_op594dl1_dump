@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+	<RAT name="NR5G">
+        <GeneralConfig name="Bandwidth">
+            <Band number="40">
+                <default>20000</default>
+            </Band>
+        </GeneralConfig>
+    </RAT>
+</RFTOOLKIT>

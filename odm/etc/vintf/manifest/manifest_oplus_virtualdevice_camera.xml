@@ -1,0 +1,20 @@
+<manifest version="1.0" type="device">
+	<hal format="hidl" override="true">
+        <name>android.hardware.camera.provider</name>
+        <transport>hwbinder</transport>
+        <version>2.7</version>
+        <interface>
+            <name>ICameraProvider</name>
+            <instance>virtual/0</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.virtual_device.camera.manager</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IVirtualCameraManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

@@ -1,0 +1,14 @@
+# qssi-user 16 BP2A.250605.015 1763448627541 release-keys
+- manufacturer: oneplus
+- platform: kalama
+- codename: OP594DL1
+- flavor: qssi-user
+- release: 16
+- id: TP1A.220905.001
+- incremental: T.R4T3.41f7299-20ec7a0-20f230d
+- tags: release-keys
+- fingerprint: OnePlus/CPH2447/OP594DL1:16/TP1A.220905.001/T.R4T3.41f7299-20ec7a0-20f230d:user/release-keys
+- is_ab: true
+- brand: OnePlus
+- branch: qssi-user-16-BP2A.250605.015-1763448627541-release-keys
+- repo: oneplus_op594dl1_dump

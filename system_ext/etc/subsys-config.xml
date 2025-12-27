@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsys-config>
+    <plugins>
+        <plugin name="com.oplus.subsys.OcloudPlugin" module="ocloud" loaded="false" path="/system_ext/priv-app/OcloudApp/OcloudApp.apk"/>
+        <plugin name="com.oplus.scene.ScenePlugin" module="scene-plugin" loaded="false" path="/system_ext/framework/subsys-scene-plugin.jar"/>
+        <plugin name="com.oplus.wifi.WifiPlugin" module="wifi-plugin" loaded="false" path="/system_ext/framework/subsys-wifi-plugin.jar"/>
+        <plugin name="com.oplus.gps.GpsPlugin" module="gps-plugin" loaded="false" path="/system_ext/framework/subsys-gps-plugin.jar"/>
+        <plugin name="com.oplus.plugin.InterfacePlugin" module="interface-plugin" loaded="false" path="/system_ext/priv-app/SubsysInterfacePlugin/SubsysInterfacePlugin.apk"/>
+    </plugins>
+    <components>
+        <component name="com.oplus.subsys.SubsysInterfaceLoader" category = "base"/>
+        <component name="com.oplus.tai.ModelRunner" category="base" module="telecom-ai" loaded="true"/>
+        <component name="com.oplus.tcs.CloudSyncLoader" category="base"/>
+        <component name="com.oplus.diagnose.DiagnoserLoader" category = "base"/>
+        <component name="com.oplus.scene.SceneService" category = "base"/>
+        <component name="com.oplus.atom.AtomAppManagerLoader" category = "base"/>
+        <component name="com.oplus.call.CallManagerLoader" category="base" module="call-manager" loaded="false" policy="simReady"/>
+        <component name="com.oplus.reg.RegManagerLoader" category="base"/>
+        <component name="com.oplus.data.DataManagerLoader" category="base" module="data-manager" loaded="false" policy="simReady"/>
+        <component name="com.oplus.os.OSManagerLoader" category="base"/>
+        <component name="com.oplus.sense.SenseManagerLoader" category="base"/>
+        <component name="com.oplus.fence.FenceLoader" category="base"/>
+    </components>
+    <cluster>
+    </cluster>
+    <tcsservices>
+        <!-- <service name="com.oplus.tcs.cybersense.CellDataSyncService"/> -->
+        <service name="com.oplus.tcs.extremecomm.ExtremeCommSyncService" module="extreme-comm-sync-service" loaded="false" policy="simReady"/>
+        <!-- <service name="com.oplus.tcs.imsrtp.ImsRtpOpushService"/> -->
+        <service name="com.oplus.tcs.concert.ConcertSyncService" module="concert-detect-sync-service" loaded="false" policy="simReady"/>
+        <service name="com.oplus.tcs.exhibition.ExhibitionSyncService" module="exhibition-detect-sync-service" loaded="false" policy="simReady"/>
+        <service name="com.oplus.tcs.situationmap.SituationMapService" module="bigData-detect-sync-service" loaded="false" policy="simReady"/>
+        <service name="com.oplus.tcs.attraction.AttractionSyncService" module="attraction-detect-sync-service" loaded="false" policy="simReady"/>
+        <service name="com.oplus.tcs.airport.AirportSyncService" module="airport-detect-sync-service" loaded="false" policy="simReady"/>
+        <service name="com.oplus.tcs.border.BorderSyncService" module="border-port-sync-service" loaded="false" policy="simReady"/>
+    </tcsservices>
+</subsys-config>

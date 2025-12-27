@@ -1,0 +1,42 @@
+plugins:34
+LogWorkManager[thread:logworkmanager]: static
+ApLog[]: static
+DynamicLog[]: static
+ScreenRecord[]: static
+RedScreenAssert[]: static
+BtHciLog[]: static
+MtkLogger[]: static
+StabilityLog[]: static
+CameraLog[]: static
+LogArchiver[thread:log_archiving]: static
+FeedbackLogCollector[thread:feedback_log_collector]: static
+DisplayLog[]: static
+BrightnessLog[]: static
+WlanLogger[]: static
+AudioLog[]: static
+TouchScreenLog[]: static
+GpsLog[]: static
+BiometricsLog[]: static
+RegularLog[]: static
+LogkitSwitch[]: static
+LogkitSwitchCommon[]: static
+Systrace[]: static
+QXDMLog[]: static
+VideoLog[]: static
+ModemLog[]: static
+NetLog[]: static
+QxdmCollector[]: static
+LogCollect[pool:log_collect_pool:4]: static
+LogCompress[thread:fault_logger]: static
+FaultLogCollector[pool:fault_log_collect_pool:4]: static
+LogPacking[thread:event_logger]: static
+DeviceFaultDetection[]: static
+LogLoadController[thread:gaia_load_controller]: static
+TheiaJudgement[thread:event_theia_judge]: static
+pipelines:3
+logCorePipeline:LogWorkManager LogkitSwitchCommon LogkitSwitch ApLog Systrace ScreenRecord QXDMLog BtHciLog RegularLog DynamicLog BiometricsLog ModemLog NetLog RedScreenAssert WlanLogger GpsLog StabilityLog CameraLog BrightnessLog DisplayLog AudioLog VideoLog TouchScreenLog MtkLogger QxdmCollector FeedbackLogCollector LogArchiver
+ExceptionLogPipeLine:LogCollect LogCompress
+FaultLogPipeLine:TheiaJudgement FaultLogCollector LogPacking
+eventsources:2
+CommonEventSource:logCorePipeline ExceptionLogPipeLine
+FaultLogEventSource:FaultLogPipeLine ExceptionLogPipeLine

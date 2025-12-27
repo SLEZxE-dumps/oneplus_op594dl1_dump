@@ -1,0 +1,62 @@
+service ordump_create /system_ext/bin/ordump_ctrl
+    class core
+    user root
+    disabled
+    oneshot
+    group root system media_rw shell everybody
+    seclabel u:r:ordump:s0
+
+service ordump_init /system_ext/bin/ordump_ctrl -i
+    class core
+    user root
+    disabled
+    oneshot
+    group root system media_rw shell everybody
+    seclabel u:r:ordump:s0
+
+service ordump_clean /system_ext/bin/ordump_ctrl -c
+    class core
+    user root
+    disabled
+    oneshot
+    group root system media_rw shell everybody
+    seclabel u:r:ordump:s0
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus.ordump.enable=true
+    mkdir /data/persist_log/DCS/de/ordump 0777 system system
+    mkdir /data/persist_log/DCS/en/ordump 0777 system system
+    mkdir /data/persist_log/ordump 0777 system system
+    start ordump_create
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus.ordump.enable=false
+    start ordump_clean
+
+#enable ordump for factory
+on property:sys.boot_completed=1 && property:ro.oplus.image.my_engineering.type=factory && property:persist.sys.dump=1
+    setprop persist.sys.oplus.ordump.debug true
+    setprop persist.sys.oplus.ordump.enable true
+    setprop persist.sys.oplus.ordump.sdcard false
+
+#diable ordump for minidump
+on property:sys.boot_completed=1 && property:ro.oplus.image.my_engineering.type=factory && property:persist.sys.dump=0
+    setprop persist.sys.oplus.ordump.debug false
+    setprop persist.sys.oplus.ordump.enable false
+    setprop persist.sys.oplus.ordump.sdcard false
+
+#ifdef OPLUS_FEATURE_FULLDUMP
+#liuyuan@BSP.Kernel.Stability, 2025/08/05, add for OTA version presentation during fulldump
+on post-fs-data && property:ro.debuggable=1
+    start save_version_ota
+    write /proc/bootprof "INIT:save_version_ota"
+#endif OPLUS_FEATURE_FULLDUMP
+
+#ifdef OPLUS_FEATURE_FULLDUMP
+#liuyuan@BSP.Kernel.Stability, 2025/08/05, add for OTA version presentation during fulldump
+service save_version_ota /system/system_ext/bin/ordump.sh "save_version_ota"
+    class core
+    user system
+    group system root shell
+    seclabel u:r:dumpstate:s0
+    disabled
+    oneshot
+#endif OPLUS_FEATURE_FULLDUMP

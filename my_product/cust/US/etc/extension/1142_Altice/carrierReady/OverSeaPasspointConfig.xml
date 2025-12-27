@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<WifiOverseaPasspoint>
+	<PasspointConfig>
+		<FriendlyName>optimum</FriendlyName>
+		<Fqdn>alticemobile.com</Fqdn>
+		<EapType>EAP_AKA</EapType>
+		<Realm>passpoint.alticemobile.com</Realm>
+	</PasspointConfig>
+</WifiOverseaPasspoint>

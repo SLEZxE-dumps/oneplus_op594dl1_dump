@@ -1,0 +1,23 @@
+{
+  "group": "AerialView",
+  "title": "俯瞰奇景",
+  "version": 1,
+  "wallpapers": [
+    {
+      "thumbPath": "./AerialView01.webp",
+      "originPath": "./AerialView01.webp"
+    },
+    {
+      "thumbPath": "./AerialView02.webp",
+      "originPath": "./AerialView02.webp"
+    },
+    {
+      "thumbPath": "./AerialView03.webp",
+      "originPath": "./AerialView03.webp"
+    },
+    {
+      "thumbPath": "./AerialView04.webp",
+      "originPath": "./AerialView04.webp"
+    }
+  ]
+}

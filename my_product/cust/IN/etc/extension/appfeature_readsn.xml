@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="allow_query_sn_app_list" args="StringList:pkgAndPublicKey">
+        <StringList name="pkgAndPublicKey" args="^in.cashify.*:7C930EEB0189C7CE6681D15DA802C5E83D95459868E2A9ED872592B0E9FAE2A9"/>
+    </app_feature>
+</extend_features>

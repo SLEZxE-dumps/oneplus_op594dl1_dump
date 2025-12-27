@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- control the preview mask view for aon face enrolling -->
+    <app_feature name="com.android.settings.colored_mask_for_aon_face_enroll" />
+</extend_features>

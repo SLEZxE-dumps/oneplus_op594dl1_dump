@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WifiProductConfig>
+    <version>2023120814</version>
+    <!--WIFI regulation configuraion begin-->
+    <WIFI7_FORBIDDEN_COUNTRY_LIST>TH,PH,ID</WIFI7_FORBIDDEN_COUNTRY_LIST>
+    <!--WIFI regulation configuraion end-->
+</WifiProductConfig>

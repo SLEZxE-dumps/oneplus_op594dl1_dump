@@ -1,0 +1,9 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.audio.magicvoice_support"/>
+    <oplus-feature name="oplus.software.audio.magicvoice_loopback_support"/>
+    <oplus-feature name="oplus.software.audio.magicvoice_v2_basic_support"/>
+    <oplus-feature name="oplus.software.audio.record_channel_support"/>
+    <oplus-feature name="oplus.software.audio.internal_record_support"/>
+    <!-- nigaopeng@MM.MEDIASERVER.IMAGE, 2020/06/15, Add for heif transfer switch -->
+    <oplus-feature name="oplus.software.camera.heic_support" />
+</oplus-config>

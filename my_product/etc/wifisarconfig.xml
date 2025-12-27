@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<modules>
+		<module hardware="Camera_Wide_Mipi">12</module>
+	</modules>
+</configs>

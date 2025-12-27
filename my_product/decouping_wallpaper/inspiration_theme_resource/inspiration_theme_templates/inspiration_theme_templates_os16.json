@@ -1,0 +1,223 @@
+[
+  {
+    "inspirationTypeName": "templates_entry",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":2,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"timeFamilyName\\\":\\\"sans-serif\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}",
+        "wallpaper": "color_os/color_os_wallpaper_1.webp",
+        "aiImage": "color_os/color_os_wallpaper_ai_1.webp",
+        "previewSimplified": "color_os/color_os_preview_1.webp",
+        "previewTraditional": "color_os/color_os_preview_traditional_1.webp",
+        "previewEng": "color_os/color_os_preview_eng_1.webp",
+        "inspirationThemeName": "classical"
+      },
+      {
+        "clockInfo": "{\"pkg\":\"com.oplus.keyguard.clock.magazine\",\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":1,\\\"materialResIndex\\\":0,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"extraMessageType\\\":0,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"timeFamilyName\\\":\\\"NuovoRomaSerif.ttf\\\",\\\"timeFontWeight\\\":600}\"}",
+        "wallpaper": "light_and_shadow/light_and_shadow_wallpaper_1.webp",
+        "aiImage": "",
+        "previewSimplified": "light_and_shadow/light_and_shadow_preview_1.webp",
+        "previewTraditional": "light_and_shadow/light_and_shadow_preview_traditional_1.webp",
+        "previewEng": "light_and_shadow/light_and_shadow_preview_eng_1.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"timeFamilyName\\\":\\\"\\\",\\\"timeFontWeight\\\":600,\\\"extraMessageType\\\":2}\",\"pkg\":\"com.oplus.keyguard.clock.gallery\"}",
+        "wallpaper": "healing/healing_wallpaper_1.webp",
+        "aiImage": "healing/healing_wallpaper_ai_1.webp",
+        "difference": "{\"colorGradientStart\": \"#DE6C3B\",\"colorGradientEnd\": \"#EDAC2B\",\"middle\":\"photo_frame/leftsemicircle/photo_frame_depth_leftsemicircle.svg\",\"sticky\": \"photo_frame/leftsemicircle/photo_frame_sticky_leftsemicircle.svg\",\"defaultIndex\":3,\"shape\":\"photo_frame/leftsemicircle/photo_frame_shape_leftsemicircle.svg\",\"shapeDark\":\"photo_frame/leftsemicircle/photo_frame_shape_dark_leftsemicircle.svg\",\"width\":314,\"height\":454,\"marginTop\":235}",
+        "previewSimplified": "healing/healing_preview_eng_1.webp",
+        "previewTraditional": "healing/healing_preview_eng_1.webp",
+        "previewEng": "healing/healing_preview_eng_1.webp",
+        "inspirationThemeName": "photo_frame"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"clockStyle\\\":0,\\\"timeFamilyName\\\":\\\"OPPODigit06.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":3,\\\"primaryColor\\\":-3347201,\\\"primaryColorDepthHSL\\\":[202.35294, 0.9999997, 0.9]}\",\"pkg\":\"com.oplus.keyguard.clock.graffiti\"}",
+        "wallpaper": "rhythm/rhythm_wallpaper_1.webp",
+        "aiImage": "rhythm/rhythm_wallpaper_ai_1.webp",
+        "difference": "{\"middle\": \"graffiti/game_on/depth_game_on.webp\",\"middleTint\":\"#CCECFF\",\"sticky\": \"\",\"aod\": \"graffiti/game_on/aod_game_on.webp\",\"stickyDirection\": \"left\",\"stickyTint\": \"#CCECFF\",\"defaultIndex\":1,\"pattern\":\"graffiti/game_on/thumbnail_game_on.webp\",\"patternDark\":\"graffiti/game_on/thumbnail_game_on_dark.webp\",\"lock2AodVideo\":\"graffiti/game_on/lock2aod_game_on.mp4\",\"aod2LockVideo\":\"graffiti/game_on/aod2lock_game_on.mp4\",\"middleHeight\":198,\"stickyAnimConfig\":\"{\\\"special\\\":\\\"gameon\\\"}\"}",
+        "previewSimplified": "rhythm/rhythm_preview_1.webp",
+        "previewTraditional": "rhythm/rhythm_preview_traditional_1.webp",
+        "previewEng": "rhythm/rhythm_preview_eng_1.webp",
+        "inspirationThemeName": "graffiti"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "color_os",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':2,'timeFamilyName':'OPPOSans4.0No.ttf','timeFontWeight':600,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.base\"}\t",
+        "wallpaper": "common/wallpaper_group/00_AOxygenOS/OxygenOS01.webp",
+        "playableMediaUri": "common/wallpaper_group/00_AOxygenOS/OxygenOS01.mp4",
+        "playableMediaType": 3,
+        "videoDepthMediaUri": "",
+        "aiImage": "",
+        "previewSimplified": "color_os/color_os_preview_3.webp",
+        "previewTraditional": "color_os/color_os_preview_3.webp",
+        "previewEng": "color_os/color_os_preview_eng_3.webp",
+        "inspirationThemeName": "classical"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "mountain",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':2,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':160,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":400,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/00_Nature/Nature05.webp",
+        "playableMediaUri": "common/wallpaper_group/00_Nature/Nature005.mp4",
+        "playableMediaType": 3,
+        "videoDepthMediaUri": "common/wallpaper_group/00_Nature/Nature005.mp4",
+        "aiImage": "mountain/mountain_wallpaper_ai_5.webp",
+        "previewSimplified": "mountain/mountain_preview_5.webp",
+        "previewTraditional": "mountain/mountain_preview_traditional_5.webp",
+        "previewEng": "mountain/mountain_preview_eng_5.webp",
+        "inspirationThemeName": "big_clock"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "never_settle",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":1,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":2,\\\"timeFamilyName\\\":\\\"OPPOGaladaRegularExport.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.magazine\"}",
+        "wallpaper": "common/wallpaper_group/11_NeverSettle/NeverSettle01.webp",
+        "aiImage": "never_settle/never_settle_wallpaper_ai_1.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"Never\nSettle\",\"textTypeface\": \"Billgates-2.ttf\",\"textSize\":115,\"textAlignment\": \"CENTER\",\"textOrientation \":0}",
+        "previewSimplified": "never_settle/never_settle_preview_1.webp",
+        "previewTraditional": "never_settle/never_settle_preview_traditional_1.webp",
+        "previewEng": "never_settle/never_settle_preview_eng_1.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":1,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":0,\\\"timeFamilyName\\\":\\\"OPPODigit06.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.magazine\"}",
+        "wallpaper": "common/wallpaper_group/11_NeverSettle/NeverSettle02.webp",
+        "aiImage": "never_settle/never_settle_wallpaper_ai_2.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"SURGE\",\"textTypeface\": \"/MoniguedemoRegular.ttf\",\"textSize\":140,\"textAlignment\": \"CENTER\",\"textOrientation \":0}",
+        "previewSimplified": "never_settle/never_settle_preview_2.webp",
+        "previewTraditional": "never_settle/never_settle_preview_traditional_2.webp",
+        "previewEng": "never_settle/never_settle_preview_eng_2.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.7137, 0.8314, 0.9843],\\\"clockStyle\\\":0,\\\"timeFamilyName\\\":\\\"OPPOGaladaRegularExport.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.graffiti\"} ",
+        "wallpaper": "common/wallpaper_group/11_NeverSettle/NeverSettle03.webp",
+        "aiImage": "never_settle/never_settle_wallpaper_ai_3.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"Seamless\",\"textTypeface\": \"Billgates-2.ttf\",\"textSize\":90,\"textAlignment\": \"CENTER\",\"textOrientation \":0,\"middleTint\":\"#B6D4FB\",\"stickyTint\": \"#B6D4FB\"}",
+        "previewSimplified": "never_settle/never_settle_preview_3.webp",
+        "previewTraditional": "never_settle/never_settle_preview_traditional_3.webp",
+        "previewEng": "never_settle/never_settle_preview_eng_3.webp",
+        "inspirationThemeName": "graffiti"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":1,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":2,\\\"timeFamilyName\\\":\\\"OPPOGaladaRegularExport.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.magazine\"}",
+        "wallpaper": "common/wallpaper_group/11_NeverSettle/NeverSettle04.webp",
+        "aiImage": "never_settle/never_settle_wallpaper_ai_4.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"Touch\nthe Sky\",\"textTypeface\": \"Galada-Regular.ttf\",\"textSize\":90,\"textAlignment\": \"LEFT\",\"textOrientation \":0}",
+        "previewSimplified": "never_settle/never_settle_preview_4.webp",
+        "previewTraditional": "never_settle/never_settle_preview_traditional_4.webp",
+        "previewEng": "never_settle/never_settle_preview_eng_4.webp",
+        "inspirationThemeName": "fashion"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "with_the_light",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':7,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':440,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":800,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/12_WithTheLight/WithTheLight01.webp",
+        "aiImage": "with_the_light/with_the_light_wallpaper_ai_1.webp",
+        "previewSimplified": "with_the_light/with_the_light_preview_1.webp",
+        "previewTraditional": "with_the_light/with_the_light_preview_traditional_1.webp",
+        "previewEng": "with_the_light/with_the_light_preview_eng_1.webp",
+        "inspirationThemeName": "big_clock"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':7,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':440,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":800,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/12_WithTheLight/WithTheLight02.webp",
+        "aiImage": "with_the_light/with_the_light_wallpaper_ai_2.webp",
+        "previewSimplified": "with_the_light/with_the_light_preview_2.webp",
+        "previewTraditional": "with_the_light/with_the_light_preview_traditional_2.webp",
+        "previewEng": "with_the_light/with_the_light_preview_eng_2.webp",
+        "inspirationThemeName": "big_clock"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':7,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':440,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":800,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/12_WithTheLight/WithTheLight03.webp",
+        "aiImage": "with_the_light/with_the_light_wallpaper_ai_3.webp",
+        "previewSimplified": "with_the_light/with_the_light_preview_3.webp",
+        "previewTraditional": "with_the_light/with_the_light_preview_traditional_3.webp",
+        "previewEng": "with_the_light/with_the_light_preview_eng_3.webp",
+        "inspirationThemeName": "big_clock"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "tail",
+    "templates": [
+      {
+        "clockInfo":"{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":2,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.7137, 0.8314, 0.9843],\\\"clockStyle\\\":0,\\\"timeFamilyName\\\":\\\"OPPOShenqiRegular.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.graffiti\"}",
+        "wallpaper": "common/wallpaper_group/13_Tail/Tail01.webp",
+        "aiImage": "tail/tail_wallpaper_ai_1.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"Muffin\",\"textTypeface\": \"/HYShenQiTuJianU.ttf\",\"textSize\":110,\"textAlignment\": \"CENTER\",\"textOrientation \":0,\"middleTint\":\"#B6D4FB\",\"stickyTint\": \"#B6D4FB\"}",
+        "previewSimplified": "tail/tail_preview_1.webp",
+        "previewTraditional": "tail/tail_preview_traditional_1.webp",
+        "previewEng": "tail/tail_preview_eng_1.webp",
+        "inspirationThemeName": "graffiti"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":1,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":2,\\\"timeFamilyName\\\":\\\"OPPOShenqiRegular.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.magazine\"}",
+        "wallpaper": "common/wallpaper_group/13_Tail/Tail02.webp",
+        "aiImage": "tail/tail_wallpaper_ai_2.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"Meow\",\"textTypeface\": \"Banana_Wide_Brush_Inspiration.ttf\",\"textSize\":125,\"textAlignment\": \"CENTER\",\"textOrientation \":0}",
+        "previewSimplified": "tail/tail_preview_2.webp",
+        "previewTraditional": "tail/tail_preview_traditional_2.webp",
+        "previewEng": "tail/tail_preview_eng_2.webp",
+        "inspirationThemeName": "fashion"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{\\\"materialResColoringType\\\":1,\\\"materialResIndex\\\":16,\\\"materialResTintColor\\\":-1,\\\"materialResTintColorDepthHSL\\\":[0.0,0.0,0.0],\\\"clockStyle\\\":2,\\\"timeFamilyName\\\":\\\"OPPOShenqiRegular.ttf\\\",\\\"timeFontWeight\\\":700,\\\"coloringType\\\":1,\\\"primaryColor\\\":-1,\\\"primaryColorDepthHSL\\\":[0.0,0.0,0.0],\\\"extraMessageType\\\":1,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.magazine\"}",
+        "wallpaper": "common/wallpaper_group/13_Tail/Tail03.webp",
+        "aiImage": "tail/tail_wallpaper_ai_3.webp",
+        "difference": "{\"textType\":0,\"textContent\":\"FUZZY\",\"textTypeface\": \"Banana_Wide_Brush_Inspiration.ttf\",\"textSize\":120,\"textAlignment\": \"CENTER\",\"textOrientation \":0}",
+        "previewSimplified": "tail/tail_preview_3.webp",
+        "previewTraditional": "tail/tail_preview_traditional_3.webp",
+        "previewEng": "tail/tail_preview_eng_3.webp",
+        "inspirationThemeName": "fashion"
+      }
+    ]
+  },
+  {
+    "inspirationTypeName": "definition",
+    "templates": [
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':0,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':1000,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":400,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/14_Definition/Definition01.webp",
+        "aiImage": "definition/definition_wallpaper_ai_1.webp",
+        "previewSimplified": "definition/definition_preview_1.webp",
+        "previewTraditional": "definition/definition_preview_traditional_1.webp",
+        "previewEng": "definition/definition_preview_eng_1.webp",
+        "inspirationThemeName": "big_clock"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':0,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':1000,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":400,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/14_Definition/Definition02.webp",
+        "aiImage": "definition/definition_wallpaper_ai_2.webp",
+        "previewSimplified": "definition/definition_preview_2.webp",
+        "previewTraditional": "definition/definition_preview_traditional_2.webp",
+        "previewEng": "definition/definition_preview_eng_2.webp",
+        "inspirationThemeName": "big_clock"
+      },
+      {
+        "clockInfo": "{\"clockStyleConfig\":\"{'clockStyle':0,'timeFamilyName':'OPPOBigClock01.ttf','timeFontWeight':1000,'coloringType':1,\\\"primaryColor\\\":0,\\\"primaryColorDepthHSL\\\":[0.0,0.0,1.0],\\\"extraMessageType\\\":1,\\\"portTimeFontHeight\\\":400,\\\"versionCode\\\":1}\",\"pkg\":\"com.oplus.keyguard.clock.big\"}",
+        "wallpaper": "common/wallpaper_group/14_Definition/Definition03.webp",
+        "aiImage": "definition/definition_wallpaper_ai_3.webp",
+        "previewSimplified": "definition/definition_preview_3.webp",
+        "previewTraditional": "definition/definition_preview_traditional_3.webp",
+        "previewEng": "definition/definition_preview_eng_3.webp",
+        "inspirationThemeName": "big_clock"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.wirelesssettings.support_tethering_client_entitlement"/>
+</extend_features>
+<!-- Timestamp 2024-08-07T16:05:21 #181920 -->

@@ -1,0 +1,7 @@
+<!-- Adds the feature indicating support for the Third party -->
+<permissions>
+    <feature name="oplus.software.audio.karaoke_v2.support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2022/8/11, Add for roiencde start -->
+    <feature name="oplus.software.video.roiencode_support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2022/8/11, Add for roiencde end -->
+</permissions>

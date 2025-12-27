@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sys_bench_control_list>
+<version>2025082614</version>
+    <filter-name>sys_bench_control_list</filter-name>
+    <BenchfeatureConfigItem>
+        <feature_enable_item booleanVal="true" />
+        <feature_chp_enable_item booleanVal="true" />
+        <gpu_anim_delay_ms_seasons intVal="10000" />
+        <gpu_anim_delay_ms_coastline2 intVal="175000" />
+        <gpu_anim_timeout_seasons intVal="78000" />
+        <gpu_anim_timeout_coastline2 intVal="56000" />
+    </BenchfeatureConfigItem>
+
+    <BenchRuntimeConfigItem name="bench_config">
+        <bench_config index="12" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="26" refreshRate="3" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="36" refreshRate="0" jpgmuti="1" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="52" refreshRate="3" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="55" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="1" pdfenhance="0" xmlenhance="0"/>
+    </BenchRuntimeConfigItem>
+
+</sys_bench_control_list>

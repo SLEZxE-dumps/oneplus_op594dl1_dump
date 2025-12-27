@@ -1,0 +1,25 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.display.dynamic_fps_switch" />
+    <oplus-feature name="oplus.software.display.multi_device_decrease_refresh_rate"/>
+    <oplus-feature name="oplus.software.display.adfr"/>
+    <oplus-feature name="oplus.software.display.multibits_dimming_support" />
+    <oplus-feature name="oplus.software.display.screen_gloablehbm_support"/>
+    <oplus-feature name="oplus.software.display.autobrightctl_animation_support"/>
+    <oplus-feature name="oplus.software.display.brightness_mode_automatic"/>
+    <oplus-feature name="oplus.software.display.hdr_enhance_brightness_support"/>
+    <oplus-feature name="oplus.software.display.aod_support"/>
+    <oplus-feature name="oplus.software.display.aod_prevent_burn_support"/>
+    <oplus-feature name="oplus.software.fingeprint_optical_enabled"/>
+    <oplus-feature name="oplus.software.display.dual_lightsensor_support"/>
+    <oplus-feature name="oplus.software.display.screen_heteromorphism"/>
+    <oplus-feature name="oplus.software.display.origin_roundcorner_support" />
+    <!-- colormode feature -->
+    <oplus-feature name="oplus.software.display.cinema_mode_support" />
+    <oplus-feature name="oplus.software.display.colorful_mode_support" />
+    <oplus-feature name="oplus.software.display.colormode_calibrate_support" />
+    <oplus-feature name="oplus.software.display.colormode_support"/>
+    <oplus-feature name="oplus.software.display.intelligent_color_temperature_support" />
+    <oplus-feature name="oplus.software.display.rgb_ball_support" />
+    <!-- end -->
+    <oplus-feature name="oplus.software.display.dolby_enhance_v1_support" />
+</oplus-config>

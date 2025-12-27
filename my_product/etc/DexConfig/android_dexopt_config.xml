@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20241218</version>
+    <filter-name>android_dexopt_config</filter-name>
+    <sences name="aot-crash"           on="true"/>
+</filter-conf>

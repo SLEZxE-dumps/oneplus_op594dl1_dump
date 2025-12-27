@@ -1,0 +1,10 @@
+<oplus-config>
+<!-- hanshirong@CONNECTIVITY.WIFI.ARCHITECHURE, 2020/10/23   -->
+    <oplus-feature name="oplus.software.wlan.dual_sta" />
+    <oplus-feature name="oplus.software.wlan.dbs" />
+    <oplus-feature name="oplus.software.wlan.wifi6" />
+<!-- LiXiong@CONNECTIVITY.WIFI.NETWORK.ROUTERBOOST, 2020/09/27   -->
+    <oplus-feature name="oplus.software.wlan.routerboost" />
+<!-- ZhaoXiang@CONNECTIVITY.WIFI.NETWORK, 2022/2/25 -->
+    <oplus-feature name="oplus.software.wlan.seamless_switch" />
+</oplus-config>

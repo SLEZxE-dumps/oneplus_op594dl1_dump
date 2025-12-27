@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filter-conf>
+  <version>20230109</version>
+  <isOpen>true</isOpen>
+  <filter-name>Multimedia_Daemon_Ext_List</filter-name>
+  <sr-osie-whitelist>
+        <name>com.heytap.ugcvideo.praise</name>
+        <attribute>0x0</attribute>
+        <name>com.heytap.yoli</name>
+        <attribute>0x1000001</attribute>
+        <name>com.heytap.yoli:media</name>
+        <attribute>0x1</attribute>
+        <name>com.duowan.kiwi</name>
+        <attribute>0x1000001</attribute>
+        <name>air.tv.douyu.android</name>
+        <attribute>0x1000001</attribute>
+        <name>com.tencent.weishi</name>
+        <attribute>0x1</attribute>
+        <name>com.smile.gifmaker</name>
+        <attribute>0x1000011</attribute>
+
+        <name>com.sina.weibo</name>
+        <attribute>0x40002</attribute>
+
+        <name>com.ss.android.ugc.aweme</name>
+        <attribute>0x1060011</attribute>
+        <name>com.tencent.qqlive</name>
+        <attribute>0x1010003</attribute>
+        <name>com.youku.phone</name>
+        <attribute>0x1020003</attribute>
+        <name>tv.danmaku.bili</name>
+        <attribute>0x1050003</attribute>
+        <name>tv.danmaku.bili:ijkservice</name>
+        <attribute>0x50003</attribute>
+        <name>com.hunantv.imgo.activity</name>
+        <attribute>0x30003</attribute>
+        <name>com.google.android.youtube</name>
+        <attribute>0x1080003</attribute>
+        <name>com.qiyi.video</name>
+        <attribute>0x1000000</attribute>
+    </sr-osie-whitelist>
+</filter-conf>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="allow_content_suggestions_packages" args="StringList:packages">
+        <StringList name="packages" args="com.oneplus.gallery=46:81:AD:50:CA:FC:58:0E:DF:E0:27:BD:3F:E5:93:25:4E:72:CD:2D:EF:1B:35:1F:EA:30:6C:CF:62:20:CF:07"/>
+    </app_feature>
+</extend_features>

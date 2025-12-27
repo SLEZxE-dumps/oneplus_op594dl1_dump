@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+*/
+-->
+<!-- use empty string to specify no proxy or port -->
+<!-- If you edit this version, also edit the version in the partner-supplied
+    apns-conf.xml configuration file -->
+<apns version="8">
+
+  <apn carrier="ATT Enhancedphone"
+      oplus_crud="1"
+      mcc="310"
+      mnc="410"
+      apn="enhancedphone"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,supl,mms,fota"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+  />
+
+  <apn carrier="ATT Hotspot"
+      oplus_crud="1"
+      mcc="310"
+      mnc="410"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+      user_visible="false"
+  />
+ 
+  <apn carrier="ims"
+      oplus_crud="1"
+      mcc="310"
+      mnc="410"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT Enhancedphone"
+      oplus_crud="1"
+      mcc="310"
+      mnc="280"
+      apn="enhancedphone"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,supl,mms,fota"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+  />
+
+  <apn carrier="ATT Hotspot"
+      oplus_crud="1"
+      mcc="310"
+      mnc="280"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+  />
+
+  <apn carrier="IMS"
+      oplus_crud="1"
+      mcc="310"
+      mnc="280"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      user_visible="false"
+      read_only="true"
+  />
+
+  <apn carrier="ATT Enhancedphone"
+      oplus_crud="1"
+      mcc="310"
+      mnc="950"
+      apn="enhancedphone"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,supl,mms,fota"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+  />
+
+  <apn carrier="ATT Hotspot"
+      oplus_crud="1"
+      mcc="310"
+      mnc="950"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      read_only="true"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+  />
+
+  <apn carrier="IMS"
+      oplus_crud="1"
+      mcc="310"
+      mnc="950"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT Enhancedphone"
+      oplus_crud="1"
+      mcc="311"
+      mnc="180"
+      apn="enhancedphone"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,supl,mms,fota"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+      read_only="true"
+  />
+
+  <apn carrier="ATT Hotspot"
+      oplus_crud="1"
+      mcc="311"
+      mnc="180"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      read_only="true"
+      user_visible="false"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+  />
+
+  <apn carrier="IMS"
+      oplus_crud="1"
+      mcc="311"
+      mnc="180"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      read_only="true"
+      user_visible="false"
+      mvno_match_data="53FF"
+      mvno_type="gid"
+  />
+  <!-- add apn part end-->
+
+  <!-- remove apn part start-->
+    <apn carrier="agms"
+      oplus_crud="3"
+      mcc="310"
+      mnc="280"
+      apn="agms"
+      type="default,supl"
+  />
+  <apn carrier="Cingular 380 ATT"
+      oplus_crud="3"
+      mcc="310"
+      mnc="380"
+      apn="proxy"
+      mmsc="http://mmsc.cingular.com/"
+      mmsproxy="wireless.cingular.com"
+      type="default,supl,mms"
+  />
+  <apn carrier="AWS MMS"
+      oplus_crud="3"
+      mcc="310"
+      mnc="380"
+      apn="proxy"
+      mmsc="http://mmsc.mymmode.com"
+      mmsproxy="10.250.250.55"
+      mmsport="8080"
+      type="mms"
+  />
+  <!-- remove apn part end-->
+
+</apns>

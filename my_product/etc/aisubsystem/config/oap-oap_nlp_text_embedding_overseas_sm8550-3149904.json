@@ -1,0 +1,17 @@
+{
+    "oapName": "oap_nlp_text_embedding_overseas_sm8550",
+    "oapId": 3149904,
+    "unitType": "OAP",
+    "oapVersion": 1001,
+    "oapApi": "ai_text_embedding",
+    "publishVersion": 1,
+    "minAndroidApi": 34,
+    "priority": 10,
+    "disabled": false,
+    "oaa": [
+        19927171
+    ],
+    "scenes": [
+        "ai_full_search"
+    ]
+}

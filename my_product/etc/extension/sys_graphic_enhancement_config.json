@@ -1,0 +1,17 @@
+{
+    "version": 2025082601,
+    "feature": {
+        "colorx": {
+          "cx_package_name": "com.oneplus.colorx",
+          "coolex_white_list": [
+                "com.tencent.ig"
+            ],
+          "coolex_white_list_v2": [
+              {
+                "pkg": "com.tencent.ig",
+                "graphic_api": "gles"
+              }
+          ]
+    }
+  }
+}

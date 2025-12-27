@@ -1,0 +1,104 @@
+[
+    {
+        "filter_name": "sys_perf_config"
+    },
+    {
+        "version": 20251016
+    },
+    {
+        "scroll_animation_opt": true,
+        "common_only": false,
+        "pre_anim_strategy": 1,
+        "pre_anim_blacklist": [
+            "com.kyk.world",
+            "com.shopify.arrive",
+            "com.quark.browser",
+            "com.android.launcher",
+            "com.max.xiaoheihe",
+            "org.telegram.messenger",
+            "uz.unnarsx.cherrygram",
+            "com.heytap.themestore",
+            "org.telegram.messenger.web"
+        ],
+        "pre_anim_whitelist": [
+
+        ],
+        "frame_insert_default_num": 1,
+        "frame_insert_list": {
+            "com.sina.weibo": {
+                "com.sina.weibo.VisitorMainTabActivity": 3
+            },
+            "com.tencent.mm": {
+                "com.tencent.mm.plugin.sns.ui.SnsTimeLineUI": 3,
+                "com.tencent.mm.ui.AlbumUI": 3,
+                "com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI": 3
+            },
+            "com.sankuai.meituan": {
+                "com.sankuai.waimai.business.page.kingkong.KingKongActivity": 0,
+                "com.sankuai.waimai.business.page.homepage.TakeoutActivity": 3
+            },
+            "com.xueqiu.android": {
+                "com.xueqiu.android.common.imagebrowse.inner.ui.ImageBrowseActivity": 0
+            },
+            "com.netease.newsreader.activity": {
+                "com.netease.newsreader.article.framework.view.NewsPageActivity": 0
+            },
+            "com.max.xiaoheihe": {
+                "com.max.xiaoheihe.module.bbs.post.ui.activitys.WebNewsPostPageActivity": 0
+            },
+            "uz.unnarsx.cherrygram": {
+                "uz.unnarsx.cherrygram.CG_Icon_Cherry": 0
+            },
+            "com.taobao.idlefish": {
+
+            },
+            "com.kyk.world": {
+
+            },
+            "com.shopify.arrive": {
+
+            },
+            "com.android.launcher": {
+
+            },
+            "com.heytap.themestore": {
+
+            }
+        },
+        "scroll_changed_enable_list": {
+            "com.sina.weibo": [
+                "com.sina.weibo.VisitorMainTabActivity"
+            ],
+            "com.xunmeng.pinduoduo": [
+                "com.xunmeng.pinduoduo.activity.NewPageActivity"
+            ],
+            "com.sankuai.meituan": [
+                "com.meituan.android.pt.homepage.activity.MainActivity",
+                "com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity",
+                "com.sankuai.waimai.business.page.homepage.TakeoutActivity"
+            ],
+            "com.tencent.mobileqq": [
+                "com.qzone.feed.ui.activity.QZoneFriendFeedActivity"
+            ],
+            "com.dragon.read": [
+                "com.dragon.read.pages.main.MainFragmentActivity"
+            ],
+            "com.ct.client": [
+                "com.ct.client.activity.MainActivity"
+            ],
+            "com.tencent.qqlive": [
+                "com.tencent.qqlive.ona.activity.SplashHomeActivity"
+            ],
+            "com.tencent.qqmusic": [
+                "com.tencent.qqmusic.activity.AppStarterActivity"
+            ],
+            "com.ss.android.ugc.aweme": [
+                "com.ss.android.ugc.aweme.splash.SplashActivity"
+            ]
+        },
+        "gc_supression_enable": true,
+        "gc_supression_blacklist": {
+
+        }
+    }
+]

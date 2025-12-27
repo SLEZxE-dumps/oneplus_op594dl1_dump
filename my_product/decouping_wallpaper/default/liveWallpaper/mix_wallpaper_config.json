@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "wallpapers": [
+    {
+      "liveName": "salami0.mp4",
+      "staticName": "product_wallpaper1.jpg"
+    },
+    {
+      "liveName": "salami1.mp4",
+      "staticName": "product_wallpaper2.jpg"
+    },
+    {
+      "liveName": "salami10.mp4",
+      "staticName": "product_wallpaper14.jpg"
+    }
+  ]
+}

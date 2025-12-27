@@ -1,0 +1,6 @@
+<oplus-config>
+    <!-- WangYuanchun@GAMEECO, 2025/8/26, Add for coolex feature start-->
+    <oplus-feature name="oplus.software.display.game.support_vulkan"/>
+    <!-- end -->
+</oplus-config>
+

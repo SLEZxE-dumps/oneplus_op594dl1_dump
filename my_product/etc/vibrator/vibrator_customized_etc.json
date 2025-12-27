@@ -1,0 +1,18 @@
+{
+    "richtap_mix_wave_pkg_rule": {
+        "rule_on": true,
+        "package_list": [
+            "com.appaac.richtap",
+            "com.tencent.tmgp.pubgm",
+            "com.tencent.tmgp.pubgmhd"
+        ]
+    },
+    "richtap_vibrate_strength_pkg_rule": {
+        "rule_on": true,
+        "package_list": [
+            "com.baidu.input",
+            "com.baidu.input_oppo",
+            "com.baidu.input_yijia"
+        ]
+    }
+}

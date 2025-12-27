@@ -1,0 +1,12 @@
+{
+  "group": "OxygenOS",
+  "title": "OxygenOS",
+  "version": 1,
+  "wallpapers": [
+    {
+      "thumbPath": "./OxygenOS01.webp",
+      "originPath": "./OxygenOS01.webp",
+      "videoPath": "./OxygenOS01.mp4"
+    }
+  ]
+}

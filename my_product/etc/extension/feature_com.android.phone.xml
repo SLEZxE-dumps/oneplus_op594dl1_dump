@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate if the device should hide preferred network mode list -->
+    <app_feature name="com.android.phone.hide_network_mode_list"/>
+</extend_features>

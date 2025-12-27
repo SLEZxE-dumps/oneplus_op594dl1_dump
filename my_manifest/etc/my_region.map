@@ -1,0 +1,9 @@
+//my_region/etc/oplus_carrier_config.xml 5
+//my_region/etc/extension/com.oplus.app-features.xml 7-8
+//my_region/etc/startup/blacklist_default.xml 11-14
+//my_region/etc/startup/safe_boot_whitelist.xml 15-16
+//my_region/etc/startup/sys_startup_v3_config_list.xml 17-22
+//my_region/etc/startup/sys_startupmanager_config_list.xml 23-25
+//my_region/global/oplus_carrier_list.xml 26-29
+//my_region/priv-app/OplusCallRecorder/OplusCallRecorder.apk 209-731
+//my_region/priv-app/OplusCallRecorder/oat/arm64/OplusCallRecorder.vdex 733-739
